@@ -1,0 +1,28 @@
+{
+  "candidate": 157,
+  "official_selection_changed": false,
+  "original157": {
+    "core": "3/4",
+    "protection": "6/6"
+  },
+  "measured161": {
+    "F20": "6/6",
+    "F30": "6/6",
+    "F40": "3/6"
+  },
+  "measured162": {
+    "F30": "8/8",
+    "F40": "1/8"
+  },
+  "frozen167": {
+    "F30": "8/8",
+    "unique_zero": "4/4"
+  },
+  "limits": [
+    "Discrete scope only",
+    "No independent full training seeds",
+    "Recovery visual pending",
+    "40N duration070 fails"
+  ],
+  "operation": "Three deterministic reference replays;no training"
+}

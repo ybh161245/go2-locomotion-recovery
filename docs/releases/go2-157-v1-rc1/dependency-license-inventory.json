@@ -1,0 +1,723 @@
+[
+  {
+    "name": "absl-py",
+    "version": "2.5.1",
+    "license_statement": "Apache-2.0",
+    "license_files": [
+      "absl_py-2.5.1.dist-info/licenses/AUTHORS",
+      "absl_py-2.5.1.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "absl_py-2.5.1-py3-none-any.whl",
+    "wheel_sha256": "721200f2f0e9960f2ca9dc3a2a706b201f5f75d812c158f059cbbe29eeafbdb8",
+    "upstream": [
+      "Changelog, https://github.com/abseil/abseil-py/blob/main/CHANGELOG.md",
+      "Documentation, https://abseil.io/docs/python/",
+      "Issues, https://github.com/abseil/abseil-py/issues",
+      "Source, https://github.com/abseil/abseil-py"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "cloudpickle",
+    "version": "3.1.2",
+    "license_statement": "BSD-3-Clause",
+    "license_files": [
+      "cloudpickle-3.1.2.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "cloudpickle-3.1.2-py3-none-any.whl",
+    "wheel_sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+    "upstream": [
+      "https://github.com/cloudpipe/cloudpickle"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "contourpy",
+    "version": "1.4.0",
+    "license_statement": "BSD-3-Clause",
+    "license_files": [
+      "contourpy-1.4.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "contourpy-1.4.0-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "6507a016976a75a15aee47809a34605de6244ccc056e6164bf9fb14b27eecad4",
+    "upstream": [
+      "Homepage, https://github.com/contourpy/contourpy",
+      "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+      "Documentation, https://contourpy.readthedocs.io",
+      "Repository, https://github.com/contourpy/contourpy"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "license_statement": "Copyright (c) 2015, matplotlib project\n        All rights reserved.\n        \n        Redistribution and use in source and binary forms, with or without\n        modification, are permitted provided that the following conditions are met:\n        \n        * Redistributions of source code must retain the above copyright notice, this\n          list of conditions and the following disclaimer.\n        \n        * Redistributions in binary form must reproduce the above copyright notice,\n          this list of conditions and the following disclaimer in the documentation\n          and/or other materials provided with the distribution.\n        \n        * Neither the name of the matplotlib project nor the names of its\n          contributors may be used to endorse or promote products derived from\n          this software without specific prior written permission.\n        \n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "license_files": [
+      "cycler-0.12.1.dist-info/LICENSE"
+    ],
+    "wheel": "cycler-0.12.1-py3-none-any.whl",
+    "wheel_sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+    "upstream": [
+      "homepage, https://matplotlib.org/cycler/",
+      "repository, https://github.com/matplotlib/cycler"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "etils",
+    "version": "1.14.0",
+    "license_statement": "License :: OSI Approved :: Apache Software License",
+    "license_files": [
+      "etils-1.14.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "etils-1.14.0-py3-none-any.whl",
+    "wheel_sha256": "b5df7341f54dbe1405a4450b2741207b4a8c279780402b45f87202b94dfc52b4",
+    "upstream": [
+      "changelog, https://github.com/google/etils/blob/main/CHANGELOG.md",
+      "documentation, https://etils.readthedocs.io",
+      "homepage, https://github.com/google/etils",
+      "repository, https://github.com/google/etils"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "Farama-Notifications",
+    "version": "0.0.6",
+    "license_statement": "License :: OSI Approved :: MIT License",
+    "license_files": [
+      "farama_notifications-0.0.6.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "farama_notifications-0.0.6-py3-none-any.whl",
+    "wheel_sha256": "f84839188efa1ce5bb361c2a84881b2dc2c0d0d7fb661ff00421820170930935",
+    "upstream": [
+      "https://github.com/Farama-Foundation/Farama-Notifications"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "filelock",
+    "version": "4.2.4",
+    "license_statement": "MIT",
+    "license_files": [
+      "filelock-4.2.4.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "filelock-4.2.4-py3-none-any.whl",
+    "wheel_sha256": "301241438c57936ef93f4243a94f2559022268bfcf9b375a9a72eb0f8db8358e",
+    "upstream": [
+      "Documentation, https://py-filelock.readthedocs.io",
+      "Homepage, https://github.com/tox-dev/py-filelock",
+      "Source, https://github.com/tox-dev/py-filelock",
+      "Tracker, https://github.com/tox-dev/py-filelock/issues"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "fonttools",
+    "version": "4.67.0",
+    "license_statement": "MIT",
+    "license_files": [
+      "fonttools-4.67.0.dist-info/licenses/LICENSE",
+      "fonttools-4.67.0.dist-info/licenses/LICENSE.external"
+    ],
+    "wheel": "fonttools-4.67.0-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "7343cd0ef70edf8be7f4913cb9b55b992fb4e04055b47dcfecddcc2eb045a9d2",
+    "upstream": [
+      "http://github.com/fonttools/fonttools"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.9.0",
+    "license_statement": "BSD-3-Clause",
+    "license_files": [
+      "fsspec-2026.9.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "fsspec-2026.9.0-py3-none-any.whl",
+    "wheel_sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+    "upstream": [
+      "Changelog, https://filesystem-spec.readthedocs.io/en/latest/changelog.html",
+      "Documentation, https://filesystem-spec.readthedocs.io/en/latest/",
+      "Homepage, https://github.com/fsspec/filesystem_spec"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "glfw",
+    "version": "2.11.0",
+    "license_statement": "MIT",
+    "license_files": [
+      "glfw-2.11.0.dist-info/licenses/LICENSE.txt"
+    ],
+    "wheel": "glfw-2.11.0-py3-none-win_amd64.whl",
+    "wheel_sha256": "bd39c1adb57b7273813e33b9768bed88d1ea656abfc914b4a6424ec0c5d62674",
+    "upstream": [
+      "https://github.com/FlorianRhiem/pyGLFW"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "gymnasium",
+    "version": "1.4.0",
+    "license_statement": "MIT License",
+    "license_files": [
+      "gymnasium-1.4.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "gymnasium-1.4.0-py3-none-any.whl",
+    "wheel_sha256": "1cb947c59e7c72d8eabb2c2274c00cd20948e69f8452a9ef4092223be24fdf0e",
+    "upstream": [
+      "Homepage, https://farama.org",
+      "Repository, https://github.com/Farama-Foundation/Gymnasium",
+      "Documentation, https://gymnasium.farama.org",
+      "Bug Report, https://github.com/Farama-Foundation/Gymnasium/issues"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "ImageIO",
+    "version": "2.38.1",
+    "license_statement": "BSD-2-Clause",
+    "license_files": [
+      "imageio-2.38.1.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "imageio-2.38.1-py3-none-any.whl",
+    "wheel_sha256": "36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9",
+    "upstream": [
+      "homepage, https://github.com/imageio/imageio",
+      "download, http://pypi.python.org/pypi/imageio",
+      "source, https://github.com/imageio/imageio",
+      "documentation, https://imageio.readthedocs.io"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "imageio-ffmpeg",
+    "version": "0.6.0",
+    "license_statement": "BSD-2-Clause",
+    "license_files": [
+      "imageio_ffmpeg-0.6.0.dist-info/LICENSE"
+    ],
+    "wheel": "imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl",
+    "wheel_sha256": "02fa47c83703c37df6bfe4896aab339013f62bf02c5ebf2dce6da56af04ffc0a",
+    "upstream": [
+      "https://github.com/imageio/imageio-ffmpeg"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "Jinja2",
+    "version": "3.1.6",
+    "license_statement": "License :: OSI Approved :: BSD License",
+    "license_files": [
+      "jinja2-3.1.6.dist-info/licenses/LICENSE.txt"
+    ],
+    "wheel": "jinja2-3.1.6-py3-none-any.whl",
+    "wheel_sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+    "upstream": [
+      "Changes, https://jinja.palletsprojects.com/changes/",
+      "Chat, https://discord.gg/pallets",
+      "Documentation, https://jinja.palletsprojects.com/",
+      "Donate, https://palletsprojects.com/donate",
+      "Source, https://github.com/pallets/jinja/"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.1",
+    "license_statement": "=========================\r\n         The Kiwi licensing terms\r\n        =========================\r\n        Kiwi is licensed under the terms of the Modified BSD License (also known as\r\n        New or Revised BSD), as follows:\r\n        \r\n        Copyright (c) 2013-2026, Nucleic Development Team\r\n        \r\n        All rights reserved.\r\n        \r\n        Redistribution and use in source and binary forms, with or without\r\n        modification, are permitted provided that the following conditions are met:\r\n        \r\n        Redistributions of source code must retain the above copyright notice, this\r\n        list of conditions and the following disclaimer.\r\n        \r\n        Redistributions in binary form must reproduce the above copyright notice, this\r\n        list of conditions and the following disclaimer in the documentation and/or\r\n        other materials provided with the distribution.\r\n        \r\n        Neither the name of the Nucleic Development Team nor the names of its\r\n        contributors may be used to endorse or promote products derived from this\r\n        software without specific prior written permission.\r\n        \r\n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\r\n        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\r\n        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\r\n        DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE\r\n        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\r\n        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\r\n        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\r\n        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\r\n        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\r\n        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\r\n        \r\n        About Kiwi\r\n        ----------\r\n        Chris Colbert began the Kiwi project in December 2013 in an effort to\r\n        create a blisteringly fast UI constraint solver. Chris is still the\r\n        project lead.\r\n        \r\n        The Nucleic Development Team is the set of all contributors to the Nucleic\r\n        project and its subprojects.\r\n        \r\n        The core team that coordinates development on GitHub can be found here:\r\n        http://github.com/nucleic. The current team consists of:\r\n        \r\n        * Chris Colbert\r\n        \r\n        Our Copyright Policy\r\n        --------------------\r\n        Nucleic uses a shared copyright model. Each contributor maintains copyright\r\n        over their contributions to Nucleic. But, it is important to note that these\r\n        contributions are typically only changes to the repositories. Thus, the Nucleic\r\n        source code, in its entirety is not the copyright of any single person or\r\n        institution. Instead, it is the collective copyright of the entire Nucleic\r\n        Development Team. If individual contributors want to maintain a record of what\r\n        changes/contributions they have specific copyright on, they should indicate\r\n        their copyright in the commit message of the change, when they commit the\r\n        change to one of the Nucleic repositories.\r\n        \r\n        With this in mind, the following banner should be used in any source code file\r\n        to indicate the copyright and license terms:\r\n        \r\n        #------------------------------------------------------------------------------\r\n        # Copyright (c) 2013-2026, Nucleic Development Team.\r\n        #\r\n        # Distributed under the terms of the Modified BSD License.\r\n        #\r\n        # The full license is in the file LICENSE, distributed with this software.\r\n        #------------------------------------------------------------------------------\r\n        ",
+    "license_files": [
+      "kiwisolver-1.5.1.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "kiwisolver-1.5.1-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "dc23390afe9f4ef9ac3bcc72a03a56eebbde03f4c571a32cb38f859cff9a6524",
+    "upstream": [
+      "homepage, https://github.com/nucleic/kiwi",
+      "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+      "repository, https://github.com/nucleic/kiwi",
+      "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "MarkupSafe",
+    "version": "3.0.4",
+    "license_statement": "BSD-3-Clause",
+    "license_files": [
+      "markupsafe-3.0.4.dist-info/licenses/LICENSE.txt"
+    ],
+    "wheel": "markupsafe-3.0.4-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "1f1f9477e174582b0a1b583d60b66e1f2cf5d3fe12cee985e4aedf44766600e5",
+    "upstream": [
+      "Donate, https://palletsprojects.com/donate",
+      "Documentation, https://markupsafe.palletsprojects.com/",
+      "Changes, https://markupsafe.palletsprojects.com/page/changes/",
+      "Source, https://github.com/pallets/markupsafe/",
+      "Chat, https://discord.gg/pallets"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.11.2",
+    "license_statement": "License agreement for matplotlib versions 1.3.0 and later\n         =========================================================\n         \n         1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n         (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n         otherwise using matplotlib software in source or binary form and its\n         associated documentation.\n         \n         2. Subject to the terms and conditions of this License Agreement, MDT\n         hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n         to reproduce, analyze, test, perform and/or display publicly, prepare\n         derivative works, distribute, and otherwise use matplotlib\n         alone or in any derivative version, provided, however, that MDT's\n         License Agreement and MDT's notice of copyright, i.e., \"Copyright (c)\n         2012- Matplotlib Development Team; All Rights Reserved\" are retained in\n         matplotlib  alone or in any derivative version prepared by\n         Licensee.\n         \n         3. In the event Licensee prepares a derivative work that is based on or\n         incorporates matplotlib or any part thereof, and wants to\n         make the derivative work available to others as provided herein, then\n         Licensee hereby agrees to include in any such work a brief summary of\n         the changes made to matplotlib .\n         \n         4. MDT is making matplotlib available to Licensee on an \"AS\n         IS\" basis.  MDT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n         IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, MDT MAKES NO AND\n         DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n         FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n         WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n         \n         5. MDT SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n          FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n         LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n         MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n         THE POSSIBILITY THEREOF.\n         \n         6. This License Agreement will automatically terminate upon a material\n         breach of its terms and conditions.\n         \n         7. Nothing in this License Agreement shall be deemed to create any\n         relationship of agency, partnership, or joint venture between MDT and\n         Licensee.  This License Agreement does not grant permission to use MDT\n         trademarks or trade name in a trademark sense to endorse or promote\n         products or services of Licensee, or any third party.\n         \n         8. By copying, installing or otherwise using matplotlib ,\n         Licensee agrees to be bound by the terms and conditions of this License\n         Agreement.\n         \n         License agreement for matplotlib versions prior to 1.3.0\n         ========================================================\n         \n         1. This LICENSE AGREEMENT is between John D. Hunter (\"JDH\"), and the\n         Individual or Organization (\"Licensee\") accessing and otherwise using\n         matplotlib software in source or binary form and its associated\n         documentation.\n         \n         2. Subject to the terms and conditions of this License Agreement, JDH\n         hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n         to reproduce, analyze, test, perform and/or display publicly, prepare\n         derivative works, distribute, and otherwise use matplotlib\n         alone or in any derivative version, provided, however, that JDH's\n         License Agreement and JDH's notice of copyright, i.e., \"Copyright (c)\n         2002-2011 John D. Hunter; All Rights Reserved\" are retained in\n         matplotlib  alone or in any derivative version prepared by\n         Licensee.\n         \n         3. In the event Licensee prepares a derivative work that is based on or\n         incorporates matplotlib  or any part thereof, and wants to\n         make the derivative work available to others as provided herein, then\n         Licensee hereby agrees to include in any such work a brief summary of\n         the changes made to matplotlib.\n         \n         4. JDH is making matplotlib  available to Licensee on an \"AS\n         IS\" basis.  JDH MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\n         IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, JDH MAKES NO AND\n         DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\n         FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF MATPLOTLIB\n         WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n         \n         5. JDH SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF MATPLOTLIB\n          FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR\n         LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING\n         MATPLOTLIB , OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF\n         THE POSSIBILITY THEREOF.\n         \n         6. This License Agreement will automatically terminate upon a material\n         breach of its terms and conditions.\n         \n         7. Nothing in this License Agreement shall be deemed to create any\n         relationship of agency, partnership, or joint venture between JDH and\n         Licensee.  This License Agreement does not grant permission to use JDH\n         trademarks or trade name in a trademark sense to endorse or promote\n         products or services of Licensee, or any third party.\n         \n         8. By copying, installing or otherwise using matplotlib,\n         Licensee agrees to be bound by the terms and conditions of this License\n         Agreement.\n         ----\n         \n         This binary distrubution of Matplotlib can also bundle the following software\n         (depending on the build):\n         \n         Name: AMS Fonts\n         Files: matplotlib/tests/cmr10.pfb\n         Description: Type-1 version of one of Knuth's Computer Modern fonts\n         License: OFL-1.1\n           The cmr10.pfb file is a Type-1 version of one of Knuth's Computer Modern fonts.\n           It is included here as test data only, but the following license applies.\n         \n           Copyright (c) 1997, 2009, American Mathematical Society (http://www.ams.org).\n           All Rights Reserved.\n         \n           \"cmb10\" is a Reserved Font Name for this Font Software.\n           \"cmbsy10\" is a Reserved Font Name for this Font Software.\n           \"cmbsy5\" is a Reserved Font Name for this Font Software.\n           \"cmbsy6\" is a Reserved Font Name for this Font Software.\n           \"cmbsy7\" is a Reserved Font Name for this Font Software.\n           \"cmbsy8\" is a Reserved Font Name for this Font Software.\n           \"cmbsy9\" is a Reserved Font Name for this Font Software.\n           \"cmbx10\" is a Reserved Font Name for this Font Software.\n           \"cmbx12\" is a Reserved Font Name for this Font Software.\n           \"cmbx5\" is a Reserved Font Name for this Font Software.\n           \"cmbx6\" is a Reserved Font Name for this Font Software.\n           \"cmbx7\" is a Reserved Font Name for this Font Software.\n           \"cmbx8\" is a Reserved Font Name for this Font Software.\n           \"cmbx9\" is a Reserved Font Name for this Font Software.\n           \"cmbxsl10\" is a Reserved Font Name for this Font Software.\n           \"cmbxti10\" is a Reserved Font Name for this Font Software.\n           \"cmcsc10\" is a Reserved Font Name for this Font Software.\n           \"cmcsc8\" is a Reserved Font Name for this Font Software.\n           \"cmcsc9\" is a Reserved Font Name for this Font Software.\n           \"cmdunh10\" is a Reserved Font Name for this Font Software.\n           \"cmex10\" is a Reserved Font Name for this Font Software.\n           \"cmex7\" is a Reserved Font Name for this Font Software.\n           \"cmex8\" is a Reserved Font Name for this Font Software.\n           \"cmex9\" is a Reserved Font Name for this Font Software.\n           \"cmff10\" is a Reserved Font Name for this Font Software.\n           \"cmfi10\" is a Reserved Font Name for this Font Software.\n           \"cmfib8\" is a Reserved Font Name for this Font Software.\n           \"cminch\" is a Reserved Font Name for this Font Software.\n           \"cmitt10\" is a Reserved Font Name for this Font Software.\n           \"cmmi10\" is a Reserved Font Name for this Font Software.\n           \"cmmi12\" is a Reserved Font Name for this Font Software.\n           \"cmmi5\" is a Reserved Font Name for this Font Software.\n           \"cmmi6\" is a Reserved Font Name for this Font Software.\n           \"cmmi7\" is a Reserved Font Name for this Font Software.\n           \"cmmi8\" is a Reserved Font Name for this Font Software.\n           \"cmmi9\" is a Reserved Font Name for this Font Software.\n           \"cmmib10\" is a Reserved Font Name for this Font Software.\n           \"cmmib5\" is a Reserved Font Name for this Font Software.\n           \"cmmib6\" is a Reserved Font Name for this Font Software.\n           \"cmmib7\" is a Reserved Font Name for this Font Software.\n           \"cmmib8\" is a Reserved Font Name for this Font Software.\n           \"cmmib9\" is a Reserved Font Name for this Font Software.\n           \"cmr10\" is a Reserved Font Name for this Font Software.\n           \"cmr12\" is a Reserved Font Name for this Font Software.\n           \"cmr17\" is a Reserved Font Name for this Font Software.\n           \"cmr5\" is a Reserved Font Name for this Font Software.\n           \"cmr6\" is a Reserved Font Name for this Font Software.\n           \"cmr7\" is a Reserved Font Name for this Font Software.\n           \"cmr8\" is a Reserved Font Name for this Font Software.\n           \"cmr9\" is a Reserved Font Name for this Font Software.\n           \"cmsl10\" is a Reserved Font Name for this Font Software.\n           \"cmsl12\" is a Reserved Font Name for this Font Software.\n           \"cmsl8\" is a Reserved Font Name for this Font Software.\n           \"cmsl9\" is a Reserved Font Name for this Font Software.\n           \"cmsltt10\" is a Reserved Font Name for this Font Software.\n           \"cmss10\" is a Reserved Font Name for this Font Software.\n           \"cmss12\" is a Reserved Font Name for this Font Software.\n           \"cmss17\" is a Reserved Font Name for this Font Software.\n           \"cmss8\" is a Reserved Font Name for this Font Software.\n           \"cmss9\" is a Reserved Font Name for this Font Software.\n           \"cmssbx10\" is a Reserved Font Name for this Font Software.\n           \"cmssdc10\" is a Reserved Font Name for this Font Software.\n           \"cmssi10\" is a Reserved Font Name for this Font Software.\n           \"cmssi12\" is a Reserved Font Name for this Font Software.\n           \"cmssi17\" is a Reserved Font Name for this Font Software.\n           \"cmssi8\" is a Reserved Font Name for this Font Software.\n           \"cmssi9\" is a Reserved Font Name for this Font Software.\n           \"cmssq8\" is a Reserved Font Name for this Font Software.\n           \"cmssqi8\" is a Reserved Font Name for this Font Software.\n           \"cmsy10\" is a Reserved Font Name for this Font Software.\n           \"cmsy5\" is a Reserved Font Name for this Font Software.\n           \"cmsy6\" is a Reserved Font Name for this Font Software.\n           \"cmsy7\" is a Reserved Font Name for this Font Software.\n           \"cmsy8\" is a Reserved Font Name for this Font Software.\n           \"cmsy9\" is a Reserved Font Name for this Font Software.\n           \"cmtcsc10\" is a Reserved Font Name for this Font Software.\n           \"cmtex10\" is a Reserved Font Name for this Font Software.\n           \"cmtex8\" is a Reserved Font Name for this Font Software.\n           \"cmtex9\" is a Reserved Font Name for this Font Software.\n           \"cmti10\" is a Reserved Font Name for this Font Software.\n           \"cmti12\" is a Reserved Font Name for this Font Software.\n           \"cmti7\" is a Reserved Font Name for this Font Software.\n           \"cmti8\" is a Reserved Font Name for this Font Software.\n           \"cmti9\" is a Reserved Font Name for this Font Software.\n           \"cmtt10\" is a Reserved Font Name for this Font Software.\n           \"cmtt12\" is a Reserved Font Name for this Font Software.\n           \"cmtt8\" is a Reserved Font Name for this Font Software.\n           \"cmtt9\" is a Reserved Font Name for this Font Software.\n           \"cmu10\" is a Reserved Font Name for this Font Software.\n           \"cmvtt10\" is a Reserved Font Name for this Font Software.\n           \"euex10\" is a Reserved Font Name for this Font Software.\n           \"euex7\" is a Reserved Font Name for this Font Software.\n           \"euex8\" is a Reserved Font Name for this Font Software.\n           \"euex9\" is a Reserved Font Name for this Font Software.\n           \"eufb10\" is a Reserved Font Name for this Font Software.\n           \"eufb5\" is a Reserved Font Name for this Font Software.\n           \"eufb7\" is a Reserved Font Name for this Font Software.\n           \"eufm10\" is a Reserved Font Name for this Font Software.\n           \"eufm5\" is a Reserved Font Name for this Font Software.\n           \"eufm7\" is a Reserved Font Name for this Font Software.\n           \"eurb10\" is a Reserved Font Name for this Font Software.\n           \"eurb5\" is a Reserved Font Name for this Font Software.\n           \"eurb7\" is a Reserved Font Name for this Font Software.\n           \"eurm10\" is a Reserved Font Name for this Font Software.\n           \"eurm5\" is a Reserved Font Name for this Font Software.\n           \"eurm7\" is a Reserved Font Name for this Font Software.\n           \"eusb10\" is a Reserved Font Name for this Font Software.\n           \"eusb5\" is a Reserved Font Name for this Font Software.\n           \"eusb7\" is a Reserved Font Name for this Font Software.\n           \"eusm10\" is a Reserved Font Name for this Font Software.\n           \"eusm5\" is a Reserved Font Name for this Font Software.\n           \"eusm7\" is a Reserved Font Name for this Font Software.\n           \"lasy10\" is a Reserved Font Name for this Font Software.\n           \"lasy5\" is a Reserved Font Name for this Font Software.\n           \"lasy6\" is a Reserved Font Name for this Font Software.\n           \"lasy7\" is a Reserved Font Name for this Font Software.\n           \"lasy8\" is a Reserved Font Name for this Font Software.\n           \"lasy9\" is a Reserved Font Name for this Font Software.\n           \"lasyb10\" is a Reserved Font Name for this Font Software.\n           \"lcircle1\" is a Reserved Font Name for this Font Software.\n           \"lcirclew\" is a Reserved Font Name for this Font Software.\n           \"lcmss8\" is a Reserved Font Name for this Font Software.\n           \"lcmssb8\" is a Reserved Font Name for this Font Software.\n           \"lcmssi8\" is a Reserved Font Name for this Font Software.\n           \"line10\" is a Reserved Font Name for this Font Software.\n           \"linew10\" is a Reserved Font Name for this Font Software.\n           \"msam10\" is a Reserved Font Name for this Font Software.\n           \"msam5\" is a Reserved Font Name for this Font Software.\n           \"msam6\" is a Reserved Font Name for this Font Software.\n           \"msam7\" is a Reserved Font Name for this Font Software.\n           \"msam8\" is a Reserved Font Name for this Font Software.\n           \"msam9\" is a Reserved Font Name for this Font Software.\n           \"msbm10\" is a Reserved Font Name for this Font Software.\n           \"msbm5\" is a Reserved Font Name for this Font Software.\n           \"msbm6\" is a Reserved Font Name for this Font Software.\n           \"msbm7\" is a Reserved Font Name for this Font Software.\n           \"msbm8\" is a Reserved Font Name for this Font Software.\n           \"msbm9\" is a Reserved Font Name for this Font Software.\n           \"wncyb10\" is a Reserved Font Name for this Font Software.\n           \"wncyi10\" is a Reserved Font Name for this Font Software.\n           \"wncyr10\" is a Reserved Font Name for this Font Software.\n           \"wncysc10\" is a Reserved Font Name for this Font Software.\n           \"wncyss10\" is a Reserved Font Name for this Font Software.\n         \n           This Font Software is licensed under the SIL Open Font License, Version 1.1.\n           This license is copied below, and is also available with a FAQ at:\n           http://scripts.sil.org/OFL\n         \n           -----------------------------------------------------------\n           SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n           -----------------------------------------------------------\n         \n           PREAMBLE\n           The goals of the Open Font License (OFL) are to stimulate worldwide\n           development of collaborative font projects, to support the font creation\n           efforts of academic and linguistic communities, and to provide a free and\n           open framework in which fonts may be shared and improved in partnership\n           with others.\n         \n           The OFL allows the licensed fonts to be used, studied, modified and\n           redistributed freely as long as they are not sold by themselves. The\n           fonts, including any derivative works, can be bundled, embedded,\n           redistributed and/or sold with any software provided that any reserved\n           names are not used by derivative works. The fonts and derivatives,\n           however, cannot be released under any other type of license. The\n           requirement for fonts to remain under this license does not apply\n           to any document created using the fonts or their derivatives.\n         \n           DEFINITIONS\n           \"Font Software\" refers to the set of files released by the Copyright\n           Holder(s) under this license and clearly marked as such. This may\n           include source files, build scripts and documentation.\n         \n           \"Reserved Font Name\" refers to any names specified as such after the\n           copyright statement(s).\n         \n           \"Original Version\" refers to the collection of Font Software components as\n           distributed by the Copyright Holder(s).\n         \n           \"Modified Version\" refers to any derivative made by adding to, deleting,\n           or substituting -- in part or in whole -- any of the components of the\n           Original Version, by changing formats or by porting the Font Software to a\n           new environment.\n         \n           \"Author\" refers to any designer, engineer, programmer, technical\n           writer or other person who contributed to the Font Software.\n         \n           PERMISSION & CONDITIONS\n           Permission is hereby granted, free of charge, to any person obtaining\n           a copy of the Font Software, to use, study, copy, merge, embed, modify,\n           redistribute, and sell modified and unmodified copies of the Font\n           Software, subject to the following conditions:\n         \n           1) Neither the Font Software nor any of its individual components,\n           in Original or Modified Versions, may be sold by itself.\n         \n           2) Original or Modified Versions of the Font Software may be bundled,\n           redistributed and/or sold with any software, provided that each copy\n           contains the above copyright notice and this license. These can be\n           included either as stand-alone text files, human-readable headers or\n           in the appropriate machine-readable metadata fields within text or\n           binary files as long as those fields can be easily viewed by the user.\n         \n           3) No Modified Version of the Font Software may use the Reserved Font\n           Name(s) unless explicit written permission is granted by the corresponding\n           Copyright Holder. This restriction only applies to the primary font name as\n           presented to the users.\n         \n           4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n           Software shall not be used to promote, endorse or advertise any\n           Modified Version, except to acknowledge the contribution(s) of the\n           Copyright Holder(s) and the Author(s) or with their explicit written\n           permission.\n         \n           5) The Font Software, modified or unmodified, in part or in whole,\n           must be distributed entirely under this license, and must not be\n           distributed under any other license. The requirement for fonts to\n           remain under this license does not apply to any document created\n           using the Font Software.\n         \n           TERMINATION\n           This license becomes null and void if any of the above conditions are\n           not met.\n         \n           DISCLAIMER\n           THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n           EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n           MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n           OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n           COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n           INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n           DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n           FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n           OTHER DEALINGS IN THE FONT SOFTWARE.\n         \n         \n         \n         Name: BaKoMa Fonts\n         Files: matplotlib/mpl-data/fonts/ttf/cm*.ttf matplotlib/mpl-data/fonts/afm/cm*.afm\n         Description: Computer Modern Fonts in PostScript Type 1 and TrueType font formats.\n         License: BaKoMa Fonts Licence\n                 BaKoMa Fonts Licence\n                 --------------------\n         \n             This licence covers two font packs (known as BaKoMa Fonts Collection,\n             which is available at `CTAN:fonts/cm/ps-type1/bakoma/'):\n         \n               1) BaKoMa-CM (1.1/12-Nov-94)\n                  Computer Modern Fonts in PostScript Type 1 and TrueType font formats.\n         \n               2) BaKoMa-AMS (1.2/19-Jan-95)\n                  AMS TeX fonts in PostScript Type 1 and TrueType font formats.\n         \n             Copyright (C) 1994, 1995, Basil K. Malyshev. All Rights Reserved.\n         \n             Permission to copy and distribute these fonts for any purpose is\n             hereby granted without fee, provided that the above copyright notice,\n             author statement and this permission notice appear in all copies of\n             these fonts and related documentation.\n         \n             Permission to modify and distribute modified fonts for any purpose is\n             hereby granted without fee, provided that the copyright notice,\n             author statement, this permission notice and location of original\n             fonts (http://www.ctan.org/tex-archive/fonts/cm/ps-type1/bakoma)\n             appear in all copies of modified fonts and related documentation.\n         \n             Permission to use these fonts (embedding into PostScript, PDF, SVG\n             and printing by using any software) is hereby granted without fee.\n             It is not required to provide any notices about using these fonts.\n         \n            Basil K. Malyshev\n            INSTITUTE FOR HIGH ENERGY PHYSICS\n            IHEP, OMVT\n            Moscow Region\n            142281 PROTVINO\n            RUSSIA\n         \n            E-Mail:\tbakoma@mail.ru\n                 or\tmalyshev@mail.ihep.ru\n         \n         \n         \n         \n         Name: ColorBrewer Color Schemes\n         Files: lib/matplotlib/_cm.py\n         Description: Color schemes from ColorBrewer\n         License: Apache-2.0\n           Apache-Style Software License for ColorBrewer software and ColorBrewer Color Schemes\n         \n           Copyright (c) 2002 Cynthia Brewer, Mark Harrower, and The Pennsylvania State University.\n         \n           Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.\n           You may obtain a copy of the License at\n         \n           http://www.apache.org/licenses/LICENSE-2.0\n         \n           Unless required by applicable law or agreed to in writing, software distributed\n           under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR\n           CONDITIONS OF ANY KIND, either express or implied. See the License for the\n           specific language governing permissions and limitations under the License.\n         \n         \n         Name: Courier 10\n         Files: matplotlib/tests/Courier10PitchBT-Bold.pfb\n         Description: Courier 10 font, used in tests.\n         License: Bitstream-Charter\n           The Courier10PitchBT-Bold.pfb file is a Type-1 version of\n           Courier 10 Pitch BT Bold by Bitstream, obtained from\n           <https://ctan.org/tex-archive/fonts/courierten>. It is included\n           here as test data only, but the following license applies.\n         \n         \n           (c) Copyright 1989-1992, Bitstream Inc., Cambridge, MA.\n         \n           You are hereby granted permission under all Bitstream propriety rights\n           to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream\n           Charter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts\n           for any purpose and without restriction; provided, that this notice is\n           left intact on all copies of such fonts and that Bitstream's trademark\n           is acknowledged as shown below on all unmodified copies of the 4 Charter\n           Type 1 fonts.\n         \n           BITSTREAM CHARTER is a registered trademark of Bitstream Inc.\n         \n         \n         Name: FreeType\n         Files: matplotlib/ft2font.*.so\n         Description: Font rendering library\n         License: FTL OR GPL-2.0-or-later\n           The FreeType  2 font  engine is  copyrighted work  and cannot  be used\n           legally without  a software  license.  In order  to make  this project\n           usable to  a vast majority of  developers, we distribute it  under two\n           mutually exclusive open-source licenses.\n         \n           This means that *you* must choose  *one* of the two licenses described\n           below, then obey all its terms and conditions when using FreeType 2 in\n           any of your projects or products.\n         \n             - The FreeType License,  found in the file  `docs/FTL.TXT`, which is\n               similar to the  original BSD license *with*  an advertising clause\n               that forces  you to explicitly  cite the FreeType project  in your\n               product's  documentation.  All  details are  in the  license file.\n               This license is suited to products which don't use the GNU General\n               Public License.\n         \n               Note that  this license  is compatible to  the GNU  General Public\n               License version 3, but not version 2.\n         \n             - The   GNU   General   Public   License   version   2,   found   in\n               `docs/GPLv2.TXT`  (any  later  version  can  be  used  also),  for\n               programs  which  already  use  the  GPL.  Note  that  the  FTL  is\n               incompatible with GPLv2 due to its advertisement clause.\n         \n           The contributed  BDF and PCF  drivers come  with a license  similar to\n           that  of the  X Window  System.   It is  compatible to  the above  two\n           licenses (see files `src/bdf/README`  and `src/pcf/README`).  The same\n           holds   for   the   source    code   files   `src/base/fthash.c`   and\n           `include/freetype/internal/fthash.h`; they were part of the BDF driver\n           in earlier FreeType versions.\n         \n           The gzip  module uses the  zlib license (see  `src/gzip/zlib.h`) which\n           too is compatible to the above two licenses.\n         \n           The files `src/autofit/ft-hb.c` and `src/autofit/ft-hb.h` contain code\n           taken almost  verbatim from the  HarfBuzz file `hb-ft.cc`,  which uses\n           the 'Old MIT' license, compatible to the above two licenses.\n         \n           The  MD5 checksum  support  (only used  for  debugging in  development\n           builds) is in the public domain.\n         \n         \n         Name: HarfBuzz\n         Files: matplotlib/ft2font.*.so\n         Description: Text shaping library\n         License: MIT-Modern-Variant\n           HarfBuzz is licensed under the so-called \"Old MIT\" license.  Details follow.\n           For parts of HarfBuzz that are licensed under different licenses see individual\n           files names COPYING in subdirectories where applicable.\n         \n           Copyright �� 2010-2022  Google, Inc.\n           Copyright �� 2015-2020  Ebrahim Byagowi\n           Copyright �� 2019,2020  Facebook, Inc.\n           Copyright �� 2012,2015  Mozilla Foundation\n           Copyright �� 2011  Codethink Limited\n           Copyright �� 2008,2010  Nokia Corporation and/or its subsidiary(-ies)\n           Copyright �� 2009  Keith Stribley\n           Copyright �� 2011  Martin Hosken and SIL International\n           Copyright �� 2007  Chris Wilson\n           Copyright �� 2005,2006,2020,2021,2022,2023  Behdad Esfahbod\n           Copyright �� 2004,2007,2008,2009,2010,2013,2021,2022,2023  Red Hat, Inc.\n           Copyright �� 1998-2005  David Turner and Werner Lemberg\n           Copyright �� 2016  Igalia S.L.\n           Copyright �� 2022  Matthias Clasen\n           Copyright �� 2018,2021  Khaled Hosny\n           Copyright �� 2018,2019,2020  Adobe, Inc\n           Copyright �� 2013-2015  Alexei Podtelezhnikov\n         \n           For full copyright notices consult the individual files in the package.\n         \n         \n           Permission is hereby granted, without written agreement and without\n           license or royalty fees, to use, copy, modify, and distribute this\n           software and its documentation for any purpose, provided that the\n           above copyright notice and the following two paragraphs appear in\n           all copies of this software.\n         \n           IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR\n           DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES\n           ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN\n           IF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\n           DAMAGE.\n         \n           THE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,\n           BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\n           FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS\n           ON AN \"AS IS\" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO\n           PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n         \n         \n         Name: JSXTools resize observer\n         Files: lib/matplotlib/backends/web_backend/js/mpl.js\n         Description: Minimal polyfill for the ResizeObserver API\n         License: CC0-1.0\n           # CC0 1.0 Universal\n         \n           ## Statement of Purpose\n         \n           The laws of most jurisdictions throughout the world automatically confer\n           exclusive Copyright and Related Rights (defined below) upon the creator and\n           subsequent owner(s) (each and all, an ���owner���) of an original work of\n           authorship and/or a database (each, a ���Work���).\n         \n           Certain owners wish to permanently relinquish those rights to a Work for the\n           purpose of contributing to a commons of creative, cultural and scientific works\n           (���Commons���) that the public can reliably and without fear of later claims of\n           infringement build upon, modify, incorporate in other works, reuse and\n           redistribute as freely as possible in any form whatsoever and for any purposes,\n           including without limitation commercial purposes. These owners may contribute\n           to the Commons to promote the ideal of a free culture and the further\n           production of creative, cultural and scientific works, or to gain reputation or\n           greater distribution for their Work in part through the use and efforts of\n           others.\n         \n           For these and/or other purposes and motivations, and without any expectation of\n           additional consideration or compensation, the person associating CC0 with a\n           Work (the ���Affirmer���), to the extent that he or she is an owner of Copyright\n           and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and\n           publicly distribute the Work under its terms, with knowledge of his or her\n           Copyright and Related Rights in the Work and the meaning and intended legal\n           effect of CC0 on those rights.\n         \n           1. Copyright and Related Rights. A Work made available under CC0 may be\n              protected by copyright and related or neighboring rights (���Copyright and\n              Related Rights���). Copyright and Related Rights include, but are not limited\n              to, the following:\n              1. the right to reproduce, adapt, distribute, perform, display, communicate,\n                 and translate a Work;\n              2. moral rights retained by the original author(s) and/or performer(s);\n              3. publicity and privacy rights pertaining to a person���s image or likeness\n                 depicted in a Work;\n              4. rights protecting against unfair competition in regards to a Work,\n                 subject to the limitations in paragraph 4(i), below;\n              5. rights protecting the extraction, dissemination, use and reuse of data in\n                 a Work;\n              6. database rights (such as those arising under Directive 96/9/EC of the\n                 European Parliament and of the Council of 11 March 1996 on the legal\n                 protection of databases, and under any national implementation thereof,\n                 including any amended or successor version of such directive); and\n              7. other similar, equivalent or corresponding rights throughout the world\n                 based on applicable law or treaty, and any national implementations\n                 thereof.\n         \n           2. Waiver. To the greatest extent permitted by, but not in contravention of,\n              applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and\n              unconditionally waives, abandons, and surrenders all of Affirmer���s Copyright\n              and Related Rights and associated claims and causes of action, whether now\n              known or unknown (including existing as well as future claims and causes of\n              action), in the Work (i) in all territories worldwide, (ii) for the maximum\n              duration provided by applicable law or treaty (including future time\n              extensions), (iii) in any current or future medium and for any number of\n              copies, and (iv) for any purpose whatsoever, including without limitation\n              commercial, advertising or promotional purposes (the ���Waiver���). Affirmer\n              makes the Waiver for the benefit of each member of the public at large and\n              to the detriment of Affirmer���s heirs and successors, fully intending that\n              such Waiver shall not be subject to revocation, rescission, cancellation,\n              termination, or any other legal or equitable action to disrupt the quiet\n              enjoyment of the Work by the public as contemplated by Affirmer���s express\n              Statement of Purpose.\n         \n           3. Public License Fallback. Should any part of the Waiver for any reason be\n              judged legally invalid or ineffective under applicable law, then the Waiver\n              shall be preserved to the maximum extent permitted taking into account\n              Affirmer���s express Statement of Purpose. In addition, to the extent the\n              Waiver is so judged Affirmer hereby grants to each affected person a\n              royalty-free, non transferable, non sublicensable, non exclusive,\n              irrevocable and unconditional license to exercise Affirmer���s Copyright and\n              Related Rights in the Work (i) in all territories worldwide, (ii) for the\n              maximum duration provided by applicable law or treaty (including future time\n              extensions), (iii) in any current or future medium and for any number of\n              copies, and (iv) for any purpose whatsoever, including without limitation\n              commercial, advertising or promotional purposes (the ���License���). The License\n              shall be deemed effective as of the date CC0 was applied by Affirmer to the\n              Work. Should any part of the License for any reason be judged legally\n              invalid or ineffective under applicable law, such partial invalidity or\n              ineffectiveness shall not invalidate the remainder of the License, and in\n              such case Affirmer hereby affirms that he or she will not (i) exercise any\n              of his or her remaining Copyright and Related Rights in the Work or (ii)\n              assert any associated claims and causes of action with respect to the Work,\n              in either case contrary to Affirmer���s express Statement of Purpose.\n         \n           4. Limitations and Disclaimers.\n              1. No trademark or patent rights held by Affirmer are waived, abandoned,\n                 surrendered, licensed or otherwise affected by this document.\n              2. Affirmer offers the Work as-is and makes no representations or warranties\n                 of any kind concerning the Work, express, implied, statutory or\n                 otherwise, including without limitation warranties of title,\n                 merchantability, fitness for a particular purpose, non infringement, or\n                 the absence of latent or other defects, accuracy, or the present or\n                 absence of errors, whether or not discoverable, all to the greatest\n                 extent permissible under applicable law.\n              3. Affirmer disclaims responsibility for clearing rights of other persons\n                 that may apply to the Work or any use thereof, including without\n                 limitation any person���s Copyright and Related Rights in the Work.\n                 Further, Affirmer disclaims responsibility for obtaining any necessary\n                 consents, permissions or other rights required for any use of the Work.\n              4. Affirmer understands and acknowledges that Creative Commons is not a\n                 party to this document and has no duty or obligation with respect to this\n                 CC0 or use of the Work.\n         \n           For more information, please see\n           http://creativecommons.org/publicdomain/zero/1.0/.\n         \n         \n         Name: Last Resort fonts\n         Files: matplotlib/mpl-data/fonts/ttf/LastResortHE-Regular.ttf\n         Description: Last Resort High-Efficiency Font\n         License: OFL-1.1\n           This Font Software is licensed under the SIL Open Font License,\n           Version 1.1.\n         \n           This license is copied below, and is also available with a FAQ at:\n           http://scripts.sil.org/OFL\n         \n           -----------------------------------------------------------\n           SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n           -----------------------------------------------------------\n         \n           PREAMBLE\n           The goals of the Open Font License (OFL) are to stimulate worldwide\n           development of collaborative font projects, to support the font\n           creation efforts of academic and linguistic communities, and to\n           provide a free and open framework in which fonts may be shared and\n           improved in partnership with others.\n         \n           The OFL allows the licensed fonts to be used, studied, modified and\n           redistributed freely as long as they are not sold by themselves. The\n           fonts, including any derivative works, can be bundled, embedded,\n           redistributed and/or sold with any software provided that any reserved\n           names are not used by derivative works. The fonts and derivatives,\n           however, cannot be released under any other type of license. The\n           requirement for fonts to remain under this license does not apply to\n           any document created using the fonts or their derivatives.\n         \n           DEFINITIONS\n           \"Font Software\" refers to the set of files released by the Copyright\n           Holder(s) under this license and clearly marked as such. This may\n           include source files, build scripts and documentation.\n         \n           \"Reserved Font Name\" refers to any names specified as such after the\n           copyright statement(s).\n         \n           \"Original Version\" refers to the collection of Font Software\n           components as distributed by the Copyright Holder(s).\n         \n           \"Modified Version\" refers to any derivative made by adding to,\n           deleting, or substituting -- in part or in whole -- any of the\n           components of the Original Version, by changing formats or by porting\n           the Font Software to a new environment.\n         \n           \"Author\" refers to any designer, engineer, programmer, technical\n           writer or other person who contributed to the Font Software.\n         \n           PERMISSION & CONDITIONS\n           Permission is hereby granted, free of charge, to any person obtaining\n           a copy of the Font Software, to use, study, copy, merge, embed,\n           modify, redistribute, and sell modified and unmodified copies of the\n           Font Software, subject to the following conditions:\n         \n           1) Neither the Font Software nor any of its individual components, in\n           Original or Modified Versions, may be sold by itself.\n         \n           2) Original or Modified Versions of the Font Software may be bundled,\n           redistributed and/or sold with any software, provided that each copy\n           contains the above copyright notice and this license. These can be\n           included either as stand-alone text files, human-readable headers or\n           in the appropriate machine-readable metadata fields within text or\n           binary files as long as those fields can be easily viewed by the user.\n         \n           3) No Modified Version of the Font Software may use the Reserved Font\n           Name(s) unless explicit written permission is granted by the\n           corresponding Copyright Holder. This restriction only applies to the\n           primary font name as presented to the users.\n         \n           4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n           Software shall not be used to promote, endorse or advertise any\n           Modified Version, except to acknowledge the contribution(s) of the\n           Copyright Holder(s) and the Author(s) or with their explicit written\n           permission.\n         \n           5) The Font Software, modified or unmodified, in part or in whole,\n           must be distributed entirely under this license, and must not be\n           distributed under any other license. The requirement for fonts to\n           remain under this license does not apply to any document created using\n           the Font Software.\n         \n           TERMINATION\n           This license becomes null and void if any of the above conditions are\n           not met.\n         \n           DISCLAIMER\n           THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n           EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n           MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n           OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n           COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n           INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n           DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n           FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n           OTHER DEALINGS IN THE FONT SOFTWARE.\n         \n           SPDX-License-Identifier: OFL-1.1\n         \n         \n         Name: libraqm\n         Files: matplotlib/ft2font.*.so\n         Description: Complex text layout library\n         License: MIT\n           The MIT License (MIT)\n         \n           Copyright �� 2015 Information Technology Authority (ITA) <foss@ita.gov.om>\n           Copyright �� 2016-2023 Khaled Hosny <khaled@aliftype.com>\n         \n           Permission is hereby granted, free of charge, to any person obtaining a copy\n           of this software and associated documentation files (the \"Software\"), to deal\n           in the Software without restriction, including without limitation the rights\n           to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n           copies of the Software, and to permit persons to whom the Software is\n           furnished to do so, subject to the following conditions:\n         \n           The above copyright notice and this permission notice shall be included in all\n           copies or substantial portions of the Software.\n         \n           THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n           IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n           FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n           AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n           LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n           OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n           SOFTWARE.\n         \n         \n         Name: QHull\n         Files: matplotlib/_qhull.*.so\n         Description: Convex hull, Delaunay triangulation, Voronoi diagrams, Halfspace intersection\n         License: Qhull\n                               Qhull, Copyright (c) 1993-2020\n         \n                                       C.B. Barber\n                                      Arlington, MA\n         \n                                          and\n         \n                  The National Science and Technology Research Center for\n                   Computation and Visualization of Geometric Structures\n                                   (The Geometry Center)\n                                  University of Minnesota\n         \n                                  email: qhull@qhull.org\n         \n           This software includes Qhull from C.B. Barber and The Geometry Center.\n           Files derived from Qhull 1.0 are copyrighted by the Geometry Center.  The\n           remaining files are copyrighted by C.B. Barber.  Qhull is free software\n           and may be obtained via http from www.qhull.org.  It may be freely copied,\n           modified, and redistributed under the following conditions:\n         \n           1. All copyright notices must remain intact in all files.\n         \n           2. A copy of this text file must be distributed along with any copies\n              of Qhull that you redistribute; this includes copies that you have\n              modified, or copies of programs or other software products that\n              include Qhull.\n         \n           3. If you modify Qhull, you must include a notice giving the\n              name of the person performing the modification, the date of\n              modification, and the reason for such modification.\n         \n           4. When distributing modified versions of Qhull, or other software\n              products that include Qhull, you must provide notice that the original\n              source code may be obtained as noted above.\n         \n           5. There is no warranty or other guarantee of fitness for Qhull, it is\n              provided solely \"as is\".  Bug reports or fixes may be sent to\n              qhull_bug@qhull.org; the authors may or may not act on them as\n              they desire.\n         \n         \n         Name: Qt4 Editor\n         Files: matplotlib/backends/qt_editor\n         Description: Module creating PyQt4 form dialogs/layouts to edit various type of parameters\n         License: MIT\n           Module creating PyQt4 form dialogs/layouts to edit various type of parameters\n         \n         \n           formlayout License Agreement (MIT License)\n           ------------------------------------------\n         \n           Copyright (c) 2009 Pierre Raybaut\n         \n           Permission is hereby granted, free of charge, to any person\n           obtaining a copy of this software and associated documentation\n           files (the \"Software\"), to deal in the Software without\n           restriction, including without limitation the rights to use,\n           copy, modify, merge, publish, distribute, sublicense, and/or sell\n           copies of the Software, and to permit persons to whom the\n           Software is furnished to do so, subject to the following\n           conditions:\n         \n           The above copyright notice and this permission notice shall be\n           included in all copies or substantial portions of the Software.\n         \n           THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n           EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\n           OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n           NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\n           HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n           WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n           FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\n           OTHER DEALINGS IN THE SOFTWARE.\n         \n         \n         Name: SheenBidi\n         Files: matplotlib/ft2font.*.so\n         Description: Unicode Bidirectional Algorithm implementation\n         License: Apache-2.0\n                                            Apache License\n                                      Version 2.0, January 2004\n                                   http://www.apache.org/licenses/\n         \n              TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n         \n              1. Definitions.\n         \n                 \"License\" shall mean the terms and conditions for use, reproduction,\n                 and distribution as defined by Sections 1 through 9 of this document.\n         \n                 \"Licensor\" shall mean the copyright owner or entity authorized by\n                 the copyright owner that is granting the License.\n         \n                 \"Legal Entity\" shall mean the union of the acting entity and all\n                 other entities that control, are controlled by, or are under common\n                 control with that entity. For the purposes of this definition,\n                 \"control\" means (i) the power, direct or indirect, to cause the\n                 direction or management of such entity, whether by contract or\n                 otherwise, or (ii) ownership of fifty percent (50%) or more of the\n                 outstanding shares, or (iii) beneficial ownership of such entity.\n         \n                 \"You\" (or \"Your\") shall mean an individual or Legal Entity\n                 exercising permissions granted by this License.\n         \n                 \"Source\" form shall mean the preferred form for making modifications,\n                 including but not limited to software source code, documentation\n                 source, and configuration files.\n         \n                 \"Object\" form shall mean any form resulting from mechanical\n                 transformation or translation of a Source form, including but\n                 not limited to compiled object code, generated documentation,\n                 and conversions to other media types.\n         \n                 \"Work\" shall mean the work of authorship, whether in Source or\n                 Object form, made available under the License, as indicated by a\n                 copyright notice that is included in or attached to the work\n                 (an example is provided in the Appendix below).\n         \n                 \"Derivative Works\" shall mean any work, whether in Source or Object\n                 form, that is based on (or derived from) the Work and for which the\n                 editorial revisions, annotations, elaborations, or other modifications\n                 represent, as a whole, an original work of authorship. For the purposes\n                 of this License, Derivative Works shall not include works that remain\n                 separable from, or merely link (or bind by name) to the interfaces of,\n                 the Work and Derivative Works thereof.\n         \n                 \"Contribution\" shall mean any work of authorship, including\n                 the original version of the Work and any modifications or additions\n                 to that Work or Derivative Works thereof, that is intentionally\n                 submitted to Licensor for inclusion in the Work by the copyright owner\n                 or by an individual or Legal Entity authorized to submit on behalf of\n                 the copyright owner. For the purposes of this definition, \"submitted\"\n                 means any form of electronic, verbal, or written communication sent\n                 to the Licensor or its representatives, including but not limited to\n                 communication on electronic mailing lists, source code control systems,\n                 and issue tracking systems that are managed by, or on behalf of, the\n                 Licensor for the purpose of discussing and improving the Work, but\n                 excluding communication that is conspicuously marked or otherwise\n                 designated in writing by the copyright owner as \"Not a Contribution.\"\n         \n                 \"Contributor\" shall mean Licensor and any individual or Legal Entity\n                 on behalf of whom a Contribution has been received by Licensor and\n                 subsequently incorporated within the Work.\n         \n              2. Grant of Copyright License. Subject to the terms and conditions of\n                 this License, each Contributor hereby grants to You a perpetual,\n                 worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n                 copyright license to reproduce, prepare Derivative Works of,\n                 publicly display, publicly perform, sublicense, and distribute the\n                 Work and such Derivative Works in Source or Object form.\n         \n              3. Grant of Patent License. Subject to the terms and conditions of\n                 this License, each Contributor hereby grants to You a perpetual,\n                 worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n                 (except as stated in this section) patent license to make, have made,\n                 use, offer to sell, sell, import, and otherwise transfer the Work,\n                 where such license applies only to those patent claims licensable\n                 by such Contributor that are necessarily infringed by their\n                 Contribution(s) alone or by combination of their Contribution(s)\n                 with the Work to which such Contribution(s) was submitted. If You\n                 institute patent litigation against any entity (including a\n                 cross-claim or counterclaim in a lawsuit) alleging that the Work\n                 or a Contribution incorporated within the Work constitutes direct\n                 or contributory patent infringement, then any patent licenses\n                 granted to You under this License for that Work shall terminate\n                 as of the date such litigation is filed.\n         \n              4. Redistribution. You may reproduce and distribute copies of the\n                 Work or Derivative Works thereof in any medium, with or without\n                 modifications, and in Source or Object form, provided that You\n                 meet the following conditions:\n         \n                 (a) You must give any other recipients of the Work or\n                     Derivative Works a copy of this License; and\n         \n                 (b) You must cause any modified files to carry prominent notices\n                     stating that You changed the files; and\n         \n                 (c) You must retain, in the Source form of any Derivative Works\n                     that You distribute, all copyright, patent, trademark, and\n                     attribution notices from the Source form of the Work,\n                     excluding those notices that do not pertain to any part of\n                     the Derivative Works; and\n         \n                 (d) If the Work includes a \"NOTICE\" text file as part of its\n                     distribution, then any Derivative Works that You distribute must\n                     include a readable copy of the attribution notices contained\n                     within such NOTICE file, excluding those notices that do not\n                     pertain to any part of the Derivative Works, in at least one\n                     of the following places: within a NOTICE text file distributed\n                     as part of the Derivative Works; within the Source form or\n                     documentation, if provided along with the Derivative Works; or,\n                     within a display generated by the Derivative Works, if and\n                     wherever such third-party notices normally appear. The contents\n                     of the NOTICE file are for informational purposes only and\n                     do not modify the License. You may add Your own attribution\n                     notices within Derivative Works that You distribute, alongside\n                     or as an addendum to the NOTICE text from the Work, provided\n                     that such additional attribution notices cannot be construed\n                     as modifying the License.\n         \n                 You may add Your own copyright statement to Your modifications and\n                 may provide additional or different license terms and conditions\n                 for use, reproduction, or distribution of Your modifications, or\n                 for any such Derivative Works as a whole, provided Your use,\n                 reproduction, and distribution of the Work otherwise complies with\n                 the conditions stated in this License.\n         \n              5. Submission of Contributions. Unless You explicitly state otherwise,\n                 any Contribution intentionally submitted for inclusion in the Work\n                 by You to the Licensor shall be under the terms and conditions of\n                 this License, without any additional terms or conditions.\n                 Notwithstanding the above, nothing herein shall supersede or modify\n                 the terms of any separate license agreement you may have executed\n                 with Licensor regarding such Contributions.\n         \n              6. Trademarks. This License does not grant permission to use the trade\n                 names, trademarks, service marks, or product names of the Licensor,\n                 except as required for reasonable and customary use in describing the\n                 origin of the Work and reproducing the content of the NOTICE file.\n         \n              7. Disclaimer of Warranty. Unless required by applicable law or\n                 agreed to in writing, Licensor provides the Work (and each\n                 Contributor provides its Contributions) on an \"AS IS\" BASIS,\n                 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n                 implied, including, without limitation, any warranties or conditions\n                 of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n                 PARTICULAR PURPOSE. You are solely responsible for determining the\n                 appropriateness of using or redistributing the Work and assume any\n                 risks associated with Your exercise of permissions under this License.\n         \n              8. Limitation of Liability. In no event and under no legal theory,\n                 whether in tort (including negligence), contract, or otherwise,\n                 unless required by applicable law (such as deliberate and grossly\n                 negligent acts) or agreed to in writing, shall any Contributor be\n                 liable to You for damages, including any direct, indirect, special,\n                 incidental, or consequential damages of any character arising as a\n                 result of this License or out of the use or inability to use the\n                 Work (including but not limited to damages for loss of goodwill,\n                 work stoppage, computer failure or malfunction, or any and all\n                 other commercial damages or losses), even if such Contributor\n                 has been advised of the possibility of such damages.\n         \n              9. Accepting Warranty or Additional Liability. While redistributing\n                 the Work or Derivative Works thereof, You may choose to offer,\n                 and charge a fee for, acceptance of support, warranty, indemnity,\n                 or other liability obligations and/or rights consistent with this\n                 License. However, in accepting such obligations, You may act only\n                 on Your own behalf and on Your sole responsibility, not on behalf\n                 of any other Contributor, and only if You agree to indemnify,\n                 defend, and hold each Contributor harmless for any liability\n                 incurred by, or claims asserted against, such Contributor by reason\n                 of your accepting any such warranty or additional liability.\n         \n              END OF TERMS AND CONDITIONS\n         \n              APPENDIX: How to apply the Apache License to your work.\n         \n                 To apply the Apache License to your work, attach the following\n                 boilerplate notice, with the fields enclosed by brackets \"[]\"\n                 replaced with your own identifying information. (Don't include\n                 the brackets!)  The text should be enclosed in the appropriate\n                 comment syntax for the file format. We also recommend that a\n                 file or class name and description of purpose be included on the\n                 same \"printed page\" as the copyright notice for easier\n                 identification within third-party archives.\n         \n              Copyright [yyyy] [name of copyright owner]\n         \n              Licensed under the Apache License, Version 2.0 (the \"License\");\n              you may not use this file except in compliance with the License.\n              You may obtain a copy of the License at\n         \n                  http://www.apache.org/licenses/LICENSE-2.0\n         \n              Unless required by applicable law or agreed to in writing, software\n              distributed under the License is distributed on an \"AS IS\" BASIS,\n              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n              See the License for the specific language governing permissions and\n              limitations under the License.\n         \n         \n         Name: Solarized\n         Files: matplotlib/mpl-data/stylelib/Solarize_Light2.mplstyle\n         Description: Solarized color scheme/style\n         License: MIT\n           https://github.com/altercation/solarized/blob/master/LICENSE\n           Copyright (c) 2011 Ethan Schoonover\n         \n           Permission is hereby granted, free of charge, to any person obtaining a copy\n           of this software and associated documentation files (the \"Software\"), to deal\n           in the Software without restriction, including without limitation the rights\n           to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n           copies of the Software, and to permit persons to whom the Software is\n           furnished to do so, subject to the following conditions:\n         \n           The above copyright notice and this permission notice shall be included in\n           all copies or substantial portions of the Software.\n         \n           THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n           IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n           FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n           AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n           LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n           OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n           THE SOFTWARE.\n         \n         \n         Name: Stix fonts\n         Files: matplotlib/mpl-data/fonts/ttf/STIX*.ttf\n         Description: STIX fonts\n         License: OFL-1.1\n           STIX Font License\n         \n           24 May 2010\n         \n           Copyright (c) 2001-2010 by the STI Pub Companies, consisting of the American\n           Institute of Physics, the American Chemical Society, the American Mathematical\n           Society, the American Physical Society, Elsevier, Inc., and The Institute of\n           Electrical and Electronic Engineers, Inc. (www.stixfonts.org), with Reserved\n           Font Name STIX Fonts, STIX Fonts (TM) is a  trademark of The Institute of\n           Electrical and Electronics Engineers, Inc.\n         \n           Portions copyright (c) 1998-2003 by MicroPress, Inc. (www.micropress-inc.com),\n           with Reserved Font Name TM Math. To obtain additional mathematical fonts, please\n           contact MicroPress, Inc., 68-30 Harrow Street, Forest Hills, NY 11375, USA,\n           Phone: (718) 575-1816.\n         \n           Portions copyright (c) 1990 by Elsevier, Inc.\n         \n           This Font Software is licensed under the SIL Open Font License, Version 1.1.\n           This license is copied below, and is also available with a FAQ at:\n           https://scripts.sil.org/OFL\n         \n           -----------------------------------------------------------\n           SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n           -----------------------------------------------------------\n         \n           PREAMBLE\n           The goals of the Open Font License (OFL) are to stimulate worldwide\n           development of collaborative font projects, to support the font creation\n           efforts of academic and linguistic communities, and to provide a free and\n           open framework in which fonts may be shared and improved in partnership\n           with others.\n         \n           The OFL allows the licensed fonts to be used, studied, modified and\n           redistributed freely as long as they are not sold by themselves. The\n           fonts, including any derivative works, can be bundled, embedded,\n           redistributed and/or sold with any software provided that any reserved\n           names are not used by derivative works. The fonts and derivatives,\n           however, cannot be released under any other type of license. The\n           requirement for fonts to remain under this license does not apply\n           to any document created using the fonts or their derivatives.\n         \n           DEFINITIONS\n           \"Font Software\" refers to the set of files released by the Copyright\n           Holder(s) under this license and clearly marked as such. This may\n           include source files, build scripts and documentation.\n         \n           \"Reserved Font Name\" refers to any names specified as such after the\n           copyright statement(s).\n         \n           \"Original Version\" refers to the collection of Font Software components as\n           distributed by the Copyright Holder(s).\n         \n           \"Modified Version\" refers to any derivative made by adding to, deleting,\n           or substituting -- in part or in whole -- any of the components of the\n           Original Version, by changing formats or by porting the Font Software to a\n           new environment.\n         \n           \"Author\" refers to any designer, engineer, programmer, technical\n           writer or other person who contributed to the Font Software.\n         \n           PERMISSION & CONDITIONS\n           Permission is hereby granted, free of charge, to any person obtaining\n           a copy of the Font Software, to use, study, copy, merge, embed, modify,\n           redistribute, and sell modified and unmodified copies of the Font\n           Software, subject to the following conditions:\n         \n           1) Neither the Font Software nor any of its individual components,\n           in Original or Modified Versions, may be sold by itself.\n         \n           2) Original or Modified Versions of the Font Software may be bundled,\n           redistributed and/or sold with any software, provided that each copy\n           contains the above copyright notice and this license. These can be\n           included either as stand-alone text files, human-readable headers or\n           in the appropriate machine-readable metadata fields within text or\n           binary files as long as those fields can be easily viewed by the user.\n         \n           3) No Modified Version of the Font Software may use the Reserved Font\n           Name(s) unless explicit written permission is granted by the corresponding\n           Copyright Holder. This restriction only applies to the primary font name as\n           presented to the users.\n         \n           4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n           Software shall not be used to promote, endorse or advertise any\n           Modified Version, except to acknowledge the contribution(s) of the\n           Copyright Holder(s) and the Author(s) or with their explicit written\n           permission.\n         \n           5) The Font Software, modified or unmodified, in part or in whole,\n           must be distributed entirely under this license, and must not be\n           distributed under any other license. The requirement for fonts to\n           remain under this license does not apply to any document created\n           using the Font Software.\n         \n           TERMINATION\n           This license becomes null and void if any of the above conditions are\n           not met.\n         \n           DISCLAIMER\n           THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n           EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n           MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n           OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n           COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n           INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n           DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n           FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n           OTHER DEALINGS IN THE FONT SOFTWARE.\n         \n         Name: Yorick Colormaps\n         Files: lib/matplotlib/_cm.py\n         Description: Gist/Yorick colormaps\n         License:\n           BSD-style license for gist/yorick colormaps.\n         \n           Copyright:\n         \n             Copyright (c) 1996.  The Regents of the University of California.\n                                  All rights reserved.\n         \n           Permission to use, copy, modify, and distribute this software for any\n           purpose without fee is hereby granted, provided that this entire\n           notice is included in all copies of any software which is or includes\n           a copy or modification of this software and in all copies of the\n           supporting documentation for such software.\n         \n           This work was produced at the University of California, Lawrence\n           Livermore National Laboratory under contract no. W-7405-ENG-48 between\n           the U.S. Department of Energy and The Regents of the University of\n           California for the operation of UC LLNL.\n         \n         \n                       DISCLAIMER\n         \n           This software was prepared as an account of work sponsored by an\n           agency of the United States Government.  Neither the United States\n           Government nor the University of California nor any of their\n           employees, makes any warranty, express or implied, or assumes any\n           liability or responsibility for the accuracy, completeness, or\n           usefulness of any information, apparatus, product, or process\n           disclosed, or represents that its use would not infringe\n           privately-owned rights.  Reference herein to any specific commercial\n           products, process, or service by trade name, trademark, manufacturer,\n           or otherwise, does not necessarily constitute or imply its\n           endorsement, recommendation, or favoring by the United States\n           Government or the University of California.  The views and opinions of\n           authors expressed herein do not necessarily state or reflect those of\n           the United States Government or the University of California, and\n           shall not be used for advertising or product endorsement purposes.\n         \n         \n                   AUTHOR\n         \n           David H. Munro wrote Yorick and Gist.  Berkeley Yacc (byacc) generated\n           the Yorick parser.  The routines in Math are from LAPACK and FFTPACK;\n           MathC contains C translations by David H. Munro.  The algorithms for\n           Yorick's random number generator and several special functions in\n           Yorick/include were taken from Numerical Recipes by Press, et. al.,\n           although the Yorick implementations are unrelated to those in\n           Numerical Recipes.  A small amount of code in Gist was adapted from\n           the X11R4 release, copyright M.I.T. -- the complete copyright notice\n           may be found in the (unused) file Gist/host.c.\n         ",
+    "license_files": [
+      "matplotlib-3.11.2.dist-info/LICENSE"
+    ],
+    "wheel": "matplotlib-3.11.2-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "bc067c462a86f0e57bf52fc6e058d90171a5420007dac00c46e90153050c69a7",
+    "upstream": [
+      "Homepage, https://matplotlib.org",
+      "Download, https://matplotlib.org/stable/install/index.html",
+      "Documentation, https://matplotlib.org",
+      "Source Code, https://github.com/matplotlib/matplotlib",
+      "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+      "Forum, https://discourse.matplotlib.org/",
+      "Donate, https://numfocus.org/donate-to-matplotlib"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "license_statement": "BSD",
+    "license_files": [
+      "mpmath-1.3.0.dist-info/LICENSE"
+    ],
+    "wheel": "mpmath-1.3.0-py3-none-any.whl",
+    "wheel_sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+    "upstream": [
+      "Source, https://github.com/fredrik-johansson/mpmath",
+      "Tracker, https://github.com/fredrik-johansson/mpmath/issues",
+      "Documentation, http://mpmath.org/doc/current/"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "mujoco",
+    "version": "3.16.0",
+    "license_statement": "Apache-2.0",
+    "license_files": [
+      "mujoco-3.16.0.dist-info/licenses/LICENSE",
+      "mujoco-3.16.0.dist-info/licenses/LICENSES_THIRD_PARTY.md"
+    ],
+    "wheel": "mujoco-3.16.0-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "01bb618a79e3e1fbe7fdf25589d35515fe32979fc58ab0eb3c4d8d3648b18026",
+    "upstream": [
+      "Homepage, https://github.com/google-deepmind/mujoco",
+      "Documentation, https://mujoco.readthedocs.io/en/3.16.0",
+      "Repository, https://github.com/google-deepmind/mujoco",
+      "Changelog, https://mujoco.readthedocs.io/en/3.16.0/changelog.html"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "networkx",
+    "version": "3.7",
+    "license_statement": "BSD-3-Clause",
+    "license_files": [
+      "networkx-3.7.dist-info/licenses/LICENSE.txt"
+    ],
+    "wheel": "networkx-3.7-py3-none-any.whl",
+    "wheel_sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+    "upstream": [
+      "Homepage, https://networkx.org/",
+      "Bug Tracker, https://github.com/networkx/networkx/issues",
+      "Documentation, https://networkx.org/documentation/stable/",
+      "Source Code, https://github.com/networkx/networkx"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.4",
+    "license_statement": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "license_files": [
+      "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE"
+    ],
+    "wheel": "numpy-2.5.4-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "8b4d2fd2d34e5f8c9235ee787de5631a37a28402b15cb80814df973d2be54129",
+    "upstream": [
+      "homepage, https://numpy.org",
+      "documentation, https://numpy.org/doc/",
+      "source, https://github.com/numpy/numpy",
+      "download, https://pypi.org/project/numpy/#files",
+      "tracker, https://github.com/numpy/numpy/issues",
+      "release notes, https://numpy.org/doc/stable/release"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license_statement": "Apache-2.0 OR BSD-2-Clause",
+    "license_files": [
+      "packaging-26.3.dist-info/licenses/LICENSE",
+      "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "packaging-26.3.dist-info/licenses/LICENSE.BSD"
+    ],
+    "wheel": "packaging-26.3-py3-none-any.whl",
+    "wheel_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+    "upstream": [
+      "Documentation, https://packaging.pypa.io/",
+      "Source, https://github.com/pypa/packaging"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "license_statement": "MIT-CMU",
+    "license_files": [
+      "pillow-12.3.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "pillow-12.3.0-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "1cca606cd25738df4ed873d5ad46bbdb3d83b5cbca291f6b4ff13a4df6b0bbe8",
+    "upstream": [
+      "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+      "Changelog, https://github.com/python-pillow/Pillow/releases",
+      "Documentation, https://pillow.readthedocs.io",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+      "Homepage, https://python-pillow.github.io",
+      "Mastodon, https://fosstodon.org/@pillow",
+      "Source, https://github.com/python-pillow/Pillow"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "license_statement": "BSD-3-Clause",
+    "license_files": [
+      "psutil-7.2.2.dist-info/LICENSE"
+    ],
+    "wheel": "psutil-7.2.2-cp37-abi3-win_amd64.whl",
+    "wheel_sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988",
+    "upstream": [
+      "https://github.com/giampaolo/psutil"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "pygame",
+    "version": "2.6.1",
+    "license_statement": "LGPL",
+    "license_files": [],
+    "wheel": "pygame-2.6.1-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "813af4fba5d0b2cb8e58f5d95f7910295c34067dcc290d34f1be59c48bd1ea6a",
+    "upstream": [
+      "Documentation, https://pygame.org/docs",
+      "Bug Tracker, https://github.com/pygame/pygame/issues",
+      "Source, https://github.com/pygame/pygame",
+      "Twitter, https://twitter.com/pygame_org"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "PyOpenGL",
+    "version": "3.1.10",
+    "license_statement": "License :: OSI Approved :: BSD License",
+    "license_files": [],
+    "wheel": "pyopengl-3.1.10-py3-none-any.whl",
+    "wheel_sha256": "794a943daced39300879e4e47bd94525280685f42dbb5a998d336cfff151d74f",
+    "upstream": [
+      "Homepage, https://mcfletch.github.io/pyopengl/",
+      "Download, https://pypi.org/project/PyOpenGL/",
+      "Source, https://github.com/mcfletch/pyopengl",
+      "Documentation, https://mcfletch.github.io/pyopengl/documentation/index.html"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.3",
+    "license_statement": "MIT",
+    "license_files": [
+      "pyparsing-3.3.3.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "pyparsing-3.3.3-py3-none-any.whl",
+    "wheel_sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
+    "upstream": [
+      "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+      "Homepage, https://github.com/pyparsing/pyparsing/",
+      "Source, https://github.com/pyparsing/pyparsing.git"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "python-dateutil",
+    "version": "3.0.0",
+    "license_statement": "Dual License",
+    "license_files": [
+      "python_dateutil-3.0.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "python_dateutil-3.0.0-py3-none-any.whl",
+    "wheel_sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+    "upstream": [
+      "Documentation, https://dateutil.readthedocs.io/en/stable/",
+      "Source, https://github.com/dateutil/dateutil"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "setuptools",
+    "version": "84.2.1",
+    "license_statement": "MIT",
+    "license_files": [
+      "setuptools-84.2.1.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "setuptools-84.2.1-py3-none-any.whl",
+    "wheel_sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
+    "upstream": [
+      "Source, https://github.com/pypa/setuptools",
+      "Documentation, https://setuptools.pypa.io/",
+      "Changelog, https://setuptools.pypa.io/en/stable/history.html"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license_statement": "MIT",
+    "license_files": [
+      "six-1.17.0.dist-info/LICENSE"
+    ],
+    "wheel": "six-1.17.0-py3-none-any.whl",
+    "wheel_sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+    "upstream": [
+      "https://github.com/benjaminp/six"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "stable_baselines3",
+    "version": "2.9.0",
+    "license_statement": "MIT",
+    "license_files": [
+      "stable_baselines3-2.9.0.dist-info/licenses/LICENSE",
+      "stable_baselines3-2.9.0.dist-info/licenses/NOTICE"
+    ],
+    "wheel": "stable_baselines3-2.9.0-py3-none-any.whl",
+    "wheel_sha256": "95f39a473dce081d1abe31acaf7cee446dcf223dcd74093d6ea460bc37e2e748",
+    "upstream": [
+      "Code, https://github.com/DLR-RM/stable-baselines3",
+      "Documentation, https://stable-baselines3.readthedocs.io/",
+      "Changelog, https://stable-baselines3.readthedocs.io/en/master/misc/changelog.html",
+      "SB3-Contrib, https://github.com/Stable-Baselines-Team/stable-baselines3-contrib",
+      "RL-Zoo, https://github.com/DLR-RM/rl-baselines3-zoo",
+      "SBX, https://github.com/araffin/sbx"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "sympy",
+    "version": "1.14.0",
+    "license_statement": "BSD",
+    "license_files": [
+      "sympy-1.14.0.dist-info/licenses/AUTHORS",
+      "sympy-1.14.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "sympy-1.14.0-py3-none-any.whl",
+    "wheel_sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+    "upstream": [
+      "Source, https://github.com/sympy/sympy"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "torch",
+    "version": "2.14.1",
+    "license_statement": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND MIT",
+    "license_files": [
+      "torch-2.14.1.dist-info/licenses/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/FP16/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/FXdiv/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/NNPACK/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/NVTX/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/NVTX/docs/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/NVTX/python/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/NVTX/rust/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/NVTX/tools/docs/github-markdown-css/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/VulkanMemoryAllocator/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/XNNPACK/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/aiter/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/aiter/3rdparty/composable_kernel/docs/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/benchmark/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/composable_kernel/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/composable_kernel/docs/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/cpp-httplib/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/cpuinfo/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/cpuinfo/deps/clog/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/cudnn_frontend/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/cutlass/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/cutlass/python/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/composable_kernel/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/composable_kernel/docs/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cpuinfo/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cpuinfo/deps/clog/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cutlass/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/cutlass/python/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/external/hipify_torch/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/docs/src/general/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/experimental/hstu/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/src/quantize_ops/mx/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fbgemm/fbgemm_gpu/test/quantize/mx/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/composable_kernel/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/composable_kernel/docs/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/cutlass/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/csrc/cutlass/python/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/flash_attn/cute/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/third_party/aiter/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flash-attention/third_party/aiter/3rdparty/composable_kernel/docs/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/flatbuffers/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flatbuffers/dart/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/flatbuffers/swift/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/fmt/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/gemmlowp/gemmlowp/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/gloo/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/ideep/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/ideep/mkl-dnn/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/gtest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/opencl/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/kineto/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/kineto/libkineto/third_party/dynolog_headers/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/kineto/libkineto/third_party/fmt/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/kineto/libkineto/third_party/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/llvm-openmp/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/mimalloc/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/miniz-3.0.2/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/external/composable_kernel/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/external/composable_kernel/docs/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/external/cutlass/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/external/cutlass/python/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/external/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/external/hipify_torch/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/mslk/mslk/attention/flash_attn/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/onnx/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/onnx/third_party/pybind11/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/perfetto/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/protobuf/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/benchmark/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/googlemock/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/googlemock/scripts/generator/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/googletest/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/protobuf/third_party/utf8_range/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/psimd/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/pthreadpool/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/pybind11/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/python-peachpy/LICENSE.rst",
+      "torch-2.14.1.dist-info/licenses/third_party/sleef/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/LICENSE.txt",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googlemock/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googlemock/scripts/generator/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/googletest/googletest/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/libnop/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/libuv/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/pybind11/LICENSE",
+      "torch-2.14.1.dist-info/licenses/third_party/tensorpipe/third_party/pybind11/tools/clang/LICENSE.txt"
+    ],
+    "wheel": "torch-2.14.1-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "711713391d26a1ce5e9fbc6c996d954a8c12e8825374cc77b809a6af29539b8c",
+    "upstream": [
+      "Homepage, https://pytorch.org",
+      "Repository, https://github.com/pytorch/pytorch",
+      "Documentation, https://pytorch.org/docs",
+      "Issue Tracker, https://github.com/pytorch/pytorch/issues",
+      "Forum, https://discuss.pytorch.org"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license_statement": "PSF-2.0",
+    "license_files": [
+      "typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "typing_extensions-4.16.0-py3-none-any.whl",
+    "wheel_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+    "upstream": [
+      "Bug Tracker, https://github.com/python/typing_extensions/issues",
+      "Changes, https://github.com/python/typing_extensions/blob/main/CHANGELOG.md",
+      "Documentation, https://typing-extensions.readthedocs.io/",
+      "Home, https://github.com/python/typing_extensions",
+      "Q & A, https://github.com/python/typing/discussions",
+      "Repository, https://github.com/python/typing_extensions"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "tzdata",
+    "version": "2026.5",
+    "license_statement": "Apache-2.0",
+    "license_files": [
+      "tzdata-2026.5.dist-info/licenses/LICENSE",
+      "tzdata-2026.5.dist-info/licenses/licenses/LICENSE_APACHE"
+    ],
+    "wheel": "tzdata-2026.5-py3-none-any.whl",
+    "wheel_sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+    "upstream": [
+      "Bug Reports, https://github.com/python/tzdata/issues",
+      "Source, https://github.com/python/tzdata",
+      "Documentation, https://tzdata.python.org"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "websockets",
+    "version": "17.3",
+    "license_statement": "BSD-3-Clause",
+    "license_files": [
+      "websockets-17.3.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "websockets-17.3-cp313-cp313-win_amd64.whl",
+    "wheel_sha256": "66027e401c70d0cf55021b91b8a7ec2cd5810e20602f945b4fe6ae8b37ed232b",
+    "upstream": [
+      "Homepage, https://github.com/python-websockets/websockets",
+      "Changelog, https://websockets.readthedocs.io/en/stable/project/changelog.html",
+      "Documentation, https://websockets.readthedocs.io/",
+      "Funding, https://tidelift.com/subscription/pkg/pypi-websockets?utm_source=pypi-websockets&utm_medium=referral&utm_campaign=readme",
+      "Tracker, https://github.com/python-websockets/websockets/issues"
+    ],
+    "wheel_is_release_attachment": false
+  },
+  {
+    "name": "zipp",
+    "version": "4.1.2",
+    "license_statement": "MIT",
+    "license_files": [
+      "zipp-4.1.2.dist-info/licenses/LICENSE"
+    ],
+    "wheel": "zipp-4.1.2-py3-none-any.whl",
+    "wheel_sha256": "b30cb6cd253122169c47de245ca24a86bac2a5d3802ba15bf7ba6414eb9e144d",
+    "upstream": [
+      "Source, https://github.com/jaraco/zipp"
+    ],
+    "wheel_is_release_attachment": false
+  }
+]

@@ -1,0 +1,371 @@
+{
+  "release": "go2-157-v1-rc1",
+  "publicly_published": false,
+  "attachments": [
+    {
+      "path": "artifacts/runs/20261023-140238-938755-go2-transition-v3-mixed-ppo/final-model.zip",
+      "sha256": "61d7964b53bf74bb3f795faadaa319e1da2c99891960cd59b804849ca5a48665",
+      "bytes": 614598,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261023-140238-938755-go2-transition-v3-mixed-ppo/final-model.zip"
+    },
+    {
+      "path": "artifacts/runs/20261023-140238-938755-go2-transition-v3-mixed-ppo/final-vecnormalize.pkl",
+      "sha256": "eecb60a0768409778f3c1a202b21afb215ad39dee42ce26d7e5aa2f2fc004afe",
+      "bytes": 4902,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261023-140238-938755-go2-transition-v3-mixed-ppo/final-vecnormalize.pkl"
+    },
+    {
+      "path": "artifacts/runs/20261023-turn-recovery-0.4/config.json",
+      "sha256": "1ccc5c9e0c5ea886bf03fb575f9f0450f031f53734a90e2f5dbda24315982432",
+      "bytes": 3326,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261023-turn-recovery-0.4/config.json"
+    },
+    {
+      "path": "artifacts/runs/20261023-turn-recovery-0.4/final-model.zip",
+      "sha256": "6b01f5f924e1a57ee8368e1af4d133db0ba5a3ba52aa76628d78ef60a8ca04a8",
+      "bytes": 223441,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261023-turn-recovery-0.4/final-model.zip"
+    },
+    {
+      "path": "artifacts/runs/20261023-turn-recovery-0.4/final-vecnormalize.pkl",
+      "sha256": "fd609cfe2f33ca4dfe732f8bfa666811164ecca13f6410bf9eb2d469dd9b5d82",
+      "bytes": 4069,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261023-turn-recovery-0.4/final-vecnormalize.pkl"
+    },
+    {
+      "path": "artifacts/runs/20261024-targeted-d/checkpoint-65536-vecnormalize.pkl",
+      "sha256": "6cfcbbbc347ca48be501a57e7f7b25a1303447656f9b074e713b0dcbeb984a37",
+      "bytes": 4902,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261024-targeted-d/checkpoint-65536-vecnormalize.pkl"
+    },
+    {
+      "path": "artifacts/runs/20261024-targeted-d/checkpoint-65536.zip",
+      "sha256": "25fe80ea43dac6eb23f1d76e187b4ee88d89725c0299a11597ab5d9a11003850",
+      "bytes": 614595,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261024-targeted-d/checkpoint-65536.zip"
+    },
+    {
+      "path": "artifacts/runs/20261026-low-mu-replay-train/acceptance.json",
+      "sha256": "132d26408e519ae8b3e78d004b96502327de35a655c6b3543a90dbdaef2c45e6",
+      "bytes": 48952,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261026-low-mu-replay-train/acceptance.json"
+    },
+    {
+      "path": "artifacts/runs/20261026-low-mu-replay-train/checkpoint-250-vecnormalize.pkl",
+      "sha256": "3a9313b8a522ba0b89e4d38f78b8e4e6185547e96166b85a4a0075ea46435951",
+      "bytes": 4905,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261026-low-mu-replay-train/checkpoint-250-vecnormalize.pkl"
+    },
+    {
+      "path": "artifacts/runs/20261026-low-mu-replay-train/checkpoint-250.zip",
+      "sha256": "989c45742411d3c69f87d364fc0e13adf8f94be5abbb3bf40e2d48a859a23a07",
+      "bytes": 423341,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261026-low-mu-replay-train/checkpoint-250.zip"
+    },
+    {
+      "path": "artifacts/runs/20261026-phase-replay-train/acceptance.json",
+      "sha256": "07d75fb74ca44f8ebc1641c4f4aa5be7e2adafb64d3dea3b739b3a4931dc3235",
+      "bytes": 43609,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261026-phase-replay-train/acceptance.json"
+    },
+    {
+      "path": "artifacts/runs/20261026-phase-replay-train/checkpoint-1000-vecnormalize.pkl",
+      "sha256": "3a9313b8a522ba0b89e4d38f78b8e4e6185547e96166b85a4a0075ea46435951",
+      "bytes": 4905,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261026-phase-replay-train/checkpoint-1000-vecnormalize.pkl"
+    },
+    {
+      "path": "artifacts/runs/20261026-phase-replay-train/checkpoint-1000.zip",
+      "sha256": "145eedf697c10d9edfb6c445a997fb2b38560272f473bfadd32520f2eba6b3d0",
+      "bytes": 423303,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261026-phase-replay-train/checkpoint-1000.zip"
+    },
+    {
+      "path": "artifacts/runs/20261027-unified-recovery-selection-bank/bank.npz",
+      "sha256": "8ec9c7201442089585f62fe0fbfafe9fa32e608c083c86efe1dfeacee552af98",
+      "bytes": 5753,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261027-unified-recovery-selection-bank/bank.npz"
+    },
+    {
+      "path": "artifacts/runs/20261028-successful-supply-student/checkpoint-250.zip",
+      "sha256": "750b1dfe14903986a8fe529c0e8adf04f06d78e89a396007451cfaec4ecc4bed",
+      "bytes": 423303,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261028-successful-supply-student/checkpoint-250.zip"
+    },
+    {
+      "path": "artifacts/runs/20261029-protected-native-transfer/initial-model.zip",
+      "sha256": "e65bfc0a71b09cba9d446e6624a5796e3cc63f5abe04b1f96bafc63297ba5dee",
+      "bytes": 212792,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261029-protected-native-transfer/initial-model.zip"
+    },
+    {
+      "path": "artifacts/runs/20261029-protected-native-transfer/initial-vecnormalize.pkl",
+      "sha256": "392cd20403b55474c302de759a9c53917cdd12c2a3558dc12bbaeaf4d922cc56",
+      "bytes": 3441,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261029-protected-native-transfer/initial-vecnormalize.pkl"
+    },
+    {
+      "path": "artifacts/runs/20261029-retention-protected-recovery/fitted-actor.npz",
+      "sha256": "c4c716a99760e45488e5bdb5432f7cc8356b2de1b0ab784b54526147c1d0aa16",
+      "bytes": 988606,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261029-retention-protected-recovery/fitted-actor.npz"
+    },
+    {
+      "path": "artifacts/runs/20261030-contact-success-transfer/core-0-146-phase626-seed-246101/states.npz",
+      "sha256": "70834b79d016d0ddab67876fdc92bb8d1dc9d19552fd176ae45d6b0097508057",
+      "bytes": 384277,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261030-contact-success-transfer/core-0-146-phase626-seed-246101/states.npz"
+    },
+    {
+      "path": "artifacts/runs/20261030-contact-success-transfer/core-1-146-duration070-seed-246108/states.npz",
+      "sha256": "29087309fc6a9a64fb4ca8bea5323eb098d55cb71f9f1c6ad707e5d6784791b0",
+      "bytes": 242361,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261030-contact-success-transfer/core-1-146-duration070-seed-246108/states.npz"
+    },
+    {
+      "path": "artifacts/runs/20261030-contact-success-transfer/fitted-residual.npz",
+      "sha256": "da711f1866c15ef2eb21724a37358cb6ee4eaf1edd02a331c69d440bb5fcbec8",
+      "bytes": 1303118,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261030-contact-success-transfer/fitted-residual.npz"
+    },
+    {
+      "path": "artifacts/runs/20261030-contact-success-transfer/protection-3-normal-seed-171701/states.npz",
+      "sha256": "4cf09db0d3651a5f41d3ccae006a7e39cfab735f5a7cfba080a8f4475d030863",
+      "bytes": 1424653,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/artifacts/runs/20261030-contact-success-transfer/protection-3-normal-seed-171701/states.npz"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "bytes": 1330465,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/base_0.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "bytes": 811791,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/base_1.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "bytes": 294090,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/base_2.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "bytes": 379093,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/base_3.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "bytes": 7776234,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/base_4.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "bytes": 877174,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/calf_0.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "bytes": 326865,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/calf_1.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "bytes": 876538,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/calf_mirror_0.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "bytes": 327261,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/calf_mirror_1.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "bytes": 1144729,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/foot.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "bytes": 2863864,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/hip_0.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "bytes": 2767918,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/hip_1.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "bytes": 2841868,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/thigh_0.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "bytes": 1491320,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/thigh_1.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "bytes": 2817674,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/thigh_mirror_0.obj"
+    },
+    {
+      "path": "third_party/unitree_go2/assets/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "bytes": 1482261,
+      "role": "required_runtime",
+      "local_source": "artifacts/delivery/go2-157-v1-validated/third_party/unitree_go2/assets/thigh_mirror_1.obj"
+    },
+    {
+      "path": "artifacts/contact-success-transfer-videos/case-7.mp4",
+      "sha256": "52e28afa597361456fd3ec749941f9c18f4932f8ada8758b27f8a9986952d3d7",
+      "bytes": 7326702,
+      "role": "optional_visual",
+      "local_source": "artifacts/contact-success-transfer-videos/case-7.mp4"
+    },
+    {
+      "path": "artifacts/contact-success-transfer-videos/case-7.png",
+      "sha256": "e3ff1df356d3df0bc8d4f6769bfe30f7778f251cea25a667d57bc95fcc899697",
+      "bytes": 94144,
+      "role": "optional_visual",
+      "local_source": "artifacts/contact-success-transfer-videos/case-7.png"
+    },
+    {
+      "path": "artifacts/contact-success-transfer-videos/case-0.mp4",
+      "sha256": "32de982d516a244646ae894fb6b48524a7731b5e5c80b692bb3bca31fb7452ce",
+      "bytes": 1985081,
+      "role": "optional_visual",
+      "local_source": "artifacts/contact-success-transfer-videos/case-0.mp4"
+    },
+    {
+      "path": "artifacts/contact-success-transfer-videos/case-0.png",
+      "sha256": "d041dd82d088d8207b68039fc143517f01a4257bedbb378f5158d9e0cc6566fc",
+      "bytes": 154708,
+      "role": "optional_visual",
+      "local_source": "artifacts/contact-success-transfer-videos/case-0.png"
+    },
+    {
+      "path": "artifacts/contact-success-transfer-videos/case-1.mp4",
+      "sha256": "5263dd9be1b86d6f5ad6be6df2cf0c83758f6f92ad5da4f02c45860fd954ebf1",
+      "bytes": 1645317,
+      "role": "optional_visual",
+      "local_source": "artifacts/contact-success-transfer-videos/case-1.mp4"
+    },
+    {
+      "path": "artifacts/contact-success-transfer-videos/case-1.png",
+      "sha256": "16bf5303187f6de2b9b5c5957827c9a037fc47a546c930c98d197fc40d1bcd4a",
+      "bytes": 152821,
+      "role": "optional_visual",
+      "local_source": "artifacts/contact-success-transfer-videos/case-1.png"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/straight-mu1.mp4",
+      "sha256": "5e75ea635365905698d5d784ea7be9794318d6183a91bf8417653db32cdc4455",
+      "bytes": 3466640,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/straight-mu1.mp4"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/straight-mu1.png",
+      "sha256": "82334df3783eaa519821609e1a93137600aad0d309ac3ac89268b999bf6b8a73",
+      "bytes": 222655,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/straight-mu1.png"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/recent012-mu1.mp4",
+      "sha256": "becfee938017a1e17e0bbdaf83dac8b93f5527a9b4499b6793e33158f482a64b",
+      "bytes": 3334541,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/recent012-mu1.mp4"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/recent012-mu1.png",
+      "sha256": "daff6a75f95fdcf2ccb6d3c8f5a0f0daa72452b8ac6e4f9debf29f88e117f991",
+      "bytes": 220735,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/recent012-mu1.png"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/recent012-mu04.mp4",
+      "sha256": "38c3c837034c9720605a4e37102e9d91e09ef1a88e89d93f8a722f66c3ebb058",
+      "bytes": 3368349,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/recent012-mu04.mp4"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/recent012-mu04.png",
+      "sha256": "500f050c2ad184738fd85dfe13a4af4e3894a6d590f260ff4f58e31b024c0160",
+      "bytes": 221183,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/recent012-mu04.png"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/recent016-mu08.mp4",
+      "sha256": "8705982890519205956ef92cd9d9a9bdb8b78ad29e0b38aa58d55402496a1a24",
+      "bytes": 3382049,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/recent016-mu08.mp4"
+    },
+    {
+      "path": "artifacts/v1-scope-qualification-videos/recent016-mu08.png",
+      "sha256": "4fbe1d4d86e1a0944608811932f3fdcdb7ebf91d75bbe3ebdff33afc4958809e",
+      "bytes": 221558,
+      "role": "optional_visual",
+      "local_source": "artifacts/v1-scope-qualification-videos/recent016-mu08.png"
+    }
+  ],
+  "dependency_wheels": "local-cache-only;excluded from this release candidate"
+}

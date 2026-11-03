@@ -1,0 +1,25 @@
+{
+  "candidate": 157,
+  "P1": {
+    "pressure_passed": 8,
+    "pressure_total": 8,
+    "unique_zero_passed": 4,
+    "new_physical": 12
+  },
+  "P2": {
+    "exact_replays": 3,
+    "new_physical": 3,
+    "normal_checks": 108,
+    "success_deg": 7.270251085653549,
+    "recovery_seconds": 1.76,
+    "known_failure_deg": 53.41785924561888,
+    "known_failure_seconds": 7.56
+  },
+  "P3": {
+    "new_physical": 0,
+    "new_training": 0,
+    "model_fits": 0,
+    "visual_acceptance": "pending",
+    "formal_selection_changed": false
+  }
+}

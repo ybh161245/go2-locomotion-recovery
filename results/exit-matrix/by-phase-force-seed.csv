@@ -1,0 +1,13 @@
+﻿group,value,total,strict_passes,legacy_passes,terminations,complete_failed,contact_head_used_runs
+phase,straight,75,63,63,12,0,15
+phase,turn,63,45,45,12,6,0
+phase,brake,27,24,24,3,0,0
+phase,stand,15,15,15,0,0,0
+force_N,0,12,12,12,0,0,0
+force_N,20,24,24,24,0,0,3
+force_N,40,69,60,60,6,3,6
+force_N,60,33,27,27,3,3,0
+force_N,80,42,24,24,18,0,6
+seed,94001,60,49,49,9,2,5
+seed,94002,60,49,49,9,2,5
+seed,94003,60,49,49,9,2,5

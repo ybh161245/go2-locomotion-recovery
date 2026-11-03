@@ -1,0 +1,286 @@
+{
+  "failed_runs": 33,
+  "failed_definitions": 11,
+  "each_seed_same_failed_definition_ids": [
+    "case-018",
+    "case-031",
+    "case-034",
+    "case-035",
+    "case-038",
+    "case-044",
+    "case-046",
+    "case-047",
+    "case-053",
+    "case-054",
+    "case-055"
+  ],
+  "failed_run_checks": [
+    {
+      "case": "case-018",
+      "seed": 94001,
+      "steps": 337,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-031",
+      "seed": 94001,
+      "steps": 600,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-034",
+      "seed": 94001,
+      "steps": 338,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-035",
+      "seed": 94001,
+      "steps": 338,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-038",
+      "seed": 94001,
+      "steps": 341,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-044",
+      "seed": 94001,
+      "steps": 346,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-046",
+      "seed": 94001,
+      "steps": 323,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-047",
+      "seed": 94001,
+      "steps": 326,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-053",
+      "seed": 94001,
+      "steps": 388,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-054",
+      "seed": 94001,
+      "steps": 600,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-055",
+      "seed": 94001,
+      "steps": 346,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-018",
+      "seed": 94002,
+      "steps": 337,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-031",
+      "seed": 94002,
+      "steps": 600,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-034",
+      "seed": 94002,
+      "steps": 338,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-035",
+      "seed": 94002,
+      "steps": 338,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-038",
+      "seed": 94002,
+      "steps": 341,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-044",
+      "seed": 94002,
+      "steps": 346,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-046",
+      "seed": 94002,
+      "steps": 323,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-047",
+      "seed": 94002,
+      "steps": 326,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-053",
+      "seed": 94002,
+      "steps": 388,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-054",
+      "seed": 94002,
+      "steps": 600,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-055",
+      "seed": 94002,
+      "steps": 346,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-018",
+      "seed": 94003,
+      "steps": 337,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-031",
+      "seed": 94003,
+      "steps": 600,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-034",
+      "seed": 94003,
+      "steps": 338,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-035",
+      "seed": 94003,
+      "steps": 338,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-038",
+      "seed": 94003,
+      "steps": 341,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-044",
+      "seed": 94003,
+      "steps": 346,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-046",
+      "seed": 94003,
+      "steps": 323,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-047",
+      "seed": 94003,
+      "steps": 326,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-053",
+      "seed": 94003,
+      "steps": 388,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-054",
+      "seed": 94003,
+      "steps": 600,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    },
+    {
+      "case": "case-055",
+      "seed": 94003,
+      "steps": 346,
+      "contact_eligible_steps": 0,
+      "contact_model_calls": 0,
+      "contact_output_changes": 0
+    }
+  ],
+  "conclusion": "With all other controller/physics/code fixed,the70headcoefficients are never read before these failures;changingonlythem cannot affect these stored paths. This does not prove broader supportcontrol impossible or openinggates safe.",
+  "new_physical": 0,
+  "new_training": 0
+}

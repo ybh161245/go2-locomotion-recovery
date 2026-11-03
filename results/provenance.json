@@ -1,0 +1,80 @@
+{
+  "results/exit-matrix/analysis.json": {
+    "source": "docs/data/go2-frozen157-exit-matrix/analysis.json",
+    "sha256": "ea303200fce560a09fe3488d597a1c64a98e322a44d14ef2339b4a3fe6124090",
+    "bytes": 3821,
+    "preexisting": true
+  },
+  "results/exit-matrix/all180-results.csv": {
+    "source": "docs/data/go2-frozen157-exit-matrix/all180-results.csv",
+    "sha256": "4009b9d243cf5bb8859aeacd0e4f0288371690ea45b3fff532dd78a221ccf9e3",
+    "bytes": 52881,
+    "preexisting": true
+  },
+  "results/exit-matrix/all-failures.csv": {
+    "source": "docs/data/go2-frozen157-exit-matrix/all-failures.csv",
+    "sha256": "49dee704962745043811cb21cd6a066b8d5878a6a4504a8d93750e136cac706c",
+    "bytes": 9854,
+    "preexisting": true
+  },
+  "results/exit-matrix/by-phase-force-seed.csv": {
+    "source": "docs/data/go2-frozen157-exit-matrix/by-phase-force-seed.csv",
+    "sha256": "1666fb842871257f3dd5d84f5d0f2cab9d7dafe616c79d55303142edd55915ef",
+    "bytes": 435,
+    "preexisting": true
+  },
+  "results/exit-matrix/failed-scope-audit.json": {
+    "source": "docs/data/go2-frozen157-exit-matrix/failed-scope-audit.json",
+    "sha256": "557d98848daf42739e80b9c54b4c9806bd304715a7a486fbc8ed3269bbc800cd",
+    "bytes": 6854,
+    "preexisting": true
+  },
+  "results/exit-matrix/low-friction-zero-gap.csv": {
+    "source": "docs/data/go2-frozen157-exit-matrix/low-friction-zero-gap.csv",
+    "sha256": "142572a771201f57f899ea1235d0b0c02c9497bb82354119dce473d27a9277bb",
+    "bytes": 514,
+    "preexisting": true
+  },
+  "results/component-matrix/matrix-analysis.json": {
+    "source": "docs/data/go2-unified-component-matrix/matrix-analysis.json",
+    "sha256": "6b4bcd1a4698921952e824019377600ce4dc7fffa4b3c18d07863d477fe9b176",
+    "bytes": 14431,
+    "preexisting": true
+  },
+  "results/component-matrix/all177-cells.csv": {
+    "source": "docs/data/go2-unified-component-matrix/all177-cells.csv",
+    "sha256": "96036e232e015764cf5b2f1c53834fd56d0583f74536c83ec3eafce3a5ec6a35",
+    "bytes": 73058,
+    "preexisting": true
+  },
+  "results/component-matrix/by-force.csv": {
+    "source": "docs/data/go2-unified-component-matrix/by-force.csv",
+    "sha256": "24da0c42a6cdfc9dc31b0d18be4be63fb8a03b8058e90a7162021586522be6f4",
+    "bytes": 623,
+    "preexisting": true
+  },
+  "results/component-matrix/paired-deltas.csv": {
+    "source": "docs/data/go2-unified-component-matrix/paired-deltas.csv",
+    "sha256": "d30cccbfbdd6265f89e43c494f77a4ecf4d158f898946b99317a8effde25d823",
+    "bytes": 36591,
+    "preexisting": true
+  },
+  "results/paired-training/analysis.json": {
+    "source": "docs/data/go2-paired-dr-repeats/analysis.json",
+    "sha256": "283cc02815256f815c6f56c9b63a07061d227dc41c974dce25373269f0f1d595",
+    "bytes": 10486,
+    "preexisting": true
+  },
+  "results/bounded30N/all12-results.csv": {
+    "source": "docs/data/go2-v1-scope-qualification/all12-results.csv",
+    "sha256": "7a5221b14011c0aba2780569d33e339381db083c04ccc75809d499039a7c59c9",
+    "bytes": 3506,
+    "preexisting": true
+  },
+  "results/bounded30N/motion-quality.csv": {
+    "source": "docs/data/go2-v1-scope-qualification/motion-quality.csv",
+    "sha256": "aa3fcc7540ae62ccf616ab2f5e042bc00ddc2744ecc492c17042ff45eb8f9535",
+    "bytes": 15933,
+    "preexisting": true
+  }
+}

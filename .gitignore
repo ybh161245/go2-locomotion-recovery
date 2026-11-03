@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+wheels/
+artifacts/runs/
+*.zip
+*.npz
+*.pkl
+*.mp4
+*.png
+third_party/unitree_go2/assets/

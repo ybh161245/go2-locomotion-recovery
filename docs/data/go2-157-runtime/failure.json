@@ -1,0 +1,69 @@
+{
+  "folder": "artifacts/runs/20261030-contact-success-transfer/core-1-146-duration070-seed-246108",
+  "case": "146-duration070",
+  "kind": "pressure",
+  "seed": 246108,
+  "profile": {
+    "id": "146-duration070",
+    "seed": 246108,
+    "rpy_deg": [
+      0.75,
+      -0.35,
+      6
+    ],
+    "body_velocity": [
+      0,
+      0.025,
+      0
+    ]
+  },
+  "steps": 378,
+  "terminated": true,
+  "passed": false,
+  "quality": null,
+  "protocol": {
+    "id": "146-duration070",
+    "tier": "frozen145-duration-boundary",
+    "profile": "146-duration070",
+    "seconds": 12,
+    "friction": 0.8,
+    "friction_schedule": [
+      {
+        "step": 0,
+        "mu": 0.8
+      }
+    ],
+    "schedule": [
+      {
+        "start": 0,
+        "end": 12,
+        "phase": "straight",
+        "command": [
+          0.2,
+          0,
+          0.0
+        ]
+      }
+    ],
+    "events": [
+      {
+        "start": 6.32,
+        "duration": 0.7,
+        "force": [
+          0,
+          -40,
+          0
+        ],
+        "torque": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "peak_tilt": 53.41785924561888,
+  "recovery_seconds": null,
+  "complete": false,
+  "last_withdrawal": 7.0200000000000005
+}

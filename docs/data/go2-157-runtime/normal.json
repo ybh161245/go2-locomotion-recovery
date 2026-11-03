@@ -1,0 +1,787 @@
+{
+  "folder": "artifacts/runs/20261030-contact-success-transfer/protection-3-normal-seed-171701",
+  "case": "normal",
+  "kind": "normal",
+  "seed": 171701,
+  "profile": {
+    "id": "nominal",
+    "seed": 171701,
+    "rpy_deg": [
+      0,
+      0,
+      0
+    ],
+    "body_velocity": [
+      0,
+      0,
+      0
+    ]
+  },
+  "steps": 2300,
+  "terminated": false,
+  "passed": true,
+  "quality": {
+    "case": "normal",
+    "seed": 171701,
+    "checks": [
+      {
+        "segment": "all",
+        "metric": "full_episode",
+        "value": 2300,
+        "limit": 2300,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "peak_tilt",
+        "value": 1.519916925354222,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "velocity_rmse",
+        "value": 0.009382867305151605,
+        "limit": 0.014382867305151606,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "yaw_rmse",
+        "value": 0.005904199801402843,
+        "limit": 0.010904199801402843,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "joint_speed_rms_mean",
+        "value": 0.014752799627079193,
+        "limit": 0.0647527996270792,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "roll_deg_std",
+        "value": 0.0519127976357463,
+        "limit": 0.1519127976357463,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "pitch_deg_std",
+        "value": 0.10516568292786782,
+        "limit": 0.20516568292786783,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "FL_loaded_speed",
+        "value": 0.0008793376416992134,
+        "limit": 0.010879337641699214,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "FR_loaded_speed",
+        "value": 0.0009891599881177346,
+        "limit": 0.010989159988117735,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "RL_loaded_speed",
+        "value": 0.0012680720115473103,
+        "limit": 0.01126807201154731,
+        "passed": true
+      },
+      {
+        "segment": "stand",
+        "metric": "RR_loaded_speed",
+        "value": 0.009809191581526565,
+        "limit": 0.019809191581526567,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "peak_tilt",
+        "value": 3.4628766749135504,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "velocity_rmse",
+        "value": 0.041896708236209855,
+        "limit": 0.04689670823620985,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "yaw_rmse",
+        "value": 0.02775727084090483,
+        "limit": 0.03275727084090483,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "stride_median_m",
+        "value": 0.12377673018240405,
+        "limit": 0.11139905716416365,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "height_std",
+        "value": 0.003732929093017903,
+        "limit": 0.004732929093017903,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "FL_clearance",
+        "value": 0.03959726775324084,
+        "limit": 0.03563754097791676,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "FR_clearance",
+        "value": 0.042427022725724454,
+        "limit": 0.03818432045315201,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "RL_clearance",
+        "value": 0.02710740982202014,
+        "limit": 0.024396668839818125,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "RR_clearance",
+        "value": 0.06097640565881677,
+        "limit": 0.05487876509293509,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "FL_loaded_speed",
+        "value": 0.014172922216325299,
+        "limit": 0.024172922216325297,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "FR_loaded_speed",
+        "value": 0.046740525555949236,
+        "limit": 0.05674052555594924,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "RL_loaded_speed",
+        "value": 0.009361126441898097,
+        "limit": 0.019361126441898097,
+        "passed": true
+      },
+      {
+        "segment": "start 0.2",
+        "metric": "RR_loaded_speed",
+        "value": 0.043765482534068874,
+        "limit": 0.053765482534068876,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "peak_tilt",
+        "value": 2.66088575440639,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "velocity_rmse",
+        "value": 0.03901815006921099,
+        "limit": 0.04401815006921099,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "yaw_rmse",
+        "value": 0.03397955375399511,
+        "limit": 0.03897955375399511,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "stride_median_m",
+        "value": 0.2424653567705119,
+        "limit": 0.21821882109346072,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "height_std",
+        "value": 0.003593860193615074,
+        "limit": 0.004593860193615074,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "FL_clearance",
+        "value": 0.056428744641807416,
+        "limit": 0.050785870177626674,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "FR_clearance",
+        "value": 0.053986777153523804,
+        "limit": 0.048588099438171425,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "RL_clearance",
+        "value": 0.03944016887368516,
+        "limit": 0.03549615198631664,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "RR_clearance",
+        "value": 0.0591930284849727,
+        "limit": 0.053273725636475436,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "FL_loaded_speed",
+        "value": 0.02216868490092119,
+        "limit": 0.03216868490092119,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "FR_loaded_speed",
+        "value": 0.056026176960827026,
+        "limit": 0.06602617696082702,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "RL_loaded_speed",
+        "value": 0.021267993656937604,
+        "limit": 0.0312679936569376,
+        "passed": true
+      },
+      {
+        "segment": "accelerate 0.4",
+        "metric": "RR_loaded_speed",
+        "value": 0.08313065463824121,
+        "limit": 0.0931306546382412,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "peak_tilt",
+        "value": 3.958068356240737,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "velocity_rmse",
+        "value": 0.0035393979039135934,
+        "limit": 0.008539397903913594,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "yaw_rmse",
+        "value": 0.0023047233150884357,
+        "limit": 0.007304723315088435,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "joint_speed_rms_mean",
+        "value": 0.006611263924964779,
+        "limit": 0.05661126392496478,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "roll_deg_std",
+        "value": 0.053536812671516304,
+        "limit": 0.1535368126715163,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "pitch_deg_std",
+        "value": 0.04591641711992665,
+        "limit": 0.14591641711992664,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "FL_loaded_speed",
+        "value": 0.001242268529963806,
+        "limit": 0.011242268529963807,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "FR_loaded_speed",
+        "value": 0.0010924921654306748,
+        "limit": 0.011092492165430675,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "RL_loaded_speed",
+        "value": 0.0011867196965685103,
+        "limit": 0.01118671969656851,
+        "passed": true
+      },
+      {
+        "segment": "brake stop",
+        "metric": "RR_loaded_speed",
+        "value": 0.001438861328283203,
+        "limit": 0.011438861328283203,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "peak_tilt",
+        "value": 2.9079588208821847,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "velocity_rmse",
+        "value": 0.028840659943180313,
+        "limit": 0.033840659943180314,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "yaw_rmse",
+        "value": 0.04941763353594367,
+        "limit": 0.054417633535943664,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "height_std",
+        "value": 0.002721666571555708,
+        "limit": 0.003721666571555708,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "FL_clearance",
+        "value": 0.03772738439784015,
+        "limit": 0.03395464595805614,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "FR_clearance",
+        "value": 0.04872949264893973,
+        "limit": 0.04385654338404576,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "RL_clearance",
+        "value": 0.028044888684559503,
+        "limit": 0.025240399816103553,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "RR_clearance",
+        "value": 0.050758579112862905,
+        "limit": 0.04568272120157661,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "FL_loaded_speed",
+        "value": 0.022894773232644633,
+        "limit": 0.032894773232644635,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "FR_loaded_speed",
+        "value": 0.04202013189025928,
+        "limit": 0.05202013189025928,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "RL_loaded_speed",
+        "value": 0.028732057618841622,
+        "limit": 0.038732057618841624,
+        "passed": true
+      },
+      {
+        "segment": "left turn",
+        "metric": "RR_loaded_speed",
+        "value": 0.058430182977624555,
+        "limit": 0.06843018297762456,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "peak_tilt",
+        "value": 3.532776498780956,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "velocity_rmse",
+        "value": 0.03922909833734658,
+        "limit": 0.044229098337346576,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "yaw_rmse",
+        "value": 0.0617822404690036,
+        "limit": 0.06796046451590396,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "height_std",
+        "value": 0.006911271485520042,
+        "limit": 0.007947962208348048,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "FL_clearance",
+        "value": 0.03459130296259041,
+        "limit": 0.031132172666331368,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "FR_clearance",
+        "value": 0.03856554598154886,
+        "limit": 0.03470899138339398,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "RL_clearance",
+        "value": 0.032855808752569514,
+        "limit": 0.029570227877312564,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "RR_clearance",
+        "value": 0.06011630995374214,
+        "limit": 0.05410467895836793,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "FL_loaded_speed",
+        "value": 0.02389190366307062,
+        "limit": 0.03389190366307062,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "FR_loaded_speed",
+        "value": 0.02605027640979033,
+        "limit": 0.03605027640979033,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "RL_loaded_speed",
+        "value": 0.051288450193663224,
+        "limit": 0.061288450193663226,
+        "passed": true
+      },
+      {
+        "segment": "reverse right",
+        "metric": "RR_loaded_speed",
+        "value": 0.057805293378528556,
+        "limit": 0.06780529337852856,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "peak_tilt",
+        "value": 3.045683860663135,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "velocity_rmse",
+        "value": 0.027968599219209685,
+        "limit": 0.032968599219209686,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "yaw_rmse",
+        "value": 0.0740057263036859,
+        "limit": 0.08140629893405449,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "height_std",
+        "value": 0.002751666123396154,
+        "limit": 0.003751666123396154,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "FL_clearance",
+        "value": 0.038053104192593175,
+        "limit": 0.03424779377333386,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "FR_clearance",
+        "value": 0.048687036222113136,
+        "limit": 0.043818332599901824,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "RL_clearance",
+        "value": 0.02906890656059866,
+        "limit": 0.026162015904538795,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "RR_clearance",
+        "value": 0.05038788614159676,
+        "limit": 0.045349097527437085,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "FL_loaded_speed",
+        "value": 0.02307043683757071,
+        "limit": 0.03307043683757071,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "FR_loaded_speed",
+        "value": 0.04260844171883014,
+        "limit": 0.05260844171883014,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "RL_loaded_speed",
+        "value": 0.030160437703240197,
+        "limit": 0.040160437703240195,
+        "passed": true
+      },
+      {
+        "segment": "reverse left",
+        "metric": "RR_loaded_speed",
+        "value": 0.06071032247299036,
+        "limit": 0.07071032247299036,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "peak_tilt",
+        "value": 3.424362624056874,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "velocity_rmse",
+        "value": 0.042434804002356434,
+        "limit": 0.04743480400235643,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "yaw_rmse",
+        "value": 0.02728789267745744,
+        "limit": 0.032287892677457436,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "height_std",
+        "value": 0.0036064349026181655,
+        "limit": 0.0046064349026181655,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "FL_clearance",
+        "value": 0.03915076534585958,
+        "limit": 0.035235688811273626,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "FR_clearance",
+        "value": 0.0425673540741136,
+        "limit": 0.03831061866670224,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "RL_clearance",
+        "value": 0.02728591213280029,
+        "limit": 0.024557320919520263,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "RR_clearance",
+        "value": 0.061256725883798324,
+        "limit": 0.055131053295418495,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "FL_loaded_speed",
+        "value": 0.01216071392574642,
+        "limit": 0.022160713925746423,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "FR_loaded_speed",
+        "value": 0.0357670882102205,
+        "limit": 0.045767088210220505,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "RL_loaded_speed",
+        "value": 0.00933112503788993,
+        "limit": 0.019331125037889932,
+        "passed": true
+      },
+      {
+        "segment": "straighten",
+        "metric": "RR_loaded_speed",
+        "value": 0.04070678937104272,
+        "limit": 0.05070678937104272,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "peak_tilt",
+        "value": 2.665008787891594,
+        "limit": 8,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "velocity_rmse",
+        "value": 0.0006700785258767773,
+        "limit": 0.005670078525876777,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "yaw_rmse",
+        "value": 0.001354062315308352,
+        "limit": 0.006354062315308352,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "joint_speed_rms_mean",
+        "value": 0.0027698764088561314,
+        "limit": 0.05276987640885614,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "roll_deg_std",
+        "value": 0.05937599499576304,
+        "limit": 0.15937599499576305,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "pitch_deg_std",
+        "value": 0.028659176537244306,
+        "limit": 0.12865917653724432,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "FL_loaded_speed",
+        "value": 0.001069521929445571,
+        "limit": 0.011069521929445571,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "FR_loaded_speed",
+        "value": 0.0008325936244200191,
+        "limit": 0.010832593624420019,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "RL_loaded_speed",
+        "value": 0.0009139224445465056,
+        "limit": 0.010913922444546505,
+        "passed": true
+      },
+      {
+        "segment": "final stop",
+        "metric": "RR_loaded_speed",
+        "value": 0.0010229786602107735,
+        "limit": 0.011022978660210774,
+        "passed": true
+      },
+      {
+        "segment": "turn-0",
+        "metric": "angle_error",
+        "value": 0.388149863287083,
+        "limit": 1.388149863287083,
+        "passed": true
+      },
+      {
+        "segment": "turn-1",
+        "metric": "angle_error",
+        "value": 1.5494471219959962,
+        "limit": 2.549447121995996,
+        "passed": true
+      },
+      {
+        "segment": "turn-2",
+        "metric": "angle_error",
+        "value": 0.5425884702490578,
+        "limit": 1.5425884702490578,
+        "passed": true
+      }
+    ],
+    "RL_mm": 32.855808752569516,
+    "passed": true
+  }
+}

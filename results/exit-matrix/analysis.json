@@ -1,0 +1,152 @@
+{
+  "matrix_runs": 180,
+  "interface_anchor_runs": 1,
+  "total_new_physical": 181,
+  "new_training": 0,
+  "new_fits": 0,
+  "new_normal": 0,
+  "pressure_total": 168,
+  "strict_pressure_passes": 135,
+  "zero_total": 12,
+  "strict_zero_passes": 12,
+  "strict_passes": 147,
+  "legacy_post6_passes": 147,
+  "strict_legacy_disagreements": [],
+  "terminations": 27,
+  "complete_but_failed": 6,
+  "aggregate": [
+    {
+      "group": "phase",
+      "value": "straight",
+      "total": 75,
+      "strict_passes": 63,
+      "legacy_passes": 63,
+      "terminations": 12,
+      "complete_failed": 0,
+      "contact_head_used_runs": 15
+    },
+    {
+      "group": "phase",
+      "value": "turn",
+      "total": 63,
+      "strict_passes": 45,
+      "legacy_passes": 45,
+      "terminations": 12,
+      "complete_failed": 6,
+      "contact_head_used_runs": 0
+    },
+    {
+      "group": "phase",
+      "value": "brake",
+      "total": 27,
+      "strict_passes": 24,
+      "legacy_passes": 24,
+      "terminations": 3,
+      "complete_failed": 0,
+      "contact_head_used_runs": 0
+    },
+    {
+      "group": "phase",
+      "value": "stand",
+      "total": 15,
+      "strict_passes": 15,
+      "legacy_passes": 15,
+      "terminations": 0,
+      "complete_failed": 0,
+      "contact_head_used_runs": 0
+    },
+    {
+      "group": "force_N",
+      "value": 0,
+      "total": 12,
+      "strict_passes": 12,
+      "legacy_passes": 12,
+      "terminations": 0,
+      "complete_failed": 0,
+      "contact_head_used_runs": 0
+    },
+    {
+      "group": "force_N",
+      "value": 20,
+      "total": 24,
+      "strict_passes": 24,
+      "legacy_passes": 24,
+      "terminations": 0,
+      "complete_failed": 0,
+      "contact_head_used_runs": 3
+    },
+    {
+      "group": "force_N",
+      "value": 40,
+      "total": 69,
+      "strict_passes": 60,
+      "legacy_passes": 60,
+      "terminations": 6,
+      "complete_failed": 3,
+      "contact_head_used_runs": 6
+    },
+    {
+      "group": "force_N",
+      "value": 60,
+      "total": 33,
+      "strict_passes": 27,
+      "legacy_passes": 27,
+      "terminations": 3,
+      "complete_failed": 3,
+      "contact_head_used_runs": 0
+    },
+    {
+      "group": "force_N",
+      "value": 80,
+      "total": 42,
+      "strict_passes": 24,
+      "legacy_passes": 24,
+      "terminations": 18,
+      "complete_failed": 0,
+      "contact_head_used_runs": 6
+    },
+    {
+      "group": "seed",
+      "value": 94001,
+      "total": 60,
+      "strict_passes": 49,
+      "legacy_passes": 49,
+      "terminations": 9,
+      "complete_failed": 2,
+      "contact_head_used_runs": 5
+    },
+    {
+      "group": "seed",
+      "value": 94002,
+      "total": 60,
+      "strict_passes": 49,
+      "legacy_passes": 49,
+      "terminations": 9,
+      "complete_failed": 2,
+      "contact_head_used_runs": 5
+    },
+    {
+      "group": "seed",
+      "value": 94003,
+      "total": 60,
+      "strict_passes": 49,
+      "legacy_passes": 49,
+      "terminations": 9,
+      "complete_failed": 2,
+      "contact_head_used_runs": 5
+    }
+  ],
+  "own_zero_exact_prefixes": 150,
+  "missing_same_material_zero": 18,
+  "all180_metrics_recomputed": true,
+  "contact_head_used_runs": 15,
+  "first_contact_inputs": 12,
+  "elapsed_seconds": 191.12482610000006,
+  "new_bytes": 958520497,
+  "inputs_unchanged": true,
+  "formal_selection_changed": false,
+  "shown157_visual_acceptance": "normal46s+phase626 only;newmatrix pending",
+  "scope": "Original60stress definitions/seeds/nativefriction+nativereset;wholeepisode primary/post6secondary. Not126uniformmu1,notold147/180 scoretransfer,not3trainingseeds.",
+  "historical_baseline_rerun": false,
+  "no_universal_force_claim": true
+}

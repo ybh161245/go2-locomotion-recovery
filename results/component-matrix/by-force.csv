@@ -1,0 +1,16 @@
+﻿arm,kind,force_N,passes,total,terminations,new_physical,reused_physical
+full157,zero,0,14,14,0,0,14
+full157,pressure,20,6,6,0,0,6
+full157,pressure,30,22,22,0,0,22
+full157,pressure,40,6,17,11,0,17
+full157,pressure,all,34,45,11,0,45
+no_contact70,zero,0,14,14,0,14,0
+no_contact70,pressure,20,6,6,0,6,0
+no_contact70,pressure,30,22,22,0,20,2
+no_contact70,pressure,40,3,17,13,15,2
+no_contact70,pressure,all,31,45,13,41,4
+no_both_heads,zero,0,14,14,0,14,0
+no_both_heads,pressure,20,6,6,0,6,0
+no_both_heads,pressure,30,22,22,0,20,2
+no_both_heads,pressure,40,1,17,16,15,2
+no_both_heads,pressure,all,29,45,16,41,4

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this engineering preview, please cite this repository and its version."
+title: "Go2 Locomotion and Recovery"
+type: software
+version: 0.1.0
+date-released: '2026-11-03'
+authors:
+  - family-names: "杨"
+    given-names: "博涵"
+    orcid: "https://orcid.org/0009-0006-8308-5477"
+repository-code: "https://github.com/ybh161245/go2-locomotion-recovery"
+license: MIT
