@@ -1,0 +1,205 @@
+{
+  "experiment": 244,
+  "records": [
+    {
+      "result": {
+        "label": "adapted",
+        "speed": 0.4,
+        "steps": 900,
+        "terminated": false,
+        "mean_vx": 0.4320746333766512,
+        "rmse": 0.050601403998433964,
+        "peak_tilt": 3.3912131794928464,
+        "stop_stable_s": 0.74,
+        "final_joint_rms": 0.002241598777372424,
+        "clearance": [
+          0.05536483969515338,
+          0.050943213471120206,
+          0.03871246686815567,
+          0.05161703349253326
+        ],
+        "max_torque_fraction_50Hz": 0.5634451770724589,
+        "moving_mean_abs_mechanical_power": 74.62398675902064,
+        "airborne_fraction": 0.0,
+        "checks": {
+          "complete": true,
+          "tilt": true,
+          "speed": true,
+          "stop": true,
+          "quiet": true,
+          "clearance": true
+        },
+        "passed": true,
+        "folder": "artifacts/runs/20261107-speed12-adaptation/adapted-0.4"
+      },
+      "path": {
+        "moving_heading_max_deg": 1.3931879947118724,
+        "moving_cross_max_m": 0.01128244813391427,
+        "all_heading_max_deg": 1.4169359516393085,
+        "all_cross_max_m": 0.01774046987033867
+      },
+      "passed": true
+    },
+    {
+      "result": {
+        "label": "adapted",
+        "speed": 0.6,
+        "steps": 900,
+        "terminated": false,
+        "mean_vx": 0.6158330829898161,
+        "rmse": 0.06234414401790993,
+        "peak_tilt": 5.346952347874394,
+        "stop_stable_s": 0.78,
+        "final_joint_rms": 0.002435879651004909,
+        "clearance": [
+          0.06551283096445891,
+          0.036497215628001976,
+          0.03874233339308831,
+          0.039981872057375085
+        ],
+        "max_torque_fraction_50Hz": 0.7170356186979403,
+        "moving_mean_abs_mechanical_power": 108.23442583091364,
+        "airborne_fraction": 0.0,
+        "checks": {
+          "complete": true,
+          "tilt": true,
+          "speed": true,
+          "stop": true,
+          "quiet": true,
+          "clearance": true
+        },
+        "passed": true,
+        "folder": "artifacts/runs/20261107-speed12-adaptation/adapted-0.6"
+      },
+      "path": {
+        "moving_heading_max_deg": 1.6906969098579343,
+        "moving_cross_max_m": 0.01076453355024454,
+        "all_heading_max_deg": 1.6906969098579343,
+        "all_cross_max_m": 0.021887204239882416
+      },
+      "passed": true
+    },
+    {
+      "result": {
+        "label": "adapted",
+        "speed": 0.8,
+        "steps": 900,
+        "terminated": false,
+        "mean_vx": 0.7588730564894067,
+        "rmse": 0.07865237046949489,
+        "peak_tilt": 5.745656238674278,
+        "stop_stable_s": 1.26,
+        "final_joint_rms": 0.0027655497328337567,
+        "clearance": [
+          0.0563281844686004,
+          0.03125297481823382,
+          0.03982356250641014,
+          0.03205081384337511
+        ],
+        "max_torque_fraction_50Hz": 0.7237926389933551,
+        "moving_mean_abs_mechanical_power": 133.98288589434353,
+        "airborne_fraction": 0.0,
+        "checks": {
+          "complete": true,
+          "tilt": true,
+          "speed": true,
+          "stop": true,
+          "quiet": true,
+          "clearance": true
+        },
+        "passed": true,
+        "folder": "artifacts/runs/20261107-speed12-adaptation/adapted-0.8"
+      },
+      "path": {
+        "moving_heading_max_deg": 1.6906969098579343,
+        "moving_cross_max_m": 0.04526263889335188,
+        "all_heading_max_deg": 1.6906969098579343,
+        "all_cross_max_m": 0.04526263889335188
+      },
+      "passed": true
+    },
+    {
+      "result": {
+        "label": "adapted",
+        "speed": 1.0,
+        "steps": 900,
+        "terminated": false,
+        "mean_vx": 0.9303157916445411,
+        "rmse": 0.10497613195947438,
+        "peak_tilt": 5.814029537112366,
+        "stop_stable_s": 1.26,
+        "final_joint_rms": 0.002772257217520806,
+        "clearance": [
+          0.057822970430783036,
+          0.02810254315428847,
+          0.0478904181589871,
+          0.026647186174091723
+        ],
+        "max_torque_fraction_50Hz": 0.8197421186102779,
+        "moving_mean_abs_mechanical_power": 188.60548416608094,
+        "airborne_fraction": 0.0,
+        "checks": {
+          "complete": true,
+          "tilt": true,
+          "speed": true,
+          "stop": true,
+          "quiet": true,
+          "clearance": true
+        },
+        "passed": true,
+        "folder": "artifacts/runs/20261107-speed12-adaptation/adapted-1.0"
+      },
+      "path": {
+        "moving_heading_max_deg": 3.766790698529683,
+        "moving_cross_max_m": 0.1781520304696297,
+        "all_heading_max_deg": 3.766790698529683,
+        "all_cross_max_m": 0.1781520304696297
+      },
+      "passed": true
+    },
+    {
+      "result": {
+        "label": "adapted",
+        "speed": 1.2,
+        "steps": 900,
+        "terminated": false,
+        "mean_vx": 0.9743863047318172,
+        "rmse": 0.24187746947988212,
+        "peak_tilt": 5.854874642892361,
+        "stop_stable_s": 1.68,
+        "final_joint_rms": 0.0018748670131934545,
+        "clearance": [
+          0.06281184617386491,
+          0.013131583574979922,
+          0.04575942211266577,
+          0.02040576076067608
+        ],
+        "max_torque_fraction_50Hz": 0.7290060323264286,
+        "moving_mean_abs_mechanical_power": 195.1017456062332,
+        "airborne_fraction": 0.0,
+        "checks": {
+          "complete": true,
+          "tilt": true,
+          "speed": false,
+          "stop": true,
+          "quiet": true,
+          "clearance": false
+        },
+        "passed": false,
+        "folder": "artifacts/runs/20261107-speed12-adaptation/adapted-1.2"
+      },
+      "path": {
+        "moving_heading_max_deg": 4.322735891795555,
+        "moving_cross_max_m": 0.18919318812608354,
+        "all_heading_max_deg": 4.322735891795555,
+        "all_cross_max_m": 0.18919318812608354
+      },
+      "passed": false
+    }
+  ],
+  "qualified": false,
+  "training_interactions": 65536,
+  "new_evaluations": 5,
+  "training_seed": 644101,
+  "visual": "pending"
+}

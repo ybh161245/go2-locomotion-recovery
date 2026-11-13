@@ -1,0 +1,9 @@
+{
+  "teacher_predictions_exact": 461,
+  "maximum_target_vector_jump_rad": 0.9170587400101966,
+  "target_vector_jump_p95_rad": 0.5109456099028615,
+  "moving_mean_abs_mechanical_power": 93.8606556179194,
+  "final_joint_rms": 0.004381578012209145,
+  "new_physical": 0,
+  "max_torque_fraction_50Hz": 0.7428158449339072
+}

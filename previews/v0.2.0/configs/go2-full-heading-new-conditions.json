@@ -1,0 +1,104 @@
+{
+  "experiment": 199,
+  "definitions": [
+    {
+      "side": "left",
+      "task": {
+        "sequence": {
+          "seed": 499101,
+          "segments": [
+            {
+              "name": "stand",
+              "motion": "stand",
+              "seconds": 2
+            },
+            {
+              "name": "walk",
+              "motion": "walk",
+              "seconds": 2
+            },
+            {
+              "name": "fast straight",
+              "motion": "trot",
+              "seconds": 5.8
+            },
+            {
+              "name": "left",
+              "motion": "left",
+              "seconds": 6
+            },
+            {
+              "name": "final stop",
+              "motion": "stand",
+              "seconds": 4
+            }
+          ]
+        },
+        "push": {
+          "start_s": 9.86,
+          "duration_s": 0.2,
+          "body_y_n": 30
+        }
+      }
+    },
+    {
+      "side": "right",
+      "task": {
+        "sequence": {
+          "seed": 499102,
+          "segments": [
+            {
+              "name": "stand",
+              "motion": "stand",
+              "seconds": 2
+            },
+            {
+              "name": "walk",
+              "motion": "walk",
+              "seconds": 2
+            },
+            {
+              "name": "fast straight",
+              "motion": "trot",
+              "seconds": 6.2
+            },
+            {
+              "name": "right",
+              "motion": "right",
+              "seconds": 6
+            },
+            {
+              "name": "final stop",
+              "motion": "stand",
+              "seconds": 4
+            }
+          ]
+        },
+        "push": {
+          "start_s": 10.1,
+          "duration_s": 0.2,
+          "body_y_n": -30
+        }
+      }
+    }
+  ],
+  "arms": [
+    "frozen157",
+    "fullheading197"
+  ],
+  "kinds": [
+    "zero",
+    "pressure"
+  ],
+  "new_physical_budget": 8,
+  "training": 0,
+  "fits": 0,
+  "inputs": {
+    "scripts/run_go2_full_heading_new_conditions.py": "c81a4be4d18a53637c5de8018a0a5456e49a482906d00bdf52a7bfe6a8df4c5d",
+    "scripts/go2_task.py": "5c401fef7e8a2f3421f44fdc680899df9e6b91f87cdff0d9cc854e7beabd60b4",
+    "docs/data/go2-full-heading-retention/protected-candidate-freeze.json": "19129ffe6aca6c220fda0b3e5411d5baec2db3db17aec0d2ecee7fca6e05c27d",
+    "docs/data/go2-current/selection.json": "83ce800210f3dabb6ee0eef1c39ba37f8975d6d7cba20d19087dfa2f03551be6"
+  },
+  "gate": "Candidate all4passes under original8deg/2s/25steps/wholeprotocol/34quality/6sturnerror3deg;zero oldpassloss/newtermination among4pairs.At least1gain to call improvement,otherwise coverage.",
+  "stop": "All8once;no gain/deadband/ramp or network changes after opening. Failure blocks scope qualification."
+}

@@ -1,0 +1,23 @@
+{
+  "candidate": 157,
+  "controller_config": "configs/go2-contact-success-transfer.json",
+  "residual_model": "artifacts/runs/20261030-contact-success-transfer/fitted-residual.npz",
+  "cases": {
+    "normal": {
+      "reference_record": "docs/data/go2-157-runtime/normal.json",
+      "reference_states": "artifacts/runs/20261030-contact-success-transfer/protection-3-normal-seed-171701/states.npz"
+    },
+    "recovery": {
+      "reference_record": "docs/data/go2-157-runtime/recovery.json",
+      "reference_states": "artifacts/runs/20261030-contact-success-transfer/core-0-146-phase626-seed-246101/states.npz"
+    },
+    "failure": {
+      "reference_record": "docs/data/go2-157-runtime/failure.json",
+      "reference_states": "artifacts/runs/20261030-contact-success-transfer/core-1-146-duration070-seed-246108/states.npz"
+    }
+  },
+  "normal_budget_reference": "docs/data/go2-157-runtime/normal-budget-reference.json",
+  "selected_formally": false,
+  "no_training": true,
+  "scope": "Three exact replays only;see declared157/161/162/167 scope,40N failures retained."
+}

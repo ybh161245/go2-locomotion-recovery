@@ -1,0 +1,267 @@
+{
+  "physical": [
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/209-right-157-zero/simulation/zero-task-seed-509101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.985693012091439,
+      "recomputed_recovery_s": 0.12,
+      "hashes": {
+        "result.json": "4b23dc9da08eceb19ac35cbef7b6d509f30b5f6aa6016ba38199a1f07b9a9be4",
+        "steps.csv": "a059ed6a0514950fa5cd8b270a1279652b771ecb1065ba58afdc95e557975daa",
+        "states.npz": "3083cd6a84e5040f19665c0710f9780907a828fb273f118ed04373977ab30699",
+        "telemetry.npz": "a2f1307423120a4657cd6ae28d077b01d77cc0e1c5f2ef52e88fca83d6c9d529",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "8ed36918b611b931caa2702ba15e57d409b861cf2d5b00826d3ca45abdda1c49"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/209-right-157-pressure/simulation/pressure-task-seed-509101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 4.343650986298226,
+      "recomputed_recovery_s": 0.38,
+      "hashes": {
+        "result.json": "3c5babe20f719cab1f40df3b37de906c90242b7c622bf3df13f66f3e5342838b",
+        "steps.csv": "ae79c5e7ce8b42ef931be29098db59051180a1fdf37e9a2bc2d4f3632d91377a",
+        "states.npz": "3d1eda33b101a2bc9e86f58a32d7a2966bb0045055cdd9c39c08e5c91b44aec3",
+        "telemetry.npz": "2b1779aa6b9dbe493ff67ec9ea09891b6cea5fb0fcc8c0f792a6eb5eff205ae6",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "8ed36918b611b931caa2702ba15e57d409b861cf2d5b00826d3ca45abdda1c49"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/209-left-157-zero/simulation/zero-task-seed-509102",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 4.00056106946815,
+      "recomputed_recovery_s": 0.26,
+      "hashes": {
+        "result.json": "26bb20561da0150e699707de7cc9012a551e05730eabe706b6b4718cca6c5c13",
+        "steps.csv": "32c8cefb81c24d34e124b422023e086962ee1240c8b391b37f7854f387781e51",
+        "states.npz": "20b7cfac66f52aaa9de727682fef525ea93918afdd72c079f50a25243c6d45ac",
+        "telemetry.npz": "8a9dd3a7bcf9e5a184729de295b34639973fae35a89f847332f1971a64964593",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "4496926bac37077ebf688ffdf58db8086456600f38e1545aa0eda67c8eef4771"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/209-left-157-pressure/simulation/pressure-task-seed-509102",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 4.920635979797012,
+      "recomputed_recovery_s": 0.18,
+      "hashes": {
+        "result.json": "fe7bef699d05cf7a0b17fca002a3bdf2aff292f4d8166eb24857dfa9cb19932b",
+        "steps.csv": "320cb74a210fbc85254f8865e6625d47c6a65ad9bc93c41330a7475ef1f26753",
+        "states.npz": "fed2a6f19553a4890a945324909fca2b00184a65fba6228869a469927d72cdc9",
+        "telemetry.npz": "9a2b7411ba96f3d9f4db7c73ba4f087e275edb3fc9e94c63781af31f7e085bf7",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "4496926bac37077ebf688ffdf58db8086456600f38e1545aa0eda67c8eef4771"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/211-double-exit-157-zero/simulation/zero-task-seed-511101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 4.012580159731516,
+      "recomputed_recovery_s": 0.02,
+      "hashes": {
+        "result.json": "56de3fd0103f396b781ea506d6f9ff95a142fcabe7feea9bcf9ebb836e5d5569",
+        "steps.csv": "52c9936a7aa170f936c61e39fdaaa23bb81c3270eaef7e21fc5ed8c6d814a52e",
+        "states.npz": "e49ea91afe76f4ca3e8407ee91107f8081d4d746a2ba0aa60c04da5a4e547271",
+        "telemetry.npz": "401647fb491db91a611c385293c3085d8a0838381933bbb1317165c71945f563",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "da90e05c8de1faf50191098be6d314e8c811a5a83326d5e9b896af530c10627e"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/211-double-exit-157-pressure/simulation/pressure-task-seed-511101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 4.012580159731516,
+      "recomputed_recovery_s": 0.62,
+      "hashes": {
+        "result.json": "a2d984b06123249b300e8e53c3626c2ef93f80acaa2c8d4eb5c85f0b30b6b48c",
+        "steps.csv": "dc67c75dba80d989a6f4e883b8f79d2a15866bb9efadfcd1bc5901be40921834",
+        "states.npz": "f5a3314094dc313d89bdab176642296a96ab6ead38813ef5a1a7ff5be90c9fd6",
+        "telemetry.npz": "70256c3f6d843d84fcc546e4b697501beee9c626747f26bcca7ef361f50a56d1",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "da90e05c8de1faf50191098be6d314e8c811a5a83326d5e9b896af530c10627e"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/212-right-157-zero/simulation/zero-task-seed-512101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.815725810290865,
+      "recomputed_recovery_s": 0.14,
+      "hashes": {
+        "result.json": "edfc378c6d2a584d9ca38d632d52d344c93cf72ef168b2177891e44b4c07f112",
+        "steps.csv": "2ce54182f2b5401a3daaf931355c056720db5899c6626db98bde4921268b41f2",
+        "states.npz": "a9a2f663b0146e87bdb774bf2e0bc64a52715d8738719997583a6a939fb5f508",
+        "telemetry.npz": "fe35e98652233bbc4bc5da66d87fca6392617e75da9a3f5f4b44d1ed55775b3b",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "7acd343a16413b706af7a9b7b0654a46c006667e7f219eef34ec0d02b2db0d44"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/212-right-157-pressure/simulation/pressure-task-seed-512101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.815725810290865,
+      "recomputed_recovery_s": 0.78,
+      "hashes": {
+        "result.json": "416fd05d90d2d6e1da4b33ae83147a2815f6c83ab3900370cdf85f79d27f7e90",
+        "steps.csv": "d0eb0fc797400d521d09548c1fac457a25683a1b92155c20765e1bf9699dfa2b",
+        "states.npz": "42f535e6fe194008578d5e33b7491260a27704500b220c057b0567fa6fb91ae8",
+        "telemetry.npz": "f5850d94c8f0fe6f8d53d86141ff63e675f26f539902477b78dd81e454e71362",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "7acd343a16413b706af7a9b7b0654a46c006667e7f219eef34ec0d02b2db0d44"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/212-right-197-zero/simulation/zero-task-seed-512101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.815725810290865,
+      "recomputed_recovery_s": 0.14,
+      "hashes": {
+        "result.json": "59f41af34a8141e58397506705e6568fb9e7afacdf7a86554d1e32a1ebfd5261",
+        "steps.csv": "556f8562ec4ea6cdd7c017eb23a156d375be3cce29f997edf1279c4a97d52274",
+        "states.npz": "7f7cdfb7fe8ce386793a5bd60296b9adfaffe298db85f1dc4b2784c62fb2fad5",
+        "telemetry.npz": "f4466f2c13f30c3f3b8fca839ad44663a45978e437ac24bff7e33e786c3177df",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "7acd343a16413b706af7a9b7b0654a46c006667e7f219eef34ec0d02b2db0d44"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/212-right-197-pressure/simulation/pressure-task-seed-512101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.815725810290865,
+      "recomputed_recovery_s": 0.78,
+      "hashes": {
+        "result.json": "8ea1f991d396f7e18b1f348763307c2d2e5fc67d6884c8057baf805ac7c32a68",
+        "steps.csv": "57b402bbab8a5ef65ec21e42d09b308701f22d8f3aca33e7fc7e45046a84886a",
+        "states.npz": "9f2c546cb7d7913457d656e63541d1672ab3acc9a9bcad4d1d44b32a5def51d8",
+        "telemetry.npz": "754634e7b49d8f187a40eed8b99c5ef7ce6d9f3f193f67d646a3b95cabb91b01",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "7acd343a16413b706af7a9b7b0654a46c006667e7f219eef34ec0d02b2db0d44"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/213-left-157-zero/simulation/zero-task-seed-513101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.680474077051531,
+      "recomputed_recovery_s": 0.08,
+      "hashes": {
+        "result.json": "4c7a6300482c68e907469dc9d8f4d8c6ce9cdc579ee446e47c88a95f298f264f",
+        "steps.csv": "b79c2e957a1527e825fce296c2a3419c0fdd6c8dc6bcd10d477e1ba1ec0f6905",
+        "states.npz": "6e5f777f7bd5f6b7797cf609254ae9321215d7f13e73cdaab75e3733ee7acc1d",
+        "telemetry.npz": "a6ac5eb82c23b591c5a9959ea99505e443467d4e64f03d9661722e6a9e1c3388",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "a1a7db0a28fae97c567a77f2a46cc971a9c2a000db32bb8594f9b97d7c1f94a2"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/213-left-157-pressure/simulation/pressure-task-seed-513101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.680474077051531,
+      "recomputed_recovery_s": 0.12,
+      "hashes": {
+        "result.json": "b7b3be52b9a218105b7dbe87df71754802a3c586d4277935358042d889685d7d",
+        "steps.csv": "f6de654fb6f8fa7a627b66dbfc462ba144dabfdecc7f53cfaa785422a3186b4a",
+        "states.npz": "f0fe2714e20209c200affe2ef42b50a700e7ce6c06f761afd3dc4f22bc8f5ab6",
+        "telemetry.npz": "49d6e9ff413f5599bf276dbf79400e51f7c6b244ac263ffc2aee9f56bc2a77fe",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "a1a7db0a28fae97c567a77f2a46cc971a9c2a000db32bb8594f9b97d7c1f94a2"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/213-left-197-zero/simulation/zero-task-seed-513101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.680474077051531,
+      "recomputed_recovery_s": 0.08,
+      "hashes": {
+        "result.json": "44aedb56f7fdca5e6f19a259c354b7414c170e143bc9f79f22f5354ad75663d3",
+        "steps.csv": "ab2065a41ab4b169e881107b8336abbb9b59c4df853eded35e14ff8127652a69",
+        "states.npz": "8fa53f90bd5efc33dcff0453f643270533e2a9d38a44671a916d9b0ab5797823",
+        "telemetry.npz": "1eda0b0a3ff823e7c44407b9f2eaf6f76c963c9bab8cc56a834653c0e8c27502",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "a1a7db0a28fae97c567a77f2a46cc971a9c2a000db32bb8594f9b97d7c1f94a2"
+      }
+    },
+    {
+      "folder": "artifacts/runs/20261107-unified-motion-comparison/213-left-197-pressure/simulation/pressure-task-seed-513101",
+      "max_wrench_error": 0.0,
+      "recomputed_peak_deg": 3.680474077051531,
+      "recomputed_recovery_s": 0.12,
+      "hashes": {
+        "result.json": "fae288594e65ab7c28b36ae2685e9b218c5ad212b5ef6fee362e3f7e44cd8b2d",
+        "steps.csv": "a28eb171abbcd4c62e327e9492b93b7a8e4b61f6ac0b61357e8be797ffe7a133",
+        "states.npz": "f65e6fa75c2f6138a21ac06537bec196cc0ae2662568644e5268f5b9b76d6fc0",
+        "telemetry.npz": "6a5b7dfb2e6c3d9cb202deb5d24d6c70a0c39d9102d798c0320d01e29b947810",
+        "physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+        "initial-state.npz": "a1a7db0a28fae97c567a77f2a46cc971a9c2a000db32bb8594f9b97d7c1f94a2"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "history": "209-right",
+      "controller": "157",
+      "pressure": "artifacts/runs/20261107-unified-motion-comparison/209-right-157-pressure/simulation/pressure-task-seed-509101",
+      "zero": "artifacts/runs/20261107-unified-motion-comparison/209-right-157-zero/simulation/zero-task-seed-509101",
+      "archived_reference": "artifacts/runs/20261106-exit-hold-new-conditions/right-197-pressure/simulation/pressure-task-seed-509101",
+      "matching_initial_and_physics": true,
+      "own_prefix_steps": 1015
+    },
+    {
+      "history": "209-left",
+      "controller": "157",
+      "pressure": "artifacts/runs/20261107-unified-motion-comparison/209-left-157-pressure/simulation/pressure-task-seed-509102",
+      "zero": "artifacts/runs/20261107-unified-motion-comparison/209-left-157-zero/simulation/zero-task-seed-509102",
+      "archived_reference": "artifacts/runs/20261106-exit-hold-new-conditions/left-197-pressure/simulation/pressure-task-seed-509102",
+      "matching_initial_and_physics": true,
+      "own_prefix_steps": 984
+    },
+    {
+      "history": "211-double-exit",
+      "controller": "157",
+      "pressure": "artifacts/runs/20261107-unified-motion-comparison/211-double-exit-157-pressure/simulation/pressure-task-seed-511101",
+      "zero": "artifacts/runs/20261107-unified-motion-comparison/211-double-exit-157-zero/simulation/zero-task-seed-511101",
+      "archived_reference": "artifacts/runs/20261106-two-exit-mission/197-pressure/simulation/pressure-task-seed-511101",
+      "matching_initial_and_physics": true,
+      "own_prefix_steps": 1303
+    },
+    {
+      "history": "212-right",
+      "controller": "157",
+      "pressure": "artifacts/runs/20261107-unified-motion-comparison/212-right-157-pressure/simulation/pressure-task-seed-512101",
+      "zero": "artifacts/runs/20261107-unified-motion-comparison/212-right-157-zero/simulation/zero-task-seed-512101",
+      "archived_reference": "artifacts/runs/20261106-variable-speed-heading-hold/208-pressure/simulation/pressure-task-seed-512101",
+      "matching_initial_and_physics": true,
+      "own_prefix_steps": 753
+    },
+    {
+      "history": "212-right",
+      "controller": "197",
+      "pressure": "artifacts/runs/20261107-unified-motion-comparison/212-right-197-pressure/simulation/pressure-task-seed-512101",
+      "zero": "artifacts/runs/20261107-unified-motion-comparison/212-right-197-zero/simulation/zero-task-seed-512101",
+      "archived_reference": "artifacts/runs/20261106-variable-speed-heading-hold/208-pressure/simulation/pressure-task-seed-512101",
+      "matching_initial_and_physics": true,
+      "own_prefix_steps": 753
+    },
+    {
+      "history": "213-left",
+      "controller": "157",
+      "pressure": "artifacts/runs/20261107-unified-motion-comparison/213-left-157-pressure/simulation/pressure-task-seed-513101",
+      "zero": "artifacts/runs/20261107-unified-motion-comparison/213-left-157-zero/simulation/zero-task-seed-513101",
+      "archived_reference": "artifacts/runs/20261106-variable-speed-new-conditions/208-pressure/simulation/pressure-task-seed-513101",
+      "matching_initial_and_physics": true,
+      "own_prefix_steps": 756
+    },
+    {
+      "history": "213-left",
+      "controller": "197",
+      "pressure": "artifacts/runs/20261107-unified-motion-comparison/213-left-197-pressure/simulation/pressure-task-seed-513101",
+      "zero": "artifacts/runs/20261107-unified-motion-comparison/213-left-197-zero/simulation/zero-task-seed-513101",
+      "archived_reference": "artifacts/runs/20261106-variable-speed-new-conditions/208-pressure/simulation/pressure-task-seed-513101",
+      "matching_initial_and_physics": true,
+      "own_prefix_steps": 756
+    }
+  ],
+  "config_sha256": "009f38617cc53bb7778fc68548e2f8a6b2b304695bebabf62ff8ba469d4832b9",
+  "unchanged_selection_sha256": "83ce800210f3dabb6ee0eef1c39ba37f8975d6d7cba20d19087dfa2f03551be6"
+}

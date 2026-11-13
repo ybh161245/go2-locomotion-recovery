@@ -1,0 +1,97 @@
+{
+  "experiment": 249,
+  "records": [
+    {
+      "checks": {
+        "complete": true,
+        "tilt": true,
+        "segments": true,
+        "transitions": false,
+        "stop": true,
+        "quiet": true,
+        "path": true
+      },
+      "passed": false,
+      "segments": [
+        {
+          "start_s": 4.0,
+          "end_s": 6.0,
+          "request": 0.4,
+          "mean_vx": 0.37559129607147423,
+          "rmse": 0.039762497559613134,
+          "clearance": [
+            0.05543639863738641,
+            0.05403872981115874,
+            0.039250970260516896,
+            0.05897927073224263
+          ],
+          "passed": true
+        },
+        {
+          "start_s": 8.0,
+          "end_s": 12.0,
+          "request": 0.8,
+          "mean_vx": 0.7592648756675865,
+          "rmse": 0.07869477740179857,
+          "clearance": [
+            0.056031765107584765,
+            0.03146921630855746,
+            0.04033635254388577,
+            0.0317861436136816
+          ],
+          "passed": true
+        },
+        {
+          "start_s": 14.0,
+          "end_s": 16.0,
+          "request": 0.4,
+          "mean_vx": 0.3755050243035499,
+          "rmse": 0.04011004309315898,
+          "clearance": [
+            0.056905125257282724,
+            0.05372476150675602,
+            0.03942247995404246,
+            0.05938965354176372
+          ],
+          "passed": true
+        }
+      ],
+      "transitions": [
+        {
+          "time_s": 6.0,
+          "stable_s": null,
+          "passed": false
+        },
+        {
+          "time_s": 12.0,
+          "stable_s": 0.56,
+          "passed": true
+        }
+      ],
+      "stop_stable_s": 0.48,
+      "peak_tilt": 5.141083535322396,
+      "all_heading_max_deg": 3.9258094959621257,
+      "all_cross_max_m": 0.1456346096485636,
+      "name": "mixed",
+      "folder": "artifacts/runs/20261108-dual-heading-handoff/mixed",
+      "steps": 1100,
+      "prefix_exact_steps": 639,
+      "correction_frames": 461,
+      "max_extra": 0.021345800953788976
+    },
+    {
+      "passed": true,
+      "name": "low-replay",
+      "folder": "artifacts/runs/20261108-dual-heading-handoff/low-replay",
+      "steps": 1100,
+      "prefix_exact_steps": 1100,
+      "correction_frames": 0,
+      "max_extra": 0.0
+    }
+  ],
+  "local_progress": true,
+  "full_task_qualified": false,
+  "new_physical": 2,
+  "new_training": 0,
+  "G3_used": 4
+}

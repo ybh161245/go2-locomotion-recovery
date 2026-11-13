@@ -1,0 +1,203 @@
+{
+  "experiment": 213,
+  "task": {
+    "sequence": {
+      "seed": 513101,
+      "segments": [
+        {
+          "name": "initial stand",
+          "motion": "stand",
+          "seconds": 2
+        },
+        {
+          "name": "walk",
+          "motion": "walk",
+          "seconds": 2
+        },
+        {
+          "name": "left",
+          "motion": "left",
+          "seconds": 6
+        },
+        {
+          "name": "exit fast",
+          "motion": "trot",
+          "seconds": 2.4
+        },
+        {
+          "name": "slow straight",
+          "motion": "walk",
+          "seconds": 2.6
+        },
+        {
+          "name": "accelerate again",
+          "motion": "trot",
+          "seconds": 3
+        },
+        {
+          "name": "final stand",
+          "motion": "stand",
+          "seconds": 4
+        }
+      ]
+    },
+    "push": {
+      "start_s": 15.12,
+      "duration_s": 0.2,
+      "body_y_n": -30
+    }
+  },
+  "inputs": {
+    "docs/data/go2-full-heading-matrix/retention-qualified-candidate.json": "1094a69076a0322b047c4554f0fad3349ef3c793149db11e8b90b6046f6fa348",
+    "scripts/run_go2_full_heading_feedback.py": "9498afb120d4ef57d166e7e44f9e0a338692af112fb32c108cd817270136864b",
+    "configs/go2-full-heading-feedback.json": "580321d59df41a1072638553544e70228384fbcfd81ed09a63cab2d721ea5222",
+    "docs/data/go2-full-heading-new-conditions/new-scope-candidate-freeze.json": "97e4d3095384ba1b15fd7296cb86f6be61556835adbffc94860a3a21273cd0c7",
+    "scripts/run_go2_full_heading_matrix.py": "158fd1e98fd60defa24a13c07c03beca3e3f8f6cec27166f5c5c7db5374caf37",
+    "configs/go2-full-heading-matrix.json": "c6f85e7edb9761fccf6230d4c677fad74ee167440b1748016500fa7067d1f703",
+    "docs/data/go2-full-heading-matrix/summary.json": "646d79b78276c7c98839da53ed329ab24d2120a68d0e17e0951240aba9bcacdf",
+    "docs/data/go2-full-heading-matrix/targeted-check.json": "595871e999dd9a970f321280bd1dd4ee53d26ff1ed67cb289127dd9def3188cc",
+    "docs/data/go2-full-heading-matrix/nonturn-normal-identity-proof.json": "70b1c27d84fa933d4d8cf95336ae59ab99cccc7c8e476b71554a9582398b7dbd",
+    "docs/experiments/2026-11-06-full-heading-matrix-results.md": "f447c2df11772f5c79a1ca067d6231c3e6b3a1781d5fc117fa9f0fba02436dc1",
+    "docs/data/go2-full-heading-retention/protected-candidate-freeze.json": "19129ffe6aca6c220fda0b3e5411d5baec2db3db17aec0d2ecee7fca6e05c27d",
+    "scripts/run_go2_full_heading_new_conditions.py": "c81a4be4d18a53637c5de8018a0a5456e49a482906d00bdf52a7bfe6a8df4c5d",
+    "configs/go2-full-heading-new-conditions.json": "89a8c8612a26348a05d3aee607e0ef774f2fcb51663bdfc44b31b114f7af0ca9",
+    "docs/data/go2-full-heading-new-conditions/summary.json": "2843d3c7fbee964f034cbefe756efca56e71fc4f4c3cd2661962423dba37682c",
+    "docs/data/go2-full-heading-new-conditions/targeted-check.json": "3591dd8fc1c66624fb7e67238f2808363f3d9c2306946d9dcf16be086e00615a",
+    "docs/data/go2-full-heading-feedback/frozen-development-candidate.json": "88dfe6845f29dbfcb7756a08bf6496b4bb4bde40e6d9e92468367eb9fbb604f7",
+    "scripts/check_go2_full_heading_retention.py": "63db54437ed9b9d6aaf98201f93d7f4b6dc22b5d42e42f2d4a90802dd750dca8",
+    "configs/go2-full-heading-retention.json": "5642bf093e2b4de19452e95c1f851d025fa15d03ea60bc97d2225cf4ab7243dd",
+    "docs/data/go2-full-heading-retention/summary.json": "a1ad93a8d163ea897a629c8ac0daa3b98895624cb694708aaa27f337c16732a2",
+    "docs/data/go2-full-heading-retention/targeted-check.json": "6cd0095439a0438087f850038b102a23245e3baa258411446e6a3f52676adaaf",
+    "docs/experiments/2026-11-06-full-heading-feedback.md": "4b46693b59d938ffeff5d10d250bc815ffad4fdff934701c9cdf6e3734016083",
+    "docs/data/go2-full-heading-feedback/summary.json": "fee284c435cbd2e97fdc9e88136ca25bd4b3793920ea37028d4d012768473c73",
+    "docs/data/go2-full-heading-feedback/paired-deltas.json": "8782b3805e7adfc665b0ba51cb70e9c02d7cc89fe7f96c5d3546e586b259dc27",
+    "docs/data/go2-full-heading-feedback/targeted-check.json": "9cbc3ae84a1c09fc21de1695e6e0d4dfc2ff2fb434ab0378cb4fa19d73af3d1d",
+    "scripts/run_go2_turn_exit_heading_hold.py": "22e002298c2367d0d0deac6c9df1078046ee63ea336fe9130d886dbb46539cac",
+    "docs/experiments/2026-11-06-turn-exit-heading-hold.md": "cf88793d11588df130137756ca054c82a87d0835813fc9d7306f18e6e6080c6c",
+    "configs/go2-turn-exit-trot.json": "f16864db9fbbd631efb458f7775011d4e0d875f330d8c64a8fd72fa1b091f483",
+    "docs/data/go2-turn-exit-trot/summary.json": "c1d0579ae91c6ad9447f19ca7513c0580157ea63fb366a05e9d7aab7ab6178fe",
+    "scripts/run_go2_turn_exit_trot.py": "6261c39b667577838d635b6eb7054b332551a07d063385c29337d26f7dd19e87",
+    "scripts/go2_task.py": "5c401fef7e8a2f3421f44fdc680899df9e6b91f87cdff0d9cc854e7beabd60b4",
+    "docs/data/go2-current/selection.json": "83ce800210f3dabb6ee0eef1c39ba37f8975d6d7cba20d19087dfa2f03551be6",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/states.npz": "2f76d045db03961693d328441435fc3ff26fe26bef4affb31ffbb1dae8d9394e",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/steps.csv": "bf147864407d91360c1ebf1bb15602fbf9304bf6defd09157a1b35c7eca982c2",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/states.npz": "85ceddc6277a197f3a1468d6aa5669543bca7ab122b24373f9b38511fd4b5459",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/steps.csv": "dca0f7f23b42eef7430fa7e8f82a4b4aaf5600581b5d6ea2edd2cbee7c84cecf",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/states.npz": "80eba60206c78d4a51712702e5c525ac1420682a7bb60e663b0c7f521b2f018f",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/steps.csv": "0c63408359bda81d571a41e72c42080d6468226638cbc336eaa7cc6f89973617",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/states.npz": "3ab7e1b9b47a2e68e233bd06569487d559aab51ccf2a5a2a2d1ea01fcf83789f",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/steps.csv": "0b458f23d8d89fd2d566b863441f8e1abe41b572f61d79e344395447ef1538a2",
+    "docs/data/go2-reversal-push-task/summary.json": "6fb85d363f523902902e8988d31c0b3eeb0f8743b849211e1684662a494ac81d",
+    "docs/data/go2-opposite-reversal-push-task/summary.json": "d872db474c0cf28a42f78ebedf33cba7ba64c29f042c0ea17dc6d757067a0be1",
+    "scripts/run_go2_exit_hold_new_conditions.py": "06401d71dc47dd2953512a4d047f9112c866a3cf3bea629aebdb9660d429dd52",
+    "docs/experiments/2026-11-06-exit-hold-retention-new-conditions.md": "9de04cd6edbc643dec120420203488890b84779cdc2b6e8c316b4ef3baec2c6b",
+    "configs/go2-turn-exit-heading-hold.json": "e29b2b054493828a485e3f34d7a1dc88ebb2145a48a4ff3d05ba61c0fbc0f141",
+    "docs/data/go2-turn-exit-heading-hold/summary.json": "618633db3dc4b9eb1ac8448325e32da6dcf6b0001c54fea901eaf66bf3326c3b",
+    "scripts/run_go2_reversal_push_task.py": "8a912e613b243ef6f0515d54b80fca12bb00415968399b67fd1175994906b662",
+    "artifacts/runs/20261106-full-heading-retention/fullheading197-normal-seed-171701/steps.csv": "6cdfb860e2cef67046d1249f09bc71646db661435b23a7d52a9e3a82c5a5c75e",
+    "artifacts/runs/20261106-full-heading-retention/fullheading197-normal-seed-171702/steps.csv": "21689a387dc5d50731a4ae81a68a077d23fa785bd0246c1fa2f13ad9d1ddb2b6",
+    "artifacts/runs/20261106-full-heading-retention/fullheading197-normal-seed-171703/steps.csv": "e35a356ff8fb9d16b1cebda7f05d61c4ba798981d5d33f623f3f7bda7becfcc0",
+    "artifacts/runs/20261106-reversal-push-task/197-zero/simulation/zero-task-seed-505101/steps.csv": "c13ae548c38cabf10bf10503d373053448f279aa912594161a22b5cb71829844",
+    "artifacts/runs/20261106-reversal-push-task/197-pressure/simulation/pressure-task-seed-505101/steps.csv": "19be57f15c722893891b5af2c8eaeb135396754003207c29284c5541a3220334",
+    "artifacts/runs/20261106-opposite-reversal-push-task/197-zero/simulation/zero-task-seed-505101/steps.csv": "15a9d3159f341d4ae94c3768dca397155ca40fee018591608acd907a5e991761",
+    "artifacts/runs/20261106-opposite-reversal-push-task/197-pressure/simulation/pressure-task-seed-505101/steps.csv": "afab8892e948c222a2c62841c3af699d02c9aca7288a078b3715fcd876210d0c",
+    "docs/data/go2-exit-hold-new-conditions/frozen208.json": "cb6b487f7501f2dd554ba006ccad009ee97c03bc0d94ba9ea53f0cb076e2da12",
+    "docs/data/go2-exit-hold-new-conditions/summary.json": "fee16f2cdf05cb964b57eb2f6ee872eaaa048b3b36daeb02b95e82ff504817eb",
+    "scripts/go2_exit_hold.py": "990abaf1b26dc8b6eade2f22d06d61a0325df80dcedebe81768b92d3df718def",
+    "scripts/run_go2_variable_speed_heading_hold.py": "e3b07586f7ab21a815417d3879f2d31a0aead2dd5c71bea8826cfc71a0557e4b",
+    "docs/experiments/2026-11-06-variable-speed-heading-hold.md": "b5e0c9ad3703ffd13f82c3b377fe79def181bb38a1c8a7ff6f486ce939e29763",
+    "scripts/go2_variable_speed_heading_hold.py": "2b3eeae83a6fd86b2a34b07faad8787a9766058362d23e8b722307dc7e6663f2",
+    "scripts/run_go2_variable_speed_new_conditions.py": "62d32de5f1b1c63ed961145765f5471a7aeb6eb66e0bb9cd3860f15d91edd05a",
+    "docs/experiments/2026-11-06-variable-speed-new-conditions.md": "e49cf7172dc0d7e1224fe8fc0b03714dcfc3fa2fd5e6a36028b937ef34ace158",
+    "configs/go2-variable-speed-heading-hold.json": "67625caa028cda60898d893e8378c006844db4f5072e5c42f36d0271291b9b63",
+    "docs/data/go2-variable-speed-heading-hold/summary.json": "4e63fe5ba4d49f02f27428988a0ec8fa6bb0a8d502e73c16ca0e0c35ab2d2e4c",
+    "scripts/complete_go2_variable_speed_heading_hold.py": "6bb327609a149c15a5e824b29ec689c71e718e17d250818579ff7330e85d21bc",
+    "artifacts/runs/20261106-exit-hold-new-conditions/right-208-zero/zero-task-seed-509101/steps.csv": "68800ac5d7a5187d57879e6e389a91207899f99f0c137e98c5c8025f1ab4e6a9",
+    "artifacts/runs/20261106-exit-hold-new-conditions/right-208-pressure/pressure-task-seed-509101/steps.csv": "85ca53140d0860a23e47a9a53c7516a990667a62e0d82b4c96d5b17414694d62",
+    "artifacts/runs/20261106-exit-hold-new-conditions/left-208-zero/zero-task-seed-509102/steps.csv": "b42494ad6256c4580955b201c239a59ecde1367345317c9fc36a6757b8e25718",
+    "artifacts/runs/20261106-exit-hold-new-conditions/left-208-pressure/pressure-task-seed-509102/steps.csv": "35a42f2c61c7f08f46e793ec667022bf31b72f5f3899526f0675dc31036a0b3b",
+    "artifacts/runs/20261106-two-exit-mission/208-zero/simulation/zero-task-seed-511101/steps.csv": "3bbd3370c606564742b103f60762b188f129594634185fbe15eff9942023ff1b",
+    "artifacts/runs/20261106-two-exit-mission/208-pressure/simulation/pressure-task-seed-511101/steps.csv": "f5faa0f44a1a972fe40414f95de73addb32ca2f57ec8a473c6f83d17cff57d2b"
+  },
+  "retained": [
+    {
+      "folder": "artifacts/runs/20261106-full-heading-retention/fullheading197-normal-seed-171701",
+      "steps": 2300,
+      "original_checks": 108,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "6cdfb860e2cef67046d1249f09bc71646db661435b23a7d52a9e3a82c5a5c75e"
+    },
+    {
+      "folder": "artifacts/runs/20261106-full-heading-retention/fullheading197-normal-seed-171702",
+      "steps": 2300,
+      "original_checks": 108,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "21689a387dc5d50731a4ae81a68a077d23fa785bd0246c1fa2f13ad9d1ddb2b6"
+    },
+    {
+      "folder": "artifacts/runs/20261106-full-heading-retention/fullheading197-normal-seed-171703",
+      "steps": 2300,
+      "original_checks": 108,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "e35a356ff8fb9d16b1cebda7f05d61c4ba798981d5d33f623f3f7bda7becfcc0"
+    },
+    {
+      "folder": "artifacts/runs/20261106-exit-hold-new-conditions/right-208-zero/zero-task-seed-509101",
+      "steps": 1420,
+      "original_checks": 49,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "68800ac5d7a5187d57879e6e389a91207899f99f0c137e98c5c8025f1ab4e6a9"
+    },
+    {
+      "folder": "artifacts/runs/20261106-exit-hold-new-conditions/right-208-pressure/pressure-task-seed-509101",
+      "steps": 1420,
+      "original_checks": 49,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "85ca53140d0860a23e47a9a53c7516a990667a62e0d82b4c96d5b17414694d62"
+    },
+    {
+      "folder": "artifacts/runs/20261106-exit-hold-new-conditions/left-208-zero/zero-task-seed-509102",
+      "steps": 1380,
+      "original_checks": 49,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "b42494ad6256c4580955b201c239a59ecde1367345317c9fc36a6757b8e25718"
+    },
+    {
+      "folder": "artifacts/runs/20261106-exit-hold-new-conditions/left-208-pressure/pressure-task-seed-509102",
+      "steps": 1380,
+      "original_checks": 49,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "35a42f2c61c7f08f46e793ec667022bf31b72f5f3899526f0675dc31036a0b3b"
+    },
+    {
+      "folder": "artifacts/runs/20261106-two-exit-mission/208-zero/simulation/zero-task-seed-511101",
+      "steps": 1700,
+      "original_checks": 62,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "3bbd3370c606564742b103f60762b188f129594634185fbe15eff9942023ff1b"
+    },
+    {
+      "folder": "artifacts/runs/20261106-two-exit-mission/208-pressure/simulation/pressure-task-seed-511101",
+      "steps": 1700,
+      "original_checks": 62,
+      "all_anchor_indices_equal": true,
+      "command_sha256": "f5faa0f44a1a972fe40414f95de73addb32ca2f57ec8a473c6f83d17cff57d2b"
+    }
+  ],
+  "mechanism": {
+    "gain": 0.4,
+    "limit": 0.06
+  },
+  "min_worst_heading_gain_deg": 0.5,
+  "max_physical": 4,
+  "training": 0,
+  "fits": 0
+}

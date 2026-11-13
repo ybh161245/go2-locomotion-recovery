@@ -1,0 +1,54 @@
+{
+  "source_sha256": "757352c1c4492714ec929d8fce4c370511145c1a3362b949c4f35b3881c557ef",
+  "script_sha256": "4e753b1b58352b7d69c641e91969e546e97bf9b775497d12f8922ab82dc7af96",
+  "results": {
+    "synchronized": {
+      "foot_frame_pairs_over_budget": 424,
+      "over_budget_with_joint_at_boundary": 424,
+      "stance_max_error_mm": 28.70518350398919,
+      "swing_max_error_mm": 46.82964328724283,
+      "worst_frame": 49,
+      "worst_leg": "FL",
+      "worst_local_phase": 0.7174999999999998,
+      "worst_error_xyz_mm": [
+        19.41018421497656,
+        16.137057162593393,
+        -39.44433578198872
+      ],
+      "worst_joint_targets_rad": [
+        0.058470675266871414,
+        1.15,
+        -1.6080486009221295
+      ],
+      "worst_joint_upper_bounds_rad": [
+        0.35,
+        1.15,
+        -1.25
+      ]
+    },
+    "staggered": {
+      "foot_frame_pairs_over_budget": 424,
+      "over_budget_with_joint_at_boundary": 424,
+      "stance_max_error_mm": 28.70518350398918,
+      "swing_max_error_mm": 46.82964328724285,
+      "worst_frame": 189,
+      "worst_leg": "RR",
+      "worst_local_phase": 0.7175000000000006,
+      "worst_error_xyz_mm": [
+        19.410184215043202,
+        -16.137057162334045,
+        -39.44433578206205
+      ],
+      "worst_joint_targets_rad": [
+        -0.05847067526592782,
+        1.15,
+        -1.6080486009224813
+      ],
+      "worst_joint_upper_bounds_rad": [
+        0.35,
+        1.15,
+        -1.25
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "experiment": 253,
+  "records": [
+    {
+      "checks": {
+        "complete": true,
+        "tilt": true,
+        "segments": true,
+        "transitions": false,
+        "stop": true,
+        "quiet": true,
+        "path": true
+      },
+      "passed": false,
+      "segments": [
+        {
+          "start_s": 4.0,
+          "end_s": 6.0,
+          "request": 0.4,
+          "mean_vx": 0.37559129607147423,
+          "rmse": 0.039762497559613134,
+          "clearance": [
+            0.05543639863738641,
+            0.05403872981115874,
+            0.039250970260516896,
+            0.05897927073224263
+          ],
+          "passed": true
+        },
+        {
+          "start_s": 8.0,
+          "end_s": 12.0,
+          "request": 0.8,
+          "mean_vx": 0.7641982141706661,
+          "rmse": 0.07574707700351183,
+          "clearance": [
+            0.05517244527217083,
+            0.03249090268947569,
+            0.03906303464450438,
+            0.03082199124355039
+          ],
+          "passed": true
+        },
+        {
+          "start_s": 14.0,
+          "end_s": 16.0,
+          "request": 0.4,
+          "mean_vx": 0.37549179886510836,
+          "rmse": 0.040115273953125516,
+          "clearance": [
+            0.056904110204536666,
+            0.053727448004055024,
+            0.03942248867436897,
+            0.05938842254384716
+          ],
+          "passed": true
+        }
+      ],
+      "transitions": [
+        {
+          "time_s": 6.0,
+          "stable_s": null,
+          "passed": false
+        },
+        {
+          "time_s": 12.0,
+          "stable_s": 0.88,
+          "passed": true
+        }
+      ],
+      "stop_stable_s": 0.48,
+      "peak_tilt": 4.989823248728833,
+      "all_heading_max_deg": 3.9309161955903247,
+      "all_cross_max_m": 0.11001266660763581,
+      "costs": {
+        "power": 95.3145596651762,
+        "jump_max": 0.8991309635717866,
+        "jump_p95": 0.5281728754288258,
+        "torque": 0.7772593167384473
+      },
+      "baseline_costs": {
+        "power": 93.8606556179194,
+        "jump_max": 0.9170587400101966,
+        "jump_p95": 0.5109456099028615,
+        "torque": 0.7428158449339072
+      },
+      "cost_budget_passed": true,
+      "name": "mixed",
+      "checkpoint": "32768",
+      "steps": 1100,
+      "folder": "artifacts/runs/20261111-integrated-stability/32768-mixed"
+    },
+    {
+      "passed": true,
+      "all_shared_exact": true,
+      "name": "low-replay",
+      "checkpoint": "32768",
+      "steps": 1100,
+      "folder": "artifacts/runs/20261111-integrated-stability/32768-low-replay"
+    },
+    {
+      "checks": {
+        "complete": true,
+        "tilt": true,
+        "segments": true,
+        "transitions": false,
+        "stop": true,
+        "quiet": true,
+        "path": true
+      },
+      "passed": false,
+      "segments": [
+        {
+          "start_s": 4.0,
+          "end_s": 6.0,
+          "request": 0.4,
+          "mean_vx": 0.37559129607147423,
+          "rmse": 0.039762497559613134,
+          "clearance": [
+            0.05543639863738641,
+            0.05403872981115874,
+            0.039250970260516896,
+            0.05897927073224263
+          ],
+          "passed": true
+        },
+        {
+          "start_s": 8.0,
+          "end_s": 12.0,
+          "request": 0.8,
+          "mean_vx": 0.7929954950746921,
+          "rmse": 0.06432119413197541,
+          "clearance": [
+            0.054222779716071055,
+            0.024347541829844638,
+            0.04091824626994809,
+            0.033324079243855456
+          ],
+          "passed": true
+        },
+        {
+          "start_s": 14.0,
+          "end_s": 16.0,
+          "request": 0.4,
+          "mean_vx": 0.37548687452866664,
+          "rmse": 0.040126597218495916,
+          "clearance": [
+            0.05693497194732807,
+            0.053720086871089416,
+            0.03942144697708288,
+            0.05937810923111367
+          ],
+          "passed": true
+        }
+      ],
+      "transitions": [
+        {
+          "time_s": 6.0,
+          "stable_s": null,
+          "passed": false
+        },
+        {
+          "time_s": 12.0,
+          "stable_s": 1.24,
+          "passed": true
+        }
+      ],
+      "stop_stable_s": 0.48,
+      "peak_tilt": 4.828566285672607,
+      "all_heading_max_deg": 3.9444454734897674,
+      "all_cross_max_m": 0.08789687482965917,
+      "costs": {
+        "power": 98.54007235234076,
+        "jump_max": 0.86135982240483,
+        "jump_p95": 0.5284295466815663,
+        "torque": 0.9213788514848879
+      },
+      "baseline_costs": {
+        "power": 93.8606556179194,
+        "jump_max": 0.9170587400101966,
+        "jump_p95": 0.5109456099028615,
+        "torque": 0.7428158449339072
+      },
+      "cost_budget_passed": false,
+      "name": "mixed",
+      "checkpoint": "65536",
+      "steps": 1100,
+      "folder": "artifacts/runs/20261111-integrated-stability/65536-mixed"
+    },
+    {
+      "passed": true,
+      "all_shared_exact": true,
+      "name": "low-replay",
+      "checkpoint": "65536",
+      "steps": 1100,
+      "folder": "artifacts/runs/20261111-integrated-stability/65536-low-replay"
+    }
+  ],
+  "new_evaluations": 4,
+  "G3_evaluations_used": 12,
+  "training_steps": 65536,
+  "qualified_checkpoints": []
+}

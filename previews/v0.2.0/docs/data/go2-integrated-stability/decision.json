@@ -1,0 +1,20 @@
+{
+  "experiment": 253,
+  "decision": "Both checkpoints rejected; G3 bounded branch closed unmet; retain249 research baseline",
+  "new_training_interactions": 65536,
+  "new_auxiliary_physics_steps": 66300,
+  "new_complete_evaluations": 4,
+  "G3_used": 12,
+  "formal_selection_changed": false,
+  "published": false,
+  "visual_acceptance": "pending",
+  "sha256": {
+    "docs\\experiments\\2026-11-11-integrated-stability-course-results.md": "e8231d2ec229e6abab3b5edffbc71c283edb71f4c787855f32224acd7c84c6c2",
+    "scripts\\audit_go2_integrated_stability.py": "81e3737c60bacbc075576ba64af0b42838fda9015f1b9d857bf94c0088e5d55f",
+    "scripts\\render_go2_integrated_stability.py": "13ec39bd09cb4fcaad36c4afd1191c6dbd2695eb922cf7fda7166a9ba6c50a9e",
+    "docs\\data\\go2-integrated-stability\\summary.json": "713895f9e3eec7caa202b65bd08f0601617d99539a22c6c87fc676c72f35ced6",
+    "docs\\data\\go2-integrated-stability\\targeted-audit.json": "b1afb462cd2c8f73a8b601df29ba4e84c1e1b86eecb5c10de8567b2b99bae718",
+    "docs\\data\\go2-integrated-stability\\training-counts.json": "1ff1328f612814cf462682f5dbf59f780f992d661bc98d2e8a38c6c91c3dbd8e",
+    "docs\\data\\go2-integrated-stability\\metrics-addendum.json": "78c0da870a3907f08d81746b089ef53d3f2d4c65f6f67904bbae1ca36faa5c4f"
+  }
+}

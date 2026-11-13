@@ -1,0 +1,10 @@
+{
+  "actual_input_steps_exact": 65536,
+  "clipped_sample_actual_high_exact": true,
+  "native_blend_exact": true,
+  "reward_penalty_max_error": 1.554312234475219e-14,
+  "warmup_steps": 66300,
+  "physical_falls": 5,
+  "all_inputs_unchanged": true,
+  "scope": "No full optimizer replay or independent training seed; finite-horizon endings distinct from physical terminations."
+}

@@ -1,0 +1,108 @@
+{
+  "experiment": 216,
+  "histories": 9,
+  "logical_cells": 72,
+  "provenance": {
+    "archived": 36,
+    "equivalent": 22,
+    "new": 14
+  },
+  "unique_physical_trajectories": 50,
+  "new_zero": 7,
+  "new_pressure": 7,
+  "new_physical": 14,
+  "new_normal46": 0,
+  "new_matrix180": 0,
+  "new_training_seeds": 0,
+  "held_out_histories": 0,
+  "training": 0,
+  "fits": 0,
+  "versions": {
+    "157": {
+      "passed": 15,
+      "zero": 9,
+      "pressure": 6,
+      "terminated": 0,
+      "failures": [
+        {
+          "history": "193-right",
+          "kind": "pressure",
+          "failed_checks": [
+            {
+              "segment": "right",
+              "metric": "angle_error_deg",
+              "value": 3.6585568071416787,
+              "limit": 3.0,
+              "passed": false
+            }
+          ]
+        },
+        {
+          "history": "199-left",
+          "kind": "pressure",
+          "failed_checks": [
+            {
+              "segment": "left",
+              "metric": "angle_error_deg",
+              "value": 3.922743453730277,
+              "limit": 3.0,
+              "passed": false
+            }
+          ]
+        },
+        {
+          "history": "199-right",
+          "kind": "pressure",
+          "failed_checks": [
+            {
+              "segment": "right",
+              "metric": "angle_error_deg",
+              "value": 3.3349708133233946,
+              "limit": 3.0,
+              "passed": false
+            }
+          ]
+        }
+      ]
+    },
+    "197": {
+      "passed": 18,
+      "zero": 9,
+      "pressure": 9,
+      "terminated": 0,
+      "failures": []
+    },
+    "208": {
+      "passed": 18,
+      "zero": 9,
+      "pressure": 9,
+      "terminated": 0,
+      "failures": []
+    },
+    "212": {
+      "passed": 18,
+      "zero": 9,
+      "pressure": 9,
+      "terminated": 0,
+      "failures": []
+    }
+  },
+  "feature_gates": {
+    "212-right": {
+      "worst_end_gain_deg": 4.651209138168931,
+      "met": true
+    },
+    "213-left": {
+      "worst_end_gain_deg": 0.9613565661446204,
+      "met": true
+    },
+    "209-both": {
+      "worst_first_second_gain_deg": 1.279266632163456,
+      "met": true
+    }
+  },
+  "recommend_212_for_standalone_and_visual": true,
+  "formal_selection_changed": false,
+  "visual": "pending",
+  "scope": "Nine previously opened flat-ground command histories; equal-scope cells do not add physical samples."
+}

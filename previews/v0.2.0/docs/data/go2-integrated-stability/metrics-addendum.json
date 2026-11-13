@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "checkpoint": "249",
+      "longest_stable_steps": 11,
+      "vx_std": 0.04932264543408321,
+      "vy_std": 0.04524692623619905,
+      "yaw_rms": 0.09210971083290788
+    },
+    {
+      "checkpoint": "32768",
+      "longest_stable_steps": 12,
+      "vx_std": 0.05084779269808112,
+      "vy_std": 0.0417893887436391,
+      "yaw_rms": 0.09435351184075717
+    },
+    {
+      "checkpoint": "65536",
+      "longest_stable_steps": 12,
+      "vx_std": 0.05000589739185297,
+      "vy_std": 0.03832645049588408,
+      "yaw_rms": 0.13618363511794634
+    }
+  ],
+  "optimizer_epoch_count_before": 3270,
+  "optimizer_epoch_count_after": 3910,
+  "optimizer_epoch_delta": 640,
+  "obs_statistics_exact": true
+}

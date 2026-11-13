@@ -1,0 +1,19 @@
+{
+  "experiment": 244,
+  "inputs": {
+    "scripts/run_go2_acceleration_bias_reset.py": "561a7152e879f94406e0db4c8b7d5f4a4cfce79f96ab59c60089bf86cdde207a",
+    "configs/go2-acceleration-bias-reset.json": "1917c2ef6b490061f2662d0db8de3bc0dc144c72d2e9443b6b5d9f9ad8cc4d37",
+    "docs/data/go2-acceleration-bias-reset/summary.json": "652943cde10540955d310f667c367a4b4d15bb40d3e409706aa7c4c412f5ae0d",
+    "docs/data/go2-acceleration-bias-reset/targeted-check.json": "57f93ab6b8954bb17770575f2b827b454500fa1f70fe57bdda02afc640d88920",
+    "scripts/run_go2_high_speed_action_scale.py": "8efc7fcb513b8a85f0127ba0a5b965c5571b0cc4e46b11a6ca36ccf88d8911c0",
+    "scripts/run_go2_frequency_adaptation.py": "26366cf43b0d5b863e3694826143329b08604ddfce095beede7395a5f0c34e77",
+    "artifacts/runs/20261107-frequency-adaptation/checkpoint-65536.zip": "8aa9e93db453087b90fd2e30c1533cd8deaa02a86b2dc472ff5e037df547d9fd",
+    "artifacts/runs/20261107-frequency-adaptation/checkpoint-65536-norm.pkl": "5eada61af59b0f7a5deb0266788d5b51a1294374e186c72bbee4dd3606d8443f",
+    "scripts/run_go2_speed12_adaptation.py": "e7947dbe5b4bd4ffbbad60a55cc09e286bc8ac9f69056a437d714fdb39a1e45d",
+    "docs/experiments/2026-11-07-speed12-adaptation.md": "ba13f7c699122b892a1ada976e6a814785941e42cbd04d01a54e4ff36eeeb4f1",
+    "docs/data/go2-speed-qualification-probe/summary.json": "004d130989ea328d075a2cb5a86618089249328ebbb70610acaba045bd2a456f"
+  },
+  "training_steps": 65536,
+  "seed": 644101,
+  "max_evaluations": 5
+}

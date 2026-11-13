@@ -1,0 +1,4496 @@
+{
+  "experiment": 208,
+  "inputs": {
+    "docs/data/go2-full-heading-matrix/retention-qualified-candidate.json": "1094a69076a0322b047c4554f0fad3349ef3c793149db11e8b90b6046f6fa348",
+    "scripts/run_go2_full_heading_feedback.py": "9498afb120d4ef57d166e7e44f9e0a338692af112fb32c108cd817270136864b",
+    "configs/go2-full-heading-feedback.json": "580321d59df41a1072638553544e70228384fbcfd81ed09a63cab2d721ea5222",
+    "docs/data/go2-full-heading-new-conditions/new-scope-candidate-freeze.json": "97e4d3095384ba1b15fd7296cb86f6be61556835adbffc94860a3a21273cd0c7",
+    "scripts/run_go2_full_heading_matrix.py": "158fd1e98fd60defa24a13c07c03beca3e3f8f6cec27166f5c5c7db5374caf37",
+    "configs/go2-full-heading-matrix.json": "c6f85e7edb9761fccf6230d4c677fad74ee167440b1748016500fa7067d1f703",
+    "docs/data/go2-full-heading-matrix/summary.json": "646d79b78276c7c98839da53ed329ab24d2120a68d0e17e0951240aba9bcacdf",
+    "docs/data/go2-full-heading-matrix/targeted-check.json": "595871e999dd9a970f321280bd1dd4ee53d26ff1ed67cb289127dd9def3188cc",
+    "docs/data/go2-full-heading-matrix/nonturn-normal-identity-proof.json": "70b1c27d84fa933d4d8cf95336ae59ab99cccc7c8e476b71554a9582398b7dbd",
+    "docs/experiments/2026-11-06-full-heading-matrix-results.md": "f447c2df11772f5c79a1ca067d6231c3e6b3a1781d5fc117fa9f0fba02436dc1",
+    "docs/data/go2-full-heading-retention/protected-candidate-freeze.json": "19129ffe6aca6c220fda0b3e5411d5baec2db3db17aec0d2ecee7fca6e05c27d",
+    "scripts/run_go2_full_heading_new_conditions.py": "c81a4be4d18a53637c5de8018a0a5456e49a482906d00bdf52a7bfe6a8df4c5d",
+    "configs/go2-full-heading-new-conditions.json": "89a8c8612a26348a05d3aee607e0ef774f2fcb51663bdfc44b31b114f7af0ca9",
+    "docs/data/go2-full-heading-new-conditions/summary.json": "2843d3c7fbee964f034cbefe756efca56e71fc4f4c3cd2661962423dba37682c",
+    "docs/data/go2-full-heading-new-conditions/targeted-check.json": "3591dd8fc1c66624fb7e67238f2808363f3d9c2306946d9dcf16be086e00615a",
+    "docs/data/go2-full-heading-feedback/frozen-development-candidate.json": "88dfe6845f29dbfcb7756a08bf6496b4bb4bde40e6d9e92468367eb9fbb604f7",
+    "scripts/check_go2_full_heading_retention.py": "63db54437ed9b9d6aaf98201f93d7f4b6dc22b5d42e42f2d4a90802dd750dca8",
+    "configs/go2-full-heading-retention.json": "5642bf093e2b4de19452e95c1f851d025fa15d03ea60bc97d2225cf4ab7243dd",
+    "docs/data/go2-full-heading-retention/summary.json": "a1ad93a8d163ea897a629c8ac0daa3b98895624cb694708aaa27f337c16732a2",
+    "docs/data/go2-full-heading-retention/targeted-check.json": "6cd0095439a0438087f850038b102a23245e3baa258411446e6a3f52676adaaf",
+    "docs/experiments/2026-11-06-full-heading-feedback.md": "4b46693b59d938ffeff5d10d250bc815ffad4fdff934701c9cdf6e3734016083",
+    "docs/data/go2-full-heading-feedback/summary.json": "fee284c435cbd2e97fdc9e88136ca25bd4b3793920ea37028d4d012768473c73",
+    "docs/data/go2-full-heading-feedback/paired-deltas.json": "8782b3805e7adfc665b0ba51cb70e9c02d7cc89fe7f96c5d3546e586b259dc27",
+    "docs/data/go2-full-heading-feedback/targeted-check.json": "9cbc3ae84a1c09fc21de1695e6e0d4dfc2ff2fb434ab0378cb4fa19d73af3d1d",
+    "scripts/run_go2_turn_exit_heading_hold.py": "22e002298c2367d0d0deac6c9df1078046ee63ea336fe9130d886dbb46539cac",
+    "docs/experiments/2026-11-06-turn-exit-heading-hold.md": "cf88793d11588df130137756ca054c82a87d0835813fc9d7306f18e6e6080c6c",
+    "configs/go2-turn-exit-trot.json": "f16864db9fbbd631efb458f7775011d4e0d875f330d8c64a8fd72fa1b091f483",
+    "docs/data/go2-turn-exit-trot/summary.json": "c1d0579ae91c6ad9447f19ca7513c0580157ea63fb366a05e9d7aab7ab6178fe",
+    "scripts/run_go2_turn_exit_trot.py": "6261c39b667577838d635b6eb7054b332551a07d063385c29337d26f7dd19e87",
+    "scripts/go2_task.py": "5c401fef7e8a2f3421f44fdc680899df9e6b91f87cdff0d9cc854e7beabd60b4",
+    "docs/data/go2-current/selection.json": "83ce800210f3dabb6ee0eef1c39ba37f8975d6d7cba20d19087dfa2f03551be6",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/states.npz": "2f76d045db03961693d328441435fc3ff26fe26bef4affb31ffbb1dae8d9394e",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101/steps.csv": "bf147864407d91360c1ebf1bb15602fbf9304bf6defd09157a1b35c7eca982c2",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/states.npz": "85ceddc6277a197f3a1468d6aa5669543bca7ab122b24373f9b38511fd4b5459",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101/steps.csv": "dca0f7f23b42eef7430fa7e8f82a4b4aaf5600581b5d6ea2edd2cbee7c84cecf",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/states.npz": "80eba60206c78d4a51712702e5c525ac1420682a7bb60e663b0c7f521b2f018f",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101/steps.csv": "0c63408359bda81d571a41e72c42080d6468226638cbc336eaa7cc6f89973617",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/states.npz": "3ab7e1b9b47a2e68e233bd06569487d559aab51ccf2a5a2a2d1ea01fcf83789f",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/initial-state.npz": "156c4d5f4af9e88e207f735a35e4ea5463d7b3e42f25d246e7563ed255d7cb5c",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/physics.npz": "c7843181a9c9f75820a4ea0658716066e4062d623f00f6eb192ffae69efa8312",
+    "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101/steps.csv": "0b458f23d8d89fd2d566b863441f8e1abe41b572f61d79e344395447ef1538a2"
+  },
+  "cases": [
+    {
+      "side": "right",
+      "task": {
+        "sequence": {
+          "seed": 505101,
+          "segments": [
+            {
+              "name": "initial stand",
+              "motion": "stand",
+              "seconds": 2
+            },
+            {
+              "name": "walk",
+              "motion": "walk",
+              "seconds": 2
+            },
+            {
+              "name": "trot",
+              "motion": "trot",
+              "seconds": 4
+            },
+            {
+              "name": "left",
+              "motion": "left",
+              "seconds": 6
+            },
+            {
+              "name": "reverse right",
+              "motion": "right",
+              "seconds": 6
+            },
+            {
+              "name": "exit trot",
+              "motion": "trot",
+              "seconds": 4
+            },
+            {
+              "name": "final stand",
+              "motion": "stand",
+              "seconds": 4
+            }
+          ]
+        },
+        "push": {
+          "start_s": 20.06,
+          "duration_s": 0.2,
+          "body_y_n": -30
+        }
+      },
+      "reference": {
+        "kind": "zero",
+        "complete": true,
+        "steps": 1200,
+        "planned_steps": 1200,
+        "terminated": false,
+        "peak_tilt": 4.218039979620406,
+        "recovery_seconds": 0.88,
+        "passed": true,
+        "last_withdrawal": 14.26,
+        "recovery_pass": true,
+        "segments": {
+          "initial stand": {
+            "samples": 51,
+            "seconds": 1.02,
+            "vx_mean": -0.013443106213303736,
+            "vx_std": 0.005246341953606634,
+            "yaw_rate_mean": -0.006508560998980881,
+            "yaw_rate_std": 0.0015156108506814807,
+            "height_mean": 0.3121719288550187,
+            "height_std": 2.4976543374122748e-05,
+            "roll_deg_mean": 1.4113421898537097,
+            "roll_deg_std": 0.02997496785022209,
+            "pitch_deg_mean": 0.4558843729589276,
+            "pitch_deg_std": 0.09143669647678751,
+            "joint_speed_rms_mean": 0.02364034826967578,
+            "joint_speed_rms_std": 0.008628082221820935,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012632305513160476,
+              "peak_clearance_m": -0.012632232837961922,
+              "loaded_foot_speed_mean_m_s": 0.0006802833513485254
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012945674404373358,
+              "peak_clearance_m": -0.01294078041863226,
+              "loaded_foot_speed_mean_m_s": 0.0008557588408128297
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01318562768390185,
+              "peak_clearance_m": -0.013166700121053372,
+              "loaded_foot_speed_mean_m_s": 0.0016211165817816232
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.011776291274037294,
+              "peak_clearance_m": -0.011730449733505906,
+              "loaded_foot_speed_mean_m_s": 0.013898188009554646
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 1.452993364617529,
+            "velocity_rmse": 0.014513878454414996,
+            "yaw_rmse": 0.0066826972494763255,
+            "stride_median_m": null
+          },
+          "walk": {
+            "samples": 50,
+            "seconds": 1.0,
+            "vx_mean": 0.1803734189090539,
+            "vx_std": 0.026029617999747574,
+            "yaw_rate_mean": -0.013183380909404678,
+            "yaw_rate_std": 0.023106372125341244,
+            "height_mean": 0.3057324117847669,
+            "height_std": 0.0039446967810624275,
+            "roll_deg_mean": 0.5667139771237987,
+            "roll_deg_std": 0.6238609852207441,
+            "pitch_deg_mean": 1.4434404391032842,
+            "pitch_deg_std": 0.5659254677414656,
+            "joint_speed_rms_mean": 0.9294349052986428,
+            "joint_speed_rms_std": 0.34800029655639647,
+            "FL": {
+              "contact_fraction": 0.52,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03926965582224586,
+              "peak_clearance_m": 0.040954339367182103,
+              "loaded_foot_speed_mean_m_s": 0.013588759722547951
+            },
+            "FR": {
+              "contact_fraction": 0.68,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.04141144992402407,
+              "peak_clearance_m": 0.04295371067654658,
+              "loaded_foot_speed_mean_m_s": 0.04432162036171406
+            },
+            "RL": {
+              "contact_fraction": 0.7,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.026257731870855238,
+              "peak_clearance_m": 0.027951828248157305,
+              "loaded_foot_speed_mean_m_s": 0.009276729198606126
+            },
+            "RR": {
+              "contact_fraction": 0.56,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.061110203153054966,
+              "peak_clearance_m": 0.06393618807789508,
+              "loaded_foot_speed_mean_m_s": 0.05267168828749329
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.6477681277600156,
+            "velocity_rmse": 0.04057570390376182,
+            "yaw_rmse": 0.026602743561467537,
+            "stride_median_m": 0.12521430757051047
+          },
+          "trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.37763308910778476,
+            "vx_std": 0.019447112784987248,
+            "yaw_rate_mean": -0.008475015386752674,
+            "yaw_rate_std": 0.033540173581682445,
+            "height_mean": 0.3115110291923668,
+            "height_std": 0.003711311565820589,
+            "roll_deg_mean": 1.5132081137889093,
+            "roll_deg_std": 0.5685981140885642,
+            "pitch_deg_mean": 0.3471001644912185,
+            "pitch_deg_std": 1.032600288750811,
+            "joint_speed_rms_mean": 1.4238036362098274,
+            "joint_speed_rms_std": 0.4432861347249375,
+            "FL": {
+              "contact_fraction": 0.5533333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05647445995514715,
+              "peak_clearance_m": 0.058764153363059034,
+              "loaded_foot_speed_mean_m_s": 0.021472809061976617
+            },
+            "FR": {
+              "contact_fraction": 0.6533333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.053579080201875094,
+              "peak_clearance_m": 0.05559072212127591,
+              "loaded_foot_speed_mean_m_s": 0.06783495148257775
+            },
+            "RL": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03913436595678883,
+              "peak_clearance_m": 0.04143130489875579,
+              "loaded_foot_speed_mean_m_s": 0.020994073236332976
+            },
+            "RR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05914699832759051,
+              "peak_clearance_m": 0.06223844719960788,
+              "loaded_foot_speed_mean_m_s": 0.08685251257675261
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.653615756571021,
+            "velocity_rmse": 0.038532345751305375,
+            "yaw_rmse": 0.0345943511240648,
+            "stride_median_m": 0.2426318236735675
+          },
+          "left": {
+            "samples": 250,
+            "seconds": 5.0,
+            "vx_mean": 0.1894330357626121,
+            "vx_std": 0.010749573154393517,
+            "yaw_rate_mean": 0.515295277283725,
+            "yaw_rate_std": 0.04766769731770389,
+            "height_mean": 0.3102661800807741,
+            "height_std": 0.0027202713216132896,
+            "roll_deg_mean": 1.7588728256182045,
+            "roll_deg_std": 0.7943752247613048,
+            "pitch_deg_mean": 0.7571737602720384,
+            "pitch_deg_std": 0.5511569576602285,
+            "joint_speed_rms_mean": 1.1855516650410642,
+            "joint_speed_rms_std": 0.3891047471688302,
+            "FL": {
+              "contact_fraction": 0.584,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.038031374897406704,
+              "peak_clearance_m": 0.03982544072361879,
+              "loaded_foot_speed_mean_m_s": 0.022035949874577156
+            },
+            "FR": {
+              "contact_fraction": 0.644,
+              "longest_unloaded_seconds": 0.2,
+              "clearance_p95_m": 0.04865240812038132,
+              "peak_clearance_m": 0.05105185557439992,
+              "loaded_foot_speed_mean_m_s": 0.042642299068327096
+            },
+            "RL": {
+              "contact_fraction": 0.624,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.028211615570961707,
+              "peak_clearance_m": 0.029943602439364052,
+              "loaded_foot_speed_mean_m_s": 0.03023137776736257
+            },
+            "RR": {
+              "contact_fraction": 0.636,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.0507082839224387,
+              "peak_clearance_m": 0.0530355851565615,
+              "loaded_foot_speed_mean_m_s": 0.0545826567834585
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.5
+            ],
+            "peak_tilt": 3.1180894893594444,
+            "velocity_rmse": 0.02884476789181963,
+            "yaw_rmse": 0.05006151091166017,
+            "stride_median_m": 0.10738255760860006,
+            "angle_deg": 173.15002353409105
+          },
+          "reverse right": {
+            "samples": 251,
+            "seconds": 5.0200000000000005,
+            "vx_mean": 0.22565409605330117,
+            "vx_std": 0.020031143475222432,
+            "yaw_rate_mean": -0.5489141591798232,
+            "yaw_rate_std": 0.039615441731811044,
+            "height_mean": 0.3032357490585449,
+            "height_std": 0.006961481291722974,
+            "roll_deg_mean": -0.3119157795989629,
+            "roll_deg_std": 0.531647834824304,
+            "pitch_deg_mean": 1.764635535099921,
+            "pitch_deg_std": 0.7968190586041516,
+            "joint_speed_rms_mean": 1.168376157543078,
+            "joint_speed_rms_std": 0.39026305316638393,
+            "FL": {
+              "contact_fraction": 0.6135458167330677,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.03461809205326307,
+              "peak_clearance_m": 0.036671222682873865,
+              "loaded_foot_speed_mean_m_s": 0.024417128242614997
+            },
+            "FR": {
+              "contact_fraction": 0.6254980079681275,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03868955609389595,
+              "peak_clearance_m": 0.040671800350901725,
+              "loaded_foot_speed_mean_m_s": 0.027563419295666917
+            },
+            "RL": {
+              "contact_fraction": 0.5856573705179283,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.03287374242392827,
+              "peak_clearance_m": 0.0338830798492711,
+              "loaded_foot_speed_mean_m_s": 0.04681649635222863
+            },
+            "RR": {
+              "contact_fraction": 0.6215139442231076,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.06168378876981646,
+              "peak_clearance_m": 0.06552386019845624,
+              "loaded_foot_speed_mean_m_s": 0.06159278498826591
+            },
+            "command": [
+              0.2,
+              0.0,
+              -0.5
+            ],
+            "peak_tilt": 3.715541581118026,
+            "velocity_rmse": 0.04005915153130674,
+            "yaw_rmse": 0.06294424669400378,
+            "stride_median_m": 0.12769726463762612,
+            "angle_deg": -169.6747772173424
+          },
+          "final stand": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": -0.001738008631234196,
+            "vx_std": 0.001743179048017322,
+            "yaw_rate_mean": -0.009240924587003001,
+            "yaw_rate_std": 0.0016894616364111882,
+            "height_mean": 0.3039008029040646,
+            "height_std": 0.0005514286306706174,
+            "roll_deg_mean": 0.7351040425825164,
+            "roll_deg_std": 0.044246611611640785,
+            "pitch_deg_mean": 1.9596619148066088,
+            "pitch_deg_std": 0.023956043479676073,
+            "joint_speed_rms_mean": 0.0076019375984382916,
+            "joint_speed_rms_std": 0.0035219508002292017,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01313639078529586,
+              "peak_clearance_m": -0.013107144267400818,
+              "loaded_foot_speed_mean_m_s": 0.0011988998641731122
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012357257518897581,
+              "peak_clearance_m": -0.012357215168470277,
+              "loaded_foot_speed_mean_m_s": 0.0004920720158168814
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012779641909962301,
+              "peak_clearance_m": -0.012778299198763117,
+              "loaded_foot_speed_mean_m_s": 0.001235303755960345
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012687142820292699,
+              "peak_clearance_m": -0.01267024261389927,
+              "loaded_foot_speed_mean_m_s": 0.0010279025349199987
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 4.218039979620406,
+            "velocity_rmse": 0.002684640256483462,
+            "yaw_rmse": 0.009394092177724349,
+            "stride_median_m": null
+          }
+        },
+        "turn_angles": [
+          173.15002353409105,
+          -169.6747772173424
+        ],
+        "checks": [
+          {
+            "segment": "initial stand",
+            "metric": "peak_tilt",
+            "value": 1.452993364617529,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "velocity_rmse",
+            "value": 0.014513878454414996,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "yaw_rmse",
+            "value": 0.0066826972494763255,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.02364034826967578,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "roll_deg_std",
+            "value": 0.02997496785022209,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09143669647678751,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "peak_tilt",
+            "value": 3.6477681277600156,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "velocity_rmse",
+            "value": 0.04057570390376182,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "yaw_rmse",
+            "value": 0.026602743561467537,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FL_clearance",
+            "value": 0.03926965582224586,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FR_clearance",
+            "value": 0.04141144992402407,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RL_clearance",
+            "value": 0.026257731870855238,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RR_clearance",
+            "value": 0.061110203153054966,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "peak_tilt",
+            "value": 2.653615756571021,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "velocity_rmse",
+            "value": 0.038532345751305375,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "yaw_rmse",
+            "value": 0.0345943511240648,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FL_clearance",
+            "value": 0.05647445995514715,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FR_clearance",
+            "value": 0.053579080201875094,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RL_clearance",
+            "value": 0.03913436595678883,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RR_clearance",
+            "value": 0.05914699832759051,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "peak_tilt",
+            "value": 3.1180894893594444,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "velocity_rmse",
+            "value": 0.02884476789181963,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "yaw_rmse",
+            "value": 0.05006151091166017,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "FL_clearance",
+            "value": 0.038031374897406704,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "FR_clearance",
+            "value": 0.04865240812038132,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "RL_clearance",
+            "value": 0.028211615570961707,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "RR_clearance",
+            "value": 0.0507082839224387,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "angle_error_deg",
+            "value": 1.2626849948440793,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "peak_tilt",
+            "value": 3.715541581118026,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "velocity_rmse",
+            "value": 0.04005915153130674,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "yaw_rmse",
+            "value": 0.06294424669400378,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "FL_clearance",
+            "value": 0.03461809205326307,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "FR_clearance",
+            "value": 0.03868955609389595,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "RL_clearance",
+            "value": 0.03287374242392827,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "RR_clearance",
+            "value": 0.06168378876981646,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "angle_error_deg",
+            "value": 2.212561321904559,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "peak_tilt",
+            "value": 4.218039979620406,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "velocity_rmse",
+            "value": 0.002684640256483462,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "yaw_rmse",
+            "value": 0.009394092177724349,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.0076019375984382916,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "roll_deg_std",
+            "value": 0.044246611611640785,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "pitch_deg_std",
+            "value": 0.023956043479676073,
+            "limit": 0.5,
+            "passed": true
+          }
+        ],
+        "quality_pass": true,
+        "variant": "zero",
+        "case": "task",
+        "seed": 505101,
+        "folder": "artifacts/runs/20261106-reversal-push-task/197-zero/simulation/zero-task-seed-505101",
+        "heading_feedback_frames": 250,
+        "controller": 197
+      }
+    },
+    {
+      "side": "left",
+      "task": {
+        "sequence": {
+          "seed": 505101,
+          "segments": [
+            {
+              "name": "initial stand",
+              "motion": "stand",
+              "seconds": 2
+            },
+            {
+              "name": "walk",
+              "motion": "walk",
+              "seconds": 2
+            },
+            {
+              "name": "trot",
+              "motion": "trot",
+              "seconds": 4
+            },
+            {
+              "name": "right",
+              "motion": "right",
+              "seconds": 6
+            },
+            {
+              "name": "reverse left",
+              "motion": "left",
+              "seconds": 6
+            },
+            {
+              "name": "exit trot",
+              "motion": "trot",
+              "seconds": 4
+            },
+            {
+              "name": "final stand",
+              "motion": "stand",
+              "seconds": 4
+            }
+          ]
+        },
+        "push": {
+          "start_s": 20.06,
+          "duration_s": 0.2,
+          "body_y_n": 30
+        }
+      },
+      "reference": {
+        "kind": "zero",
+        "complete": true,
+        "steps": 1200,
+        "planned_steps": 1200,
+        "terminated": false,
+        "peak_tilt": 4.119671135292984,
+        "recovery_seconds": 0.18,
+        "passed": true,
+        "last_withdrawal": 14.26,
+        "recovery_pass": true,
+        "segments": {
+          "initial stand": {
+            "samples": 51,
+            "seconds": 1.02,
+            "vx_mean": -0.013443106213303736,
+            "vx_std": 0.005246341953606634,
+            "yaw_rate_mean": -0.006508560998980881,
+            "yaw_rate_std": 0.0015156108506814807,
+            "height_mean": 0.3121719288550187,
+            "height_std": 2.4976543374122748e-05,
+            "roll_deg_mean": 1.4113421898537097,
+            "roll_deg_std": 0.02997496785022209,
+            "pitch_deg_mean": 0.4558843729589276,
+            "pitch_deg_std": 0.09143669647678751,
+            "joint_speed_rms_mean": 0.02364034826967578,
+            "joint_speed_rms_std": 0.008628082221820935,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012632305513160476,
+              "peak_clearance_m": -0.012632232837961922,
+              "loaded_foot_speed_mean_m_s": 0.0006802833513485254
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012945674404373358,
+              "peak_clearance_m": -0.01294078041863226,
+              "loaded_foot_speed_mean_m_s": 0.0008557588408128297
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01318562768390185,
+              "peak_clearance_m": -0.013166700121053372,
+              "loaded_foot_speed_mean_m_s": 0.0016211165817816232
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.011776291274037294,
+              "peak_clearance_m": -0.011730449733505906,
+              "loaded_foot_speed_mean_m_s": 0.013898188009554646
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 1.452993364617529,
+            "velocity_rmse": 0.014513878454414996,
+            "yaw_rmse": 0.0066826972494763255,
+            "stride_median_m": null
+          },
+          "walk": {
+            "samples": 50,
+            "seconds": 1.0,
+            "vx_mean": 0.1803734189090539,
+            "vx_std": 0.026029617999747574,
+            "yaw_rate_mean": -0.013183380909404678,
+            "yaw_rate_std": 0.023106372125341244,
+            "height_mean": 0.3057324117847669,
+            "height_std": 0.0039446967810624275,
+            "roll_deg_mean": 0.5667139771237987,
+            "roll_deg_std": 0.6238609852207441,
+            "pitch_deg_mean": 1.4434404391032842,
+            "pitch_deg_std": 0.5659254677414656,
+            "joint_speed_rms_mean": 0.9294349052986428,
+            "joint_speed_rms_std": 0.34800029655639647,
+            "FL": {
+              "contact_fraction": 0.52,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03926965582224586,
+              "peak_clearance_m": 0.040954339367182103,
+              "loaded_foot_speed_mean_m_s": 0.013588759722547951
+            },
+            "FR": {
+              "contact_fraction": 0.68,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.04141144992402407,
+              "peak_clearance_m": 0.04295371067654658,
+              "loaded_foot_speed_mean_m_s": 0.04432162036171406
+            },
+            "RL": {
+              "contact_fraction": 0.7,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.026257731870855238,
+              "peak_clearance_m": 0.027951828248157305,
+              "loaded_foot_speed_mean_m_s": 0.009276729198606126
+            },
+            "RR": {
+              "contact_fraction": 0.56,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.061110203153054966,
+              "peak_clearance_m": 0.06393618807789508,
+              "loaded_foot_speed_mean_m_s": 0.05267168828749329
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.6477681277600156,
+            "velocity_rmse": 0.04057570390376182,
+            "yaw_rmse": 0.026602743561467537,
+            "stride_median_m": 0.12521430757051047
+          },
+          "trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.37763308910778476,
+            "vx_std": 0.019447112784987248,
+            "yaw_rate_mean": -0.008475015386752674,
+            "yaw_rate_std": 0.033540173581682445,
+            "height_mean": 0.3115110291923668,
+            "height_std": 0.003711311565820589,
+            "roll_deg_mean": 1.5132081137889093,
+            "roll_deg_std": 0.5685981140885642,
+            "pitch_deg_mean": 0.3471001644912185,
+            "pitch_deg_std": 1.032600288750811,
+            "joint_speed_rms_mean": 1.4238036362098274,
+            "joint_speed_rms_std": 0.4432861347249375,
+            "FL": {
+              "contact_fraction": 0.5533333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05647445995514715,
+              "peak_clearance_m": 0.058764153363059034,
+              "loaded_foot_speed_mean_m_s": 0.021472809061976617
+            },
+            "FR": {
+              "contact_fraction": 0.6533333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.053579080201875094,
+              "peak_clearance_m": 0.05559072212127591,
+              "loaded_foot_speed_mean_m_s": 0.06783495148257775
+            },
+            "RL": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03913436595678883,
+              "peak_clearance_m": 0.04143130489875579,
+              "loaded_foot_speed_mean_m_s": 0.020994073236332976
+            },
+            "RR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05914699832759051,
+              "peak_clearance_m": 0.06223844719960788,
+              "loaded_foot_speed_mean_m_s": 0.08685251257675261
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.653615756571021,
+            "velocity_rmse": 0.038532345751305375,
+            "yaw_rmse": 0.0345943511240648,
+            "stride_median_m": 0.2426318236735675
+          },
+          "right": {
+            "samples": 250,
+            "seconds": 5.0,
+            "vx_mean": 0.22378032525703956,
+            "vx_std": 0.017182902524105176,
+            "yaw_rate_mean": -0.5117565583567124,
+            "yaw_rate_std": 0.02907177258079737,
+            "height_mean": 0.3042173034275164,
+            "height_std": 0.006656874370830154,
+            "roll_deg_mean": -0.31427257460762303,
+            "roll_deg_std": 0.5480335207750786,
+            "pitch_deg_mean": 1.669074706496231,
+            "pitch_deg_std": 0.7677540799585741,
+            "joint_speed_rms_mean": 1.1549758692633572,
+            "joint_speed_rms_std": 0.39596937207608146,
+            "FL": {
+              "contact_fraction": 0.632,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.03469373338489326,
+              "peak_clearance_m": 0.03657451588795257,
+              "loaded_foot_speed_mean_m_s": 0.023521627635418974
+            },
+            "FR": {
+              "contact_fraction": 0.596,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03992767063263878,
+              "peak_clearance_m": 0.04142599719136172,
+              "loaded_foot_speed_mean_m_s": 0.030817315889809353
+            },
+            "RL": {
+              "contact_fraction": 0.568,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.032778742003360714,
+              "peak_clearance_m": 0.03386872855815703,
+              "loaded_foot_speed_mean_m_s": 0.05019991989643746
+            },
+            "RR": {
+              "contact_fraction": 0.648,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.059871211287834604,
+              "peak_clearance_m": 0.06285087271720374,
+              "loaded_foot_speed_mean_m_s": 0.054977210282422695
+            },
+            "command": [
+              0.2,
+              0.0,
+              -0.5
+            ],
+            "peak_tilt": 3.716977619237906,
+            "velocity_rmse": 0.03635179829563957,
+            "yaw_rmse": 0.03135896403557341,
+            "stride_median_m": 0.12830879458017513,
+            "angle_deg": -172.56605156762902
+          },
+          "reverse left": {
+            "samples": 251,
+            "seconds": 5.0200000000000005,
+            "vx_mean": 0.1902738655059592,
+            "vx_std": 0.01237365304290544,
+            "yaw_rate_mean": 0.5495201175797533,
+            "yaw_rate_std": 0.05519284005867696,
+            "height_mean": 0.31036392163673365,
+            "height_std": 0.0027524722870262046,
+            "roll_deg_mean": 1.799576627719709,
+            "roll_deg_std": 0.8198994928628139,
+            "pitch_deg_mean": 0.7927302162527117,
+            "pitch_deg_std": 0.5727289466158829,
+            "joint_speed_rms_mean": 1.1985677660413496,
+            "joint_speed_rms_std": 0.3954576410851969,
+            "FL": {
+              "contact_fraction": 0.5697211155378487,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03834620369895545,
+              "peak_clearance_m": 0.040457839354638585,
+              "loaded_foot_speed_mean_m_s": 0.02306406001630282
+            },
+            "FR": {
+              "contact_fraction": 0.6693227091633466,
+              "longest_unloaded_seconds": 0.2,
+              "clearance_p95_m": 0.049045384745123995,
+              "peak_clearance_m": 0.051143855845474796,
+              "loaded_foot_speed_mean_m_s": 0.044310598955216066
+            },
+            "RL": {
+              "contact_fraction": 0.6414342629482072,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.02917234793393541,
+              "peak_clearance_m": 0.031430348261634954,
+              "loaded_foot_speed_mean_m_s": 0.028894222554918907
+            },
+            "RR": {
+              "contact_fraction": 0.6175298804780877,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.050387016130537955,
+              "peak_clearance_m": 0.05284554593629758,
+              "loaded_foot_speed_mean_m_s": 0.06049229250815648
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.5
+            ],
+            "peak_tilt": 3.0528006140992345,
+            "velocity_rmse": 0.028059855369271396,
+            "yaw_rmse": 0.07415181480486692,
+            "stride_median_m": 0.13789866617757046,
+            "angle_deg": 171.2744896930162
+          },
+          "final stand": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": -0.0007718939299234441,
+            "vx_std": 0.0006852418916088413,
+            "yaw_rate_mean": -0.01735417490721117,
+            "yaw_rate_std": 0.003003200164457626,
+            "height_mean": 0.31106955748975823,
+            "height_std": 0.000854406299787633,
+            "roll_deg_mean": 0.760720987928162,
+            "roll_deg_std": 0.10764505955387152,
+            "pitch_deg_mean": 0.9960063831132133,
+            "pitch_deg_std": 0.03268153795340784,
+            "joint_speed_rms_mean": 0.011862052177598437,
+            "joint_speed_rms_std": 0.00353946034996506,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.013373520201496486,
+              "peak_clearance_m": -0.01333968924791127,
+              "loaded_foot_speed_mean_m_s": 0.001347255442029135
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01196671294441623,
+              "peak_clearance_m": -0.011966057436463666,
+              "loaded_foot_speed_mean_m_s": 0.0005886635260348168
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012683803262819112,
+              "peak_clearance_m": -0.012680514957908097,
+              "loaded_foot_speed_mean_m_s": 0.0015259601362766473
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012616170126323168,
+              "peak_clearance_m": -0.012615563338649556,
+              "loaded_foot_speed_mean_m_s": 0.0011860522012277711
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 4.119671135292984,
+            "velocity_rmse": 0.0030658450530066596,
+            "yaw_rmse": 0.01761211508984302,
+            "stride_median_m": null
+          }
+        },
+        "turn_angles": [
+          -172.56605156762902,
+          171.2744896930162
+        ],
+        "checks": [
+          {
+            "segment": "initial stand",
+            "metric": "peak_tilt",
+            "value": 1.452993364617529,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "velocity_rmse",
+            "value": 0.014513878454414996,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "yaw_rmse",
+            "value": 0.0066826972494763255,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.02364034826967578,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "roll_deg_std",
+            "value": 0.02997496785022209,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09143669647678751,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "peak_tilt",
+            "value": 3.6477681277600156,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "velocity_rmse",
+            "value": 0.04057570390376182,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "yaw_rmse",
+            "value": 0.026602743561467537,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FL_clearance",
+            "value": 0.03926965582224586,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FR_clearance",
+            "value": 0.04141144992402407,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RL_clearance",
+            "value": 0.026257731870855238,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RR_clearance",
+            "value": 0.061110203153054966,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "peak_tilt",
+            "value": 2.653615756571021,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "velocity_rmse",
+            "value": 0.038532345751305375,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "yaw_rmse",
+            "value": 0.0345943511240648,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FL_clearance",
+            "value": 0.05647445995514715,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FR_clearance",
+            "value": 0.053579080201875094,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RL_clearance",
+            "value": 0.03913436595678883,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RR_clearance",
+            "value": 0.05914699832759051,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "peak_tilt",
+            "value": 3.716977619237906,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "velocity_rmse",
+            "value": 0.03635179829563957,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "yaw_rmse",
+            "value": 0.03135896403557341,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "FL_clearance",
+            "value": 0.03469373338489326,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "FR_clearance",
+            "value": 0.03992767063263878,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "RL_clearance",
+            "value": 0.032778742003360714,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "RR_clearance",
+            "value": 0.059871211287834604,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "angle_error_deg",
+            "value": 0.6787130283820488,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "peak_tilt",
+            "value": 3.0528006140992345,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "velocity_rmse",
+            "value": 0.028059855369271396,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "yaw_rmse",
+            "value": 0.07415181480486692,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "FL_clearance",
+            "value": 0.03834620369895545,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "FR_clearance",
+            "value": 0.049045384745123995,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "RL_clearance",
+            "value": 0.02917234793393541,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "RR_clearance",
+            "value": 0.050387016130537955,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "angle_error_deg",
+            "value": 0.6128488462307757,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "peak_tilt",
+            "value": 4.119671135292984,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "velocity_rmse",
+            "value": 0.0030658450530066596,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "yaw_rmse",
+            "value": 0.01761211508984302,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.011862052177598437,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "roll_deg_std",
+            "value": 0.10764505955387152,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "pitch_deg_std",
+            "value": 0.03268153795340784,
+            "limit": 0.5,
+            "passed": true
+          }
+        ],
+        "quality_pass": true,
+        "variant": "zero",
+        "case": "task",
+        "seed": 505101,
+        "folder": "artifacts/runs/20261106-opposite-reversal-push-task/197-zero/simulation/zero-task-seed-505101",
+        "heading_feedback_frames": 250,
+        "controller": 197
+      }
+    }
+  ],
+  "reference": [
+    {
+      "side": "right",
+      "kind": "zero",
+      "result": {
+        "kind": "zero",
+        "complete": true,
+        "steps": 1400,
+        "planned_steps": 1400,
+        "terminated": false,
+        "peak_tilt": 3.715541581118026,
+        "recovery_seconds": 0.0,
+        "passed": true,
+        "last_withdrawal": 20.259999999999998,
+        "recovery_pass": true,
+        "segments": {
+          "initial stand": {
+            "samples": 51,
+            "seconds": 1.02,
+            "vx_mean": -0.013443106213303736,
+            "vx_std": 0.005246341953606634,
+            "yaw_rate_mean": -0.006508560998980881,
+            "yaw_rate_std": 0.0015156108506814807,
+            "height_mean": 0.3121719288550187,
+            "height_std": 2.4976543374122748e-05,
+            "roll_deg_mean": 1.4113421898537097,
+            "roll_deg_std": 0.02997496785022209,
+            "pitch_deg_mean": 0.4558843729589276,
+            "pitch_deg_std": 0.09143669647678751,
+            "joint_speed_rms_mean": 0.02364034826967578,
+            "joint_speed_rms_std": 0.008628082221820935,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012632305513160476,
+              "peak_clearance_m": -0.012632232837961922,
+              "loaded_foot_speed_mean_m_s": 0.0006802833513485254
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012945674404373358,
+              "peak_clearance_m": -0.01294078041863226,
+              "loaded_foot_speed_mean_m_s": 0.0008557588408128297
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01318562768390185,
+              "peak_clearance_m": -0.013166700121053372,
+              "loaded_foot_speed_mean_m_s": 0.0016211165817816232
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.011776291274037294,
+              "peak_clearance_m": -0.011730449733505906,
+              "loaded_foot_speed_mean_m_s": 0.013898188009554646
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 1.452993364617529,
+            "velocity_rmse": 0.014513878454414996,
+            "yaw_rmse": 0.0066826972494763255,
+            "stride_median_m": null
+          },
+          "walk": {
+            "samples": 50,
+            "seconds": 1.0,
+            "vx_mean": 0.1803734189090539,
+            "vx_std": 0.026029617999747574,
+            "yaw_rate_mean": -0.013183380909404678,
+            "yaw_rate_std": 0.023106372125341244,
+            "height_mean": 0.3057324117847669,
+            "height_std": 0.0039446967810624275,
+            "roll_deg_mean": 0.5667139771237987,
+            "roll_deg_std": 0.6238609852207441,
+            "pitch_deg_mean": 1.4434404391032842,
+            "pitch_deg_std": 0.5659254677414656,
+            "joint_speed_rms_mean": 0.9294349052986428,
+            "joint_speed_rms_std": 0.34800029655639647,
+            "FL": {
+              "contact_fraction": 0.52,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03926965582224586,
+              "peak_clearance_m": 0.040954339367182103,
+              "loaded_foot_speed_mean_m_s": 0.013588759722547951
+            },
+            "FR": {
+              "contact_fraction": 0.68,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.04141144992402407,
+              "peak_clearance_m": 0.04295371067654658,
+              "loaded_foot_speed_mean_m_s": 0.04432162036171406
+            },
+            "RL": {
+              "contact_fraction": 0.7,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.026257731870855238,
+              "peak_clearance_m": 0.027951828248157305,
+              "loaded_foot_speed_mean_m_s": 0.009276729198606126
+            },
+            "RR": {
+              "contact_fraction": 0.56,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.061110203153054966,
+              "peak_clearance_m": 0.06393618807789508,
+              "loaded_foot_speed_mean_m_s": 0.05267168828749329
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.6477681277600156,
+            "velocity_rmse": 0.04057570390376182,
+            "yaw_rmse": 0.026602743561467537,
+            "stride_median_m": 0.12521430757051047
+          },
+          "trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.37763308910778476,
+            "vx_std": 0.019447112784987248,
+            "yaw_rate_mean": -0.008475015386752674,
+            "yaw_rate_std": 0.033540173581682445,
+            "height_mean": 0.3115110291923668,
+            "height_std": 0.003711311565820589,
+            "roll_deg_mean": 1.5132081137889093,
+            "roll_deg_std": 0.5685981140885642,
+            "pitch_deg_mean": 0.3471001644912185,
+            "pitch_deg_std": 1.032600288750811,
+            "joint_speed_rms_mean": 1.4238036362098274,
+            "joint_speed_rms_std": 0.4432861347249375,
+            "FL": {
+              "contact_fraction": 0.5533333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05647445995514715,
+              "peak_clearance_m": 0.058764153363059034,
+              "loaded_foot_speed_mean_m_s": 0.021472809061976617
+            },
+            "FR": {
+              "contact_fraction": 0.6533333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.053579080201875094,
+              "peak_clearance_m": 0.05559072212127591,
+              "loaded_foot_speed_mean_m_s": 0.06783495148257775
+            },
+            "RL": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03913436595678883,
+              "peak_clearance_m": 0.04143130489875579,
+              "loaded_foot_speed_mean_m_s": 0.020994073236332976
+            },
+            "RR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05914699832759051,
+              "peak_clearance_m": 0.06223844719960788,
+              "loaded_foot_speed_mean_m_s": 0.08685251257675261
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.653615756571021,
+            "velocity_rmse": 0.038532345751305375,
+            "yaw_rmse": 0.0345943511240648,
+            "stride_median_m": 0.2426318236735675
+          },
+          "left": {
+            "samples": 250,
+            "seconds": 5.0,
+            "vx_mean": 0.1894330357626121,
+            "vx_std": 0.010749573154393517,
+            "yaw_rate_mean": 0.515295277283725,
+            "yaw_rate_std": 0.04766769731770389,
+            "height_mean": 0.3102661800807741,
+            "height_std": 0.0027202713216132896,
+            "roll_deg_mean": 1.7588728256182045,
+            "roll_deg_std": 0.7943752247613048,
+            "pitch_deg_mean": 0.7571737602720384,
+            "pitch_deg_std": 0.5511569576602285,
+            "joint_speed_rms_mean": 1.1855516650410642,
+            "joint_speed_rms_std": 0.3891047471688302,
+            "FL": {
+              "contact_fraction": 0.584,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.038031374897406704,
+              "peak_clearance_m": 0.03982544072361879,
+              "loaded_foot_speed_mean_m_s": 0.022035949874577156
+            },
+            "FR": {
+              "contact_fraction": 0.644,
+              "longest_unloaded_seconds": 0.2,
+              "clearance_p95_m": 0.04865240812038132,
+              "peak_clearance_m": 0.05105185557439992,
+              "loaded_foot_speed_mean_m_s": 0.042642299068327096
+            },
+            "RL": {
+              "contact_fraction": 0.624,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.028211615570961707,
+              "peak_clearance_m": 0.029943602439364052,
+              "loaded_foot_speed_mean_m_s": 0.03023137776736257
+            },
+            "RR": {
+              "contact_fraction": 0.636,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.0507082839224387,
+              "peak_clearance_m": 0.0530355851565615,
+              "loaded_foot_speed_mean_m_s": 0.0545826567834585
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.5
+            ],
+            "peak_tilt": 3.1180894893594444,
+            "velocity_rmse": 0.02884476789181963,
+            "yaw_rmse": 0.05006151091166017,
+            "stride_median_m": 0.10738255760860006,
+            "angle_deg": 173.15002353409105
+          },
+          "reverse right": {
+            "samples": 251,
+            "seconds": 5.0200000000000005,
+            "vx_mean": 0.22565409605330117,
+            "vx_std": 0.020031143475222432,
+            "yaw_rate_mean": -0.5489141591798232,
+            "yaw_rate_std": 0.039615441731811044,
+            "height_mean": 0.3032357490585449,
+            "height_std": 0.006961481291722974,
+            "roll_deg_mean": -0.3119157795989629,
+            "roll_deg_std": 0.531647834824304,
+            "pitch_deg_mean": 1.764635535099921,
+            "pitch_deg_std": 0.7968190586041516,
+            "joint_speed_rms_mean": 1.168376157543078,
+            "joint_speed_rms_std": 0.39026305316638393,
+            "FL": {
+              "contact_fraction": 0.6135458167330677,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.03461809205326307,
+              "peak_clearance_m": 0.036671222682873865,
+              "loaded_foot_speed_mean_m_s": 0.024417128242614997
+            },
+            "FR": {
+              "contact_fraction": 0.6254980079681275,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03868955609389595,
+              "peak_clearance_m": 0.040671800350901725,
+              "loaded_foot_speed_mean_m_s": 0.027563419295666917
+            },
+            "RL": {
+              "contact_fraction": 0.5856573705179283,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.03287374242392827,
+              "peak_clearance_m": 0.0338830798492711,
+              "loaded_foot_speed_mean_m_s": 0.04681649635222863
+            },
+            "RR": {
+              "contact_fraction": 0.6215139442231076,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.06168378876981646,
+              "peak_clearance_m": 0.06552386019845624,
+              "loaded_foot_speed_mean_m_s": 0.06159278498826591
+            },
+            "command": [
+              0.2,
+              0.0,
+              -0.5
+            ],
+            "peak_tilt": 3.715541581118026,
+            "velocity_rmse": 0.04005915153130674,
+            "yaw_rmse": 0.06294424669400378,
+            "stride_median_m": 0.12769726463762612,
+            "angle_deg": -169.6747772173424
+          },
+          "exit trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.3764410210893356,
+            "vx_std": 0.020023532894667215,
+            "yaw_rate_mean": -0.008635343138243257,
+            "yaw_rate_std": 0.03162721381226571,
+            "height_mean": 0.31180561496109704,
+            "height_std": 0.0035238532478056935,
+            "roll_deg_mean": 1.5493488269834585,
+            "roll_deg_std": 0.563146099804958,
+            "pitch_deg_mean": 0.32511673141557007,
+            "pitch_deg_std": 0.9983161670901866,
+            "joint_speed_rms_mean": 1.4107058776885637,
+            "joint_speed_rms_std": 0.4500225106186175,
+            "FL": {
+              "contact_fraction": 0.5733333333333334,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05596595644974201,
+              "peak_clearance_m": 0.0588406229407716,
+              "loaded_foot_speed_mean_m_s": 0.023687123293889452
+            },
+            "FR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.05356908778230292,
+              "peak_clearance_m": 0.05540154294770482,
+              "loaded_foot_speed_mean_m_s": 0.06747658293802865
+            },
+            "RL": {
+              "contact_fraction": 0.5933333333333334,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03937651477225034,
+              "peak_clearance_m": 0.04133948693493452,
+              "loaded_foot_speed_mean_m_s": 0.025257154760827887
+            },
+            "RR": {
+              "contact_fraction": 0.62,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05920472168105842,
+              "peak_clearance_m": 0.06253259131897693,
+              "loaded_foot_speed_mean_m_s": 0.07198280082478127
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.6827141197874607,
+            "velocity_rmse": 0.0392420815955821,
+            "yaw_rmse": 0.03278490208376373,
+            "stride_median_m": 0.24274734331243808
+          },
+          "final stand": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": -2.9833484386763512e-05,
+            "vx_std": 0.0013068565898821142,
+            "yaw_rate_mean": -0.0047522001743844555,
+            "yaw_rate_std": 0.000401138676392911,
+            "height_mean": 0.30771381735213876,
+            "height_std": 0.0001552227043867261,
+            "roll_deg_mean": -0.4118882129615135,
+            "roll_deg_std": 0.07961627411490538,
+            "pitch_deg_mean": 1.2526625695081168,
+            "pitch_deg_std": 0.09648705763770568,
+            "joint_speed_rms_mean": 0.00947720971083812,
+            "joint_speed_rms_std": 0.0074893232009863725,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01313026208498293,
+              "peak_clearance_m": -0.013092528871179572,
+              "loaded_foot_speed_mean_m_s": 0.0007878645522898392
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012237597619902726,
+              "peak_clearance_m": -0.012233774299405954,
+              "loaded_foot_speed_mean_m_s": 0.0016878388614923897
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01305236855334248,
+              "peak_clearance_m": -0.013016918173485055,
+              "loaded_foot_speed_mean_m_s": 0.0007683292069243892
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012205393473465994,
+              "peak_clearance_m": -0.012204496476846356,
+              "loaded_foot_speed_mean_m_s": 0.0022284174649726445
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.6820526796582125,
+            "velocity_rmse": 0.005796460128475636,
+            "yaw_rmse": 0.004769100411515562,
+            "stride_median_m": null
+          }
+        },
+        "turn_angles": [
+          173.15002353409105,
+          -169.6747772173424
+        ],
+        "checks": [
+          {
+            "segment": "initial stand",
+            "metric": "peak_tilt",
+            "value": 1.452993364617529,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "velocity_rmse",
+            "value": 0.014513878454414996,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "yaw_rmse",
+            "value": 0.0066826972494763255,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.02364034826967578,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "roll_deg_std",
+            "value": 0.02997496785022209,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09143669647678751,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "peak_tilt",
+            "value": 3.6477681277600156,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "velocity_rmse",
+            "value": 0.04057570390376182,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "yaw_rmse",
+            "value": 0.026602743561467537,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FL_clearance",
+            "value": 0.03926965582224586,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FR_clearance",
+            "value": 0.04141144992402407,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RL_clearance",
+            "value": 0.026257731870855238,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RR_clearance",
+            "value": 0.061110203153054966,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "peak_tilt",
+            "value": 2.653615756571021,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "velocity_rmse",
+            "value": 0.038532345751305375,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "yaw_rmse",
+            "value": 0.0345943511240648,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FL_clearance",
+            "value": 0.05647445995514715,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FR_clearance",
+            "value": 0.053579080201875094,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RL_clearance",
+            "value": 0.03913436595678883,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RR_clearance",
+            "value": 0.05914699832759051,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "peak_tilt",
+            "value": 3.1180894893594444,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "velocity_rmse",
+            "value": 0.02884476789181963,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "yaw_rmse",
+            "value": 0.05006151091166017,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "FL_clearance",
+            "value": 0.038031374897406704,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "FR_clearance",
+            "value": 0.04865240812038132,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "RL_clearance",
+            "value": 0.028211615570961707,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "RR_clearance",
+            "value": 0.0507082839224387,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "angle_error_deg",
+            "value": 1.2626849948440793,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "peak_tilt",
+            "value": 3.715541581118026,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "velocity_rmse",
+            "value": 0.04005915153130674,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "yaw_rmse",
+            "value": 0.06294424669400378,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "FL_clearance",
+            "value": 0.03461809205326307,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "FR_clearance",
+            "value": 0.03868955609389595,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "RL_clearance",
+            "value": 0.03287374242392827,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "RR_clearance",
+            "value": 0.06168378876981646,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "angle_error_deg",
+            "value": 2.212561321904559,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "peak_tilt",
+            "value": 2.6827141197874607,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "velocity_rmse",
+            "value": 0.0392420815955821,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "yaw_rmse",
+            "value": 0.03278490208376373,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FL_clearance",
+            "value": 0.05596595644974201,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FR_clearance",
+            "value": 0.05356908778230292,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RL_clearance",
+            "value": 0.03937651477225034,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RR_clearance",
+            "value": 0.05920472168105842,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "peak_tilt",
+            "value": 2.6820526796582125,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "velocity_rmse",
+            "value": 0.005796460128475636,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "yaw_rmse",
+            "value": 0.004769100411515562,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.00947720971083812,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "roll_deg_std",
+            "value": 0.07961627411490538,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09648705763770568,
+            "limit": 0.5,
+            "passed": true
+          }
+        ],
+        "quality_pass": true,
+        "variant": "zero",
+        "case": "task",
+        "seed": 505101,
+        "folder": "artifacts/runs/20261106-turn-exit-trot/right-zero/simulation/zero-task-seed-505101",
+        "heading_feedback_frames": 250,
+        "controller": 197
+      },
+      "metrics": {
+        "max_target_step": 0.5602533519268036,
+        "p95_target_step": 0.1404598168283701,
+        "max_50Hz_torque_fraction": 0.5408252649938928,
+        "force_error": 0.0,
+        "yaw_rmse": 0.09885581340916118
+      },
+      "exit": {
+        "stable_s": 0.26,
+        "complete": true,
+        "heading_change_deg": -5.0490924878011425,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "side": "right",
+      "kind": "pressure",
+      "result": {
+        "kind": "pressure",
+        "complete": true,
+        "steps": 1400,
+        "planned_steps": 1400,
+        "terminated": false,
+        "peak_tilt": 3.715541581118026,
+        "recovery_seconds": 0.06,
+        "passed": true,
+        "last_withdrawal": 20.259999999999998,
+        "recovery_pass": true,
+        "segments": {
+          "initial stand": {
+            "samples": 51,
+            "seconds": 1.02,
+            "vx_mean": -0.013443106213303736,
+            "vx_std": 0.005246341953606634,
+            "yaw_rate_mean": -0.006508560998980881,
+            "yaw_rate_std": 0.0015156108506814807,
+            "height_mean": 0.3121719288550187,
+            "height_std": 2.4976543374122748e-05,
+            "roll_deg_mean": 1.4113421898537097,
+            "roll_deg_std": 0.02997496785022209,
+            "pitch_deg_mean": 0.4558843729589276,
+            "pitch_deg_std": 0.09143669647678751,
+            "joint_speed_rms_mean": 0.02364034826967578,
+            "joint_speed_rms_std": 0.008628082221820935,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012632305513160476,
+              "peak_clearance_m": -0.012632232837961922,
+              "loaded_foot_speed_mean_m_s": 0.0006802833513485254
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012945674404373358,
+              "peak_clearance_m": -0.01294078041863226,
+              "loaded_foot_speed_mean_m_s": 0.0008557588408128297
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01318562768390185,
+              "peak_clearance_m": -0.013166700121053372,
+              "loaded_foot_speed_mean_m_s": 0.0016211165817816232
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.011776291274037294,
+              "peak_clearance_m": -0.011730449733505906,
+              "loaded_foot_speed_mean_m_s": 0.013898188009554646
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 1.452993364617529,
+            "velocity_rmse": 0.014513878454414996,
+            "yaw_rmse": 0.0066826972494763255,
+            "stride_median_m": null
+          },
+          "walk": {
+            "samples": 50,
+            "seconds": 1.0,
+            "vx_mean": 0.1803734189090539,
+            "vx_std": 0.026029617999747574,
+            "yaw_rate_mean": -0.013183380909404678,
+            "yaw_rate_std": 0.023106372125341244,
+            "height_mean": 0.3057324117847669,
+            "height_std": 0.0039446967810624275,
+            "roll_deg_mean": 0.5667139771237987,
+            "roll_deg_std": 0.6238609852207441,
+            "pitch_deg_mean": 1.4434404391032842,
+            "pitch_deg_std": 0.5659254677414656,
+            "joint_speed_rms_mean": 0.9294349052986428,
+            "joint_speed_rms_std": 0.34800029655639647,
+            "FL": {
+              "contact_fraction": 0.52,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03926965582224586,
+              "peak_clearance_m": 0.040954339367182103,
+              "loaded_foot_speed_mean_m_s": 0.013588759722547951
+            },
+            "FR": {
+              "contact_fraction": 0.68,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.04141144992402407,
+              "peak_clearance_m": 0.04295371067654658,
+              "loaded_foot_speed_mean_m_s": 0.04432162036171406
+            },
+            "RL": {
+              "contact_fraction": 0.7,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.026257731870855238,
+              "peak_clearance_m": 0.027951828248157305,
+              "loaded_foot_speed_mean_m_s": 0.009276729198606126
+            },
+            "RR": {
+              "contact_fraction": 0.56,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.061110203153054966,
+              "peak_clearance_m": 0.06393618807789508,
+              "loaded_foot_speed_mean_m_s": 0.05267168828749329
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.6477681277600156,
+            "velocity_rmse": 0.04057570390376182,
+            "yaw_rmse": 0.026602743561467537,
+            "stride_median_m": 0.12521430757051047
+          },
+          "trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.37763308910778476,
+            "vx_std": 0.019447112784987248,
+            "yaw_rate_mean": -0.008475015386752674,
+            "yaw_rate_std": 0.033540173581682445,
+            "height_mean": 0.3115110291923668,
+            "height_std": 0.003711311565820589,
+            "roll_deg_mean": 1.5132081137889093,
+            "roll_deg_std": 0.5685981140885642,
+            "pitch_deg_mean": 0.3471001644912185,
+            "pitch_deg_std": 1.032600288750811,
+            "joint_speed_rms_mean": 1.4238036362098274,
+            "joint_speed_rms_std": 0.4432861347249375,
+            "FL": {
+              "contact_fraction": 0.5533333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05647445995514715,
+              "peak_clearance_m": 0.058764153363059034,
+              "loaded_foot_speed_mean_m_s": 0.021472809061976617
+            },
+            "FR": {
+              "contact_fraction": 0.6533333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.053579080201875094,
+              "peak_clearance_m": 0.05559072212127591,
+              "loaded_foot_speed_mean_m_s": 0.06783495148257775
+            },
+            "RL": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03913436595678883,
+              "peak_clearance_m": 0.04143130489875579,
+              "loaded_foot_speed_mean_m_s": 0.020994073236332976
+            },
+            "RR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05914699832759051,
+              "peak_clearance_m": 0.06223844719960788,
+              "loaded_foot_speed_mean_m_s": 0.08685251257675261
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.653615756571021,
+            "velocity_rmse": 0.038532345751305375,
+            "yaw_rmse": 0.0345943511240648,
+            "stride_median_m": 0.2426318236735675
+          },
+          "left": {
+            "samples": 250,
+            "seconds": 5.0,
+            "vx_mean": 0.1894330357626121,
+            "vx_std": 0.010749573154393517,
+            "yaw_rate_mean": 0.515295277283725,
+            "yaw_rate_std": 0.04766769731770389,
+            "height_mean": 0.3102661800807741,
+            "height_std": 0.0027202713216132896,
+            "roll_deg_mean": 1.7588728256182045,
+            "roll_deg_std": 0.7943752247613048,
+            "pitch_deg_mean": 0.7571737602720384,
+            "pitch_deg_std": 0.5511569576602285,
+            "joint_speed_rms_mean": 1.1855516650410642,
+            "joint_speed_rms_std": 0.3891047471688302,
+            "FL": {
+              "contact_fraction": 0.584,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.038031374897406704,
+              "peak_clearance_m": 0.03982544072361879,
+              "loaded_foot_speed_mean_m_s": 0.022035949874577156
+            },
+            "FR": {
+              "contact_fraction": 0.644,
+              "longest_unloaded_seconds": 0.2,
+              "clearance_p95_m": 0.04865240812038132,
+              "peak_clearance_m": 0.05105185557439992,
+              "loaded_foot_speed_mean_m_s": 0.042642299068327096
+            },
+            "RL": {
+              "contact_fraction": 0.624,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.028211615570961707,
+              "peak_clearance_m": 0.029943602439364052,
+              "loaded_foot_speed_mean_m_s": 0.03023137776736257
+            },
+            "RR": {
+              "contact_fraction": 0.636,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.0507082839224387,
+              "peak_clearance_m": 0.0530355851565615,
+              "loaded_foot_speed_mean_m_s": 0.0545826567834585
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.5
+            ],
+            "peak_tilt": 3.1180894893594444,
+            "velocity_rmse": 0.02884476789181963,
+            "yaw_rmse": 0.05006151091166017,
+            "stride_median_m": 0.10738255760860006,
+            "angle_deg": 173.15002353409105
+          },
+          "reverse right": {
+            "samples": 251,
+            "seconds": 5.0200000000000005,
+            "vx_mean": 0.22565409605330117,
+            "vx_std": 0.020031143475222432,
+            "yaw_rate_mean": -0.5489141591798232,
+            "yaw_rate_std": 0.039615441731811044,
+            "height_mean": 0.3032357490585449,
+            "height_std": 0.006961481291722974,
+            "roll_deg_mean": -0.3119157795989629,
+            "roll_deg_std": 0.531647834824304,
+            "pitch_deg_mean": 1.764635535099921,
+            "pitch_deg_std": 0.7968190586041516,
+            "joint_speed_rms_mean": 1.168376157543078,
+            "joint_speed_rms_std": 0.39026305316638393,
+            "FL": {
+              "contact_fraction": 0.6135458167330677,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.03461809205326307,
+              "peak_clearance_m": 0.036671222682873865,
+              "loaded_foot_speed_mean_m_s": 0.024417128242614997
+            },
+            "FR": {
+              "contact_fraction": 0.6254980079681275,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03868955609389595,
+              "peak_clearance_m": 0.040671800350901725,
+              "loaded_foot_speed_mean_m_s": 0.027563419295666917
+            },
+            "RL": {
+              "contact_fraction": 0.5856573705179283,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.03287374242392827,
+              "peak_clearance_m": 0.0338830798492711,
+              "loaded_foot_speed_mean_m_s": 0.04681649635222863
+            },
+            "RR": {
+              "contact_fraction": 0.6215139442231076,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.06168378876981646,
+              "peak_clearance_m": 0.06552386019845624,
+              "loaded_foot_speed_mean_m_s": 0.06159278498826591
+            },
+            "command": [
+              0.2,
+              0.0,
+              -0.5
+            ],
+            "peak_tilt": 3.715541581118026,
+            "velocity_rmse": 0.04005915153130674,
+            "yaw_rmse": 0.06294424669400378,
+            "stride_median_m": 0.12769726463762612,
+            "angle_deg": -169.6747772173424
+          },
+          "exit trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.37650475515845067,
+            "vx_std": 0.019977789044005566,
+            "yaw_rate_mean": -0.00809289397350876,
+            "yaw_rate_std": 0.03182584370689834,
+            "height_mean": 0.3118440000556977,
+            "height_std": 0.0035105126469007295,
+            "roll_deg_mean": 1.5567122107520595,
+            "roll_deg_std": 0.5607173546647718,
+            "pitch_deg_mean": 0.3172969532223442,
+            "pitch_deg_std": 1.0086798127207677,
+            "joint_speed_rms_mean": 1.412660373694102,
+            "joint_speed_rms_std": 0.45038690277858384,
+            "FL": {
+              "contact_fraction": 0.5733333333333334,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05640763366280851,
+              "peak_clearance_m": 0.058895089716021067,
+              "loaded_foot_speed_mean_m_s": 0.02335176421260695
+            },
+            "FR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.053578187505709765,
+              "peak_clearance_m": 0.055450424348166195,
+              "loaded_foot_speed_mean_m_s": 0.06693513834202008
+            },
+            "RL": {
+              "contact_fraction": 0.5933333333333334,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03921579741886942,
+              "peak_clearance_m": 0.04134829011773928,
+              "loaded_foot_speed_mean_m_s": 0.026041921320882077
+            },
+            "RR": {
+              "contact_fraction": 0.62,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05894999977903076,
+              "peak_clearance_m": 0.062489779189314636,
+              "loaded_foot_speed_mean_m_s": 0.07071396891480636
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.087168323763595,
+            "velocity_rmse": 0.03929006238174187,
+            "yaw_rmse": 0.03283868542622215,
+            "stride_median_m": 0.24277740587769625
+          },
+          "final stand": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": -2.9804519586569267e-05,
+            "vx_std": 0.0013068584817565781,
+            "yaw_rate_mean": -0.004752242762758538,
+            "yaw_rate_std": 0.0004011123341113249,
+            "height_mean": 0.3077138236534072,
+            "height_std": 0.00015522271072492073,
+            "roll_deg_mean": -0.4118881085486445,
+            "roll_deg_std": 0.07961634095739065,
+            "pitch_deg_mean": 1.2526629037315578,
+            "pitch_deg_std": 0.0964870657840341,
+            "joint_speed_rms_mean": 0.00947720817224867,
+            "joint_speed_rms_std": 0.007489325956621283,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.013130261642011039,
+              "peak_clearance_m": -0.013092528280028,
+              "loaded_foot_speed_mean_m_s": 0.0007878683635446145
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01223759346757421,
+              "peak_clearance_m": -0.012233770255138172,
+              "loaded_foot_speed_mean_m_s": 0.001687837727782963
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.013052368891690477,
+              "peak_clearance_m": -0.013016918509102783,
+              "loaded_foot_speed_mean_m_s": 0.0007683283679984748
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012205396565722285,
+              "peak_clearance_m": -0.012204499388152941,
+              "loaded_foot_speed_mean_m_s": 0.002228339927942782
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.682043778868372,
+            "velocity_rmse": 0.005796464111578123,
+            "yaw_rmse": 0.00476914063336018,
+            "stride_median_m": null
+          }
+        },
+        "turn_angles": [
+          173.15002353409105,
+          -169.6747772173424
+        ],
+        "checks": [
+          {
+            "segment": "initial stand",
+            "metric": "peak_tilt",
+            "value": 1.452993364617529,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "velocity_rmse",
+            "value": 0.014513878454414996,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "yaw_rmse",
+            "value": 0.0066826972494763255,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.02364034826967578,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "roll_deg_std",
+            "value": 0.02997496785022209,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09143669647678751,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "peak_tilt",
+            "value": 3.6477681277600156,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "velocity_rmse",
+            "value": 0.04057570390376182,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "yaw_rmse",
+            "value": 0.026602743561467537,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FL_clearance",
+            "value": 0.03926965582224586,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FR_clearance",
+            "value": 0.04141144992402407,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RL_clearance",
+            "value": 0.026257731870855238,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RR_clearance",
+            "value": 0.061110203153054966,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "peak_tilt",
+            "value": 2.653615756571021,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "velocity_rmse",
+            "value": 0.038532345751305375,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "yaw_rmse",
+            "value": 0.0345943511240648,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FL_clearance",
+            "value": 0.05647445995514715,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FR_clearance",
+            "value": 0.053579080201875094,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RL_clearance",
+            "value": 0.03913436595678883,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RR_clearance",
+            "value": 0.05914699832759051,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "peak_tilt",
+            "value": 3.1180894893594444,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "velocity_rmse",
+            "value": 0.02884476789181963,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "yaw_rmse",
+            "value": 0.05006151091166017,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "FL_clearance",
+            "value": 0.038031374897406704,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "FR_clearance",
+            "value": 0.04865240812038132,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "RL_clearance",
+            "value": 0.028211615570961707,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "RR_clearance",
+            "value": 0.0507082839224387,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "left",
+            "metric": "angle_error_deg",
+            "value": 1.2626849948440793,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "peak_tilt",
+            "value": 3.715541581118026,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "velocity_rmse",
+            "value": 0.04005915153130674,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "yaw_rmse",
+            "value": 0.06294424669400378,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "FL_clearance",
+            "value": 0.03461809205326307,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "FR_clearance",
+            "value": 0.03868955609389595,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "RL_clearance",
+            "value": 0.03287374242392827,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "RR_clearance",
+            "value": 0.06168378876981646,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse right",
+            "metric": "angle_error_deg",
+            "value": 2.212561321904559,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "peak_tilt",
+            "value": 3.087168323763595,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "velocity_rmse",
+            "value": 0.03929006238174187,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "yaw_rmse",
+            "value": 0.03283868542622215,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FL_clearance",
+            "value": 0.05640763366280851,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FR_clearance",
+            "value": 0.053578187505709765,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RL_clearance",
+            "value": 0.03921579741886942,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RR_clearance",
+            "value": 0.05894999977903076,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "peak_tilt",
+            "value": 2.682043778868372,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "velocity_rmse",
+            "value": 0.005796464111578123,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "yaw_rmse",
+            "value": 0.00476914063336018,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.00947720817224867,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "roll_deg_std",
+            "value": 0.07961634095739065,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "pitch_deg_std",
+            "value": 0.0964870657840341,
+            "limit": 0.5,
+            "passed": true
+          }
+        ],
+        "quality_pass": true,
+        "variant": "pressure",
+        "case": "task",
+        "seed": 505101,
+        "folder": "artifacts/runs/20261106-turn-exit-trot/right-pressure/simulation/pressure-task-seed-505101",
+        "heading_feedback_frames": 250,
+        "controller": 197
+      },
+      "metrics": {
+        "max_target_step": 0.5594941556453705,
+        "p95_target_step": 0.1417092164605856,
+        "max_50Hz_torque_fraction": 0.545459339698018,
+        "force_error": 0.0,
+        "yaw_rmse": 0.09953086719056911
+      },
+      "exit": {
+        "stable_s": 0.32,
+        "complete": true,
+        "heading_change_deg": -4.934364918798837,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "side": "left",
+      "kind": "zero",
+      "result": {
+        "kind": "zero",
+        "complete": true,
+        "steps": 1400,
+        "planned_steps": 1400,
+        "terminated": false,
+        "peak_tilt": 3.716977619237906,
+        "recovery_seconds": 0.02,
+        "passed": true,
+        "last_withdrawal": 20.259999999999998,
+        "recovery_pass": true,
+        "segments": {
+          "initial stand": {
+            "samples": 51,
+            "seconds": 1.02,
+            "vx_mean": -0.013443106213303736,
+            "vx_std": 0.005246341953606634,
+            "yaw_rate_mean": -0.006508560998980881,
+            "yaw_rate_std": 0.0015156108506814807,
+            "height_mean": 0.3121719288550187,
+            "height_std": 2.4976543374122748e-05,
+            "roll_deg_mean": 1.4113421898537097,
+            "roll_deg_std": 0.02997496785022209,
+            "pitch_deg_mean": 0.4558843729589276,
+            "pitch_deg_std": 0.09143669647678751,
+            "joint_speed_rms_mean": 0.02364034826967578,
+            "joint_speed_rms_std": 0.008628082221820935,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012632305513160476,
+              "peak_clearance_m": -0.012632232837961922,
+              "loaded_foot_speed_mean_m_s": 0.0006802833513485254
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012945674404373358,
+              "peak_clearance_m": -0.01294078041863226,
+              "loaded_foot_speed_mean_m_s": 0.0008557588408128297
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01318562768390185,
+              "peak_clearance_m": -0.013166700121053372,
+              "loaded_foot_speed_mean_m_s": 0.0016211165817816232
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.011776291274037294,
+              "peak_clearance_m": -0.011730449733505906,
+              "loaded_foot_speed_mean_m_s": 0.013898188009554646
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 1.452993364617529,
+            "velocity_rmse": 0.014513878454414996,
+            "yaw_rmse": 0.0066826972494763255,
+            "stride_median_m": null
+          },
+          "walk": {
+            "samples": 50,
+            "seconds": 1.0,
+            "vx_mean": 0.1803734189090539,
+            "vx_std": 0.026029617999747574,
+            "yaw_rate_mean": -0.013183380909404678,
+            "yaw_rate_std": 0.023106372125341244,
+            "height_mean": 0.3057324117847669,
+            "height_std": 0.0039446967810624275,
+            "roll_deg_mean": 0.5667139771237987,
+            "roll_deg_std": 0.6238609852207441,
+            "pitch_deg_mean": 1.4434404391032842,
+            "pitch_deg_std": 0.5659254677414656,
+            "joint_speed_rms_mean": 0.9294349052986428,
+            "joint_speed_rms_std": 0.34800029655639647,
+            "FL": {
+              "contact_fraction": 0.52,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03926965582224586,
+              "peak_clearance_m": 0.040954339367182103,
+              "loaded_foot_speed_mean_m_s": 0.013588759722547951
+            },
+            "FR": {
+              "contact_fraction": 0.68,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.04141144992402407,
+              "peak_clearance_m": 0.04295371067654658,
+              "loaded_foot_speed_mean_m_s": 0.04432162036171406
+            },
+            "RL": {
+              "contact_fraction": 0.7,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.026257731870855238,
+              "peak_clearance_m": 0.027951828248157305,
+              "loaded_foot_speed_mean_m_s": 0.009276729198606126
+            },
+            "RR": {
+              "contact_fraction": 0.56,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.061110203153054966,
+              "peak_clearance_m": 0.06393618807789508,
+              "loaded_foot_speed_mean_m_s": 0.05267168828749329
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.6477681277600156,
+            "velocity_rmse": 0.04057570390376182,
+            "yaw_rmse": 0.026602743561467537,
+            "stride_median_m": 0.12521430757051047
+          },
+          "trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.37763308910778476,
+            "vx_std": 0.019447112784987248,
+            "yaw_rate_mean": -0.008475015386752674,
+            "yaw_rate_std": 0.033540173581682445,
+            "height_mean": 0.3115110291923668,
+            "height_std": 0.003711311565820589,
+            "roll_deg_mean": 1.5132081137889093,
+            "roll_deg_std": 0.5685981140885642,
+            "pitch_deg_mean": 0.3471001644912185,
+            "pitch_deg_std": 1.032600288750811,
+            "joint_speed_rms_mean": 1.4238036362098274,
+            "joint_speed_rms_std": 0.4432861347249375,
+            "FL": {
+              "contact_fraction": 0.5533333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05647445995514715,
+              "peak_clearance_m": 0.058764153363059034,
+              "loaded_foot_speed_mean_m_s": 0.021472809061976617
+            },
+            "FR": {
+              "contact_fraction": 0.6533333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.053579080201875094,
+              "peak_clearance_m": 0.05559072212127591,
+              "loaded_foot_speed_mean_m_s": 0.06783495148257775
+            },
+            "RL": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03913436595678883,
+              "peak_clearance_m": 0.04143130489875579,
+              "loaded_foot_speed_mean_m_s": 0.020994073236332976
+            },
+            "RR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05914699832759051,
+              "peak_clearance_m": 0.06223844719960788,
+              "loaded_foot_speed_mean_m_s": 0.08685251257675261
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.653615756571021,
+            "velocity_rmse": 0.038532345751305375,
+            "yaw_rmse": 0.0345943511240648,
+            "stride_median_m": 0.2426318236735675
+          },
+          "right": {
+            "samples": 250,
+            "seconds": 5.0,
+            "vx_mean": 0.22378032525703956,
+            "vx_std": 0.017182902524105176,
+            "yaw_rate_mean": -0.5117565583567124,
+            "yaw_rate_std": 0.02907177258079737,
+            "height_mean": 0.3042173034275164,
+            "height_std": 0.006656874370830154,
+            "roll_deg_mean": -0.31427257460762303,
+            "roll_deg_std": 0.5480335207750786,
+            "pitch_deg_mean": 1.669074706496231,
+            "pitch_deg_std": 0.7677540799585741,
+            "joint_speed_rms_mean": 1.1549758692633572,
+            "joint_speed_rms_std": 0.39596937207608146,
+            "FL": {
+              "contact_fraction": 0.632,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.03469373338489326,
+              "peak_clearance_m": 0.03657451588795257,
+              "loaded_foot_speed_mean_m_s": 0.023521627635418974
+            },
+            "FR": {
+              "contact_fraction": 0.596,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03992767063263878,
+              "peak_clearance_m": 0.04142599719136172,
+              "loaded_foot_speed_mean_m_s": 0.030817315889809353
+            },
+            "RL": {
+              "contact_fraction": 0.568,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.032778742003360714,
+              "peak_clearance_m": 0.03386872855815703,
+              "loaded_foot_speed_mean_m_s": 0.05019991989643746
+            },
+            "RR": {
+              "contact_fraction": 0.648,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.059871211287834604,
+              "peak_clearance_m": 0.06285087271720374,
+              "loaded_foot_speed_mean_m_s": 0.054977210282422695
+            },
+            "command": [
+              0.2,
+              0.0,
+              -0.5
+            ],
+            "peak_tilt": 3.716977619237906,
+            "velocity_rmse": 0.03635179829563957,
+            "yaw_rmse": 0.03135896403557341,
+            "stride_median_m": 0.12830879458017513,
+            "angle_deg": -172.56605156762902
+          },
+          "reverse left": {
+            "samples": 251,
+            "seconds": 5.0200000000000005,
+            "vx_mean": 0.1902738655059592,
+            "vx_std": 0.01237365304290544,
+            "yaw_rate_mean": 0.5495201175797533,
+            "yaw_rate_std": 0.05519284005867696,
+            "height_mean": 0.31036392163673365,
+            "height_std": 0.0027524722870262046,
+            "roll_deg_mean": 1.799576627719709,
+            "roll_deg_std": 0.8198994928628139,
+            "pitch_deg_mean": 0.7927302162527117,
+            "pitch_deg_std": 0.5727289466158829,
+            "joint_speed_rms_mean": 1.1985677660413496,
+            "joint_speed_rms_std": 0.3954576410851969,
+            "FL": {
+              "contact_fraction": 0.5697211155378487,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03834620369895545,
+              "peak_clearance_m": 0.040457839354638585,
+              "loaded_foot_speed_mean_m_s": 0.02306406001630282
+            },
+            "FR": {
+              "contact_fraction": 0.6693227091633466,
+              "longest_unloaded_seconds": 0.2,
+              "clearance_p95_m": 0.049045384745123995,
+              "peak_clearance_m": 0.051143855845474796,
+              "loaded_foot_speed_mean_m_s": 0.044310598955216066
+            },
+            "RL": {
+              "contact_fraction": 0.6414342629482072,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.02917234793393541,
+              "peak_clearance_m": 0.031430348261634954,
+              "loaded_foot_speed_mean_m_s": 0.028894222554918907
+            },
+            "RR": {
+              "contact_fraction": 0.6175298804780877,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.050387016130537955,
+              "peak_clearance_m": 0.05284554593629758,
+              "loaded_foot_speed_mean_m_s": 0.06049229250815648
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.5
+            ],
+            "peak_tilt": 3.0528006140992345,
+            "velocity_rmse": 0.028059855369271396,
+            "yaw_rmse": 0.07415181480486692,
+            "stride_median_m": 0.13789866617757046,
+            "angle_deg": 171.2744896930162
+          },
+          "exit trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.3749220223002895,
+            "vx_std": 0.020031076768090853,
+            "yaw_rate_mean": -0.008813190772915211,
+            "yaw_rate_std": 0.031174739440808556,
+            "height_mean": 0.31175975669826994,
+            "height_std": 0.003530842727396943,
+            "roll_deg_mean": 1.5434455523845552,
+            "roll_deg_std": 0.5555363354018409,
+            "pitch_deg_mean": 0.32194576120835816,
+            "pitch_deg_std": 0.9939411363094406,
+            "joint_speed_rms_mean": 1.4046189004635115,
+            "joint_speed_rms_std": 0.4490452580983056,
+            "FL": {
+              "contact_fraction": 0.5733333333333334,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05625962448059061,
+              "peak_clearance_m": 0.05914004059371441,
+              "loaded_foot_speed_mean_m_s": 0.02409638452383096
+            },
+            "FR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.0535827387029144,
+              "peak_clearance_m": 0.055708216017005034,
+              "loaded_foot_speed_mean_m_s": 0.06647054328818397
+            },
+            "RL": {
+              "contact_fraction": 0.5933333333333334,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03884240411074539,
+              "peak_clearance_m": 0.04139494532229213,
+              "loaded_foot_speed_mean_m_s": 0.02424951900785608
+            },
+            "RR": {
+              "contact_fraction": 0.62,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05922673715388967,
+              "peak_clearance_m": 0.06263058297446447,
+              "loaded_foot_speed_mean_m_s": 0.0717211915482329
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.6547907612697497,
+            "velocity_rmse": 0.040328937681420055,
+            "yaw_rmse": 0.032396553995789466,
+            "stride_median_m": 0.24195378591742472
+          },
+          "final stand": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": -2.9934170658025423e-05,
+            "vx_std": 0.0013069113176971358,
+            "yaw_rate_mean": -0.004753841301478442,
+            "yaw_rate_std": 0.00040100203920097994,
+            "height_mean": 0.30771348180167585,
+            "height_std": 0.00015529555342993074,
+            "roll_deg_mean": -0.4119355057995534,
+            "roll_deg_std": 0.0796235452351222,
+            "pitch_deg_mean": 1.2525276961449674,
+            "pitch_deg_std": 0.09649338387939638,
+            "joint_speed_rms_mean": 0.009477970025943966,
+            "joint_speed_rms_std": 0.007489671742831963,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01313029169208754,
+              "peak_clearance_m": -0.013092555471632801,
+              "loaded_foot_speed_mean_m_s": 0.000787879764129703
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01223755662828958,
+              "peak_clearance_m": -0.012233733427971634,
+              "loaded_foot_speed_mean_m_s": 0.0016878296378157898
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.013052381151341823,
+              "peak_clearance_m": -0.013016925764833022,
+              "loaded_foot_speed_mean_m_s": 0.0007684278322008047
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012205330572382135,
+              "peak_clearance_m": -0.012204434197637483,
+              "loaded_foot_speed_mean_m_s": 0.0022280720915041296
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.682583572670896,
+            "velocity_rmse": 0.005796738890191415,
+            "yaw_rmse": 0.004770724238004707,
+            "stride_median_m": null
+          }
+        },
+        "turn_angles": [
+          -172.56605156762902,
+          171.2744896930162
+        ],
+        "checks": [
+          {
+            "segment": "initial stand",
+            "metric": "peak_tilt",
+            "value": 1.452993364617529,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "velocity_rmse",
+            "value": 0.014513878454414996,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "yaw_rmse",
+            "value": 0.0066826972494763255,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.02364034826967578,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "roll_deg_std",
+            "value": 0.02997496785022209,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09143669647678751,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "peak_tilt",
+            "value": 3.6477681277600156,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "velocity_rmse",
+            "value": 0.04057570390376182,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "yaw_rmse",
+            "value": 0.026602743561467537,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FL_clearance",
+            "value": 0.03926965582224586,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FR_clearance",
+            "value": 0.04141144992402407,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RL_clearance",
+            "value": 0.026257731870855238,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RR_clearance",
+            "value": 0.061110203153054966,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "peak_tilt",
+            "value": 2.653615756571021,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "velocity_rmse",
+            "value": 0.038532345751305375,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "yaw_rmse",
+            "value": 0.0345943511240648,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FL_clearance",
+            "value": 0.05647445995514715,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FR_clearance",
+            "value": 0.053579080201875094,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RL_clearance",
+            "value": 0.03913436595678883,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RR_clearance",
+            "value": 0.05914699832759051,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "peak_tilt",
+            "value": 3.716977619237906,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "velocity_rmse",
+            "value": 0.03635179829563957,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "yaw_rmse",
+            "value": 0.03135896403557341,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "FL_clearance",
+            "value": 0.03469373338489326,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "FR_clearance",
+            "value": 0.03992767063263878,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "RL_clearance",
+            "value": 0.032778742003360714,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "RR_clearance",
+            "value": 0.059871211287834604,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "angle_error_deg",
+            "value": 0.6787130283820488,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "peak_tilt",
+            "value": 3.0528006140992345,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "velocity_rmse",
+            "value": 0.028059855369271396,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "yaw_rmse",
+            "value": 0.07415181480486692,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "FL_clearance",
+            "value": 0.03834620369895545,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "FR_clearance",
+            "value": 0.049045384745123995,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "RL_clearance",
+            "value": 0.02917234793393541,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "RR_clearance",
+            "value": 0.050387016130537955,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "angle_error_deg",
+            "value": 0.6128488462307757,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "peak_tilt",
+            "value": 2.6547907612697497,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "velocity_rmse",
+            "value": 0.040328937681420055,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "yaw_rmse",
+            "value": 0.032396553995789466,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FL_clearance",
+            "value": 0.05625962448059061,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FR_clearance",
+            "value": 0.0535827387029144,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RL_clearance",
+            "value": 0.03884240411074539,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RR_clearance",
+            "value": 0.05922673715388967,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "peak_tilt",
+            "value": 2.682583572670896,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "velocity_rmse",
+            "value": 0.005796738890191415,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "yaw_rmse",
+            "value": 0.004770724238004707,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.009477970025943966,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "roll_deg_std",
+            "value": 0.0796235452351222,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09649338387939638,
+            "limit": 0.5,
+            "passed": true
+          }
+        ],
+        "quality_pass": true,
+        "variant": "zero",
+        "case": "task",
+        "seed": 505101,
+        "folder": "artifacts/runs/20261106-turn-exit-trot/left-zero/simulation/zero-task-seed-505101",
+        "heading_feedback_frames": 250,
+        "controller": 197
+      },
+      "metrics": {
+        "max_target_step": 0.5616411089897155,
+        "p95_target_step": 0.14088845387101173,
+        "max_50Hz_torque_fraction": 0.5440806420665455,
+        "force_error": 0.0,
+        "yaw_rmse": 0.10085693252338707
+      },
+      "exit": {
+        "stable_s": 0.28,
+        "complete": true,
+        "heading_change_deg": 2.4894705436517226,
+        "passed": true
+      },
+      "passed": true
+    },
+    {
+      "side": "left",
+      "kind": "pressure",
+      "result": {
+        "kind": "pressure",
+        "complete": true,
+        "steps": 1400,
+        "planned_steps": 1400,
+        "terminated": false,
+        "peak_tilt": 3.716977619237906,
+        "recovery_seconds": 0.62,
+        "passed": true,
+        "last_withdrawal": 20.259999999999998,
+        "recovery_pass": true,
+        "segments": {
+          "initial stand": {
+            "samples": 51,
+            "seconds": 1.02,
+            "vx_mean": -0.013443106213303736,
+            "vx_std": 0.005246341953606634,
+            "yaw_rate_mean": -0.006508560998980881,
+            "yaw_rate_std": 0.0015156108506814807,
+            "height_mean": 0.3121719288550187,
+            "height_std": 2.4976543374122748e-05,
+            "roll_deg_mean": 1.4113421898537097,
+            "roll_deg_std": 0.02997496785022209,
+            "pitch_deg_mean": 0.4558843729589276,
+            "pitch_deg_std": 0.09143669647678751,
+            "joint_speed_rms_mean": 0.02364034826967578,
+            "joint_speed_rms_std": 0.008628082221820935,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012632305513160476,
+              "peak_clearance_m": -0.012632232837961922,
+              "loaded_foot_speed_mean_m_s": 0.0006802833513485254
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012945674404373358,
+              "peak_clearance_m": -0.01294078041863226,
+              "loaded_foot_speed_mean_m_s": 0.0008557588408128297
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.01318562768390185,
+              "peak_clearance_m": -0.013166700121053372,
+              "loaded_foot_speed_mean_m_s": 0.0016211165817816232
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.011776291274037294,
+              "peak_clearance_m": -0.011730449733505906,
+              "loaded_foot_speed_mean_m_s": 0.013898188009554646
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 1.452993364617529,
+            "velocity_rmse": 0.014513878454414996,
+            "yaw_rmse": 0.0066826972494763255,
+            "stride_median_m": null
+          },
+          "walk": {
+            "samples": 50,
+            "seconds": 1.0,
+            "vx_mean": 0.1803734189090539,
+            "vx_std": 0.026029617999747574,
+            "yaw_rate_mean": -0.013183380909404678,
+            "yaw_rate_std": 0.023106372125341244,
+            "height_mean": 0.3057324117847669,
+            "height_std": 0.0039446967810624275,
+            "roll_deg_mean": 0.5667139771237987,
+            "roll_deg_std": 0.6238609852207441,
+            "pitch_deg_mean": 1.4434404391032842,
+            "pitch_deg_std": 0.5659254677414656,
+            "joint_speed_rms_mean": 0.9294349052986428,
+            "joint_speed_rms_std": 0.34800029655639647,
+            "FL": {
+              "contact_fraction": 0.52,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03926965582224586,
+              "peak_clearance_m": 0.040954339367182103,
+              "loaded_foot_speed_mean_m_s": 0.013588759722547951
+            },
+            "FR": {
+              "contact_fraction": 0.68,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.04141144992402407,
+              "peak_clearance_m": 0.04295371067654658,
+              "loaded_foot_speed_mean_m_s": 0.04432162036171406
+            },
+            "RL": {
+              "contact_fraction": 0.7,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.026257731870855238,
+              "peak_clearance_m": 0.027951828248157305,
+              "loaded_foot_speed_mean_m_s": 0.009276729198606126
+            },
+            "RR": {
+              "contact_fraction": 0.56,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.061110203153054966,
+              "peak_clearance_m": 0.06393618807789508,
+              "loaded_foot_speed_mean_m_s": 0.05267168828749329
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.6477681277600156,
+            "velocity_rmse": 0.04057570390376182,
+            "yaw_rmse": 0.026602743561467537,
+            "stride_median_m": 0.12521430757051047
+          },
+          "trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.37763308910778476,
+            "vx_std": 0.019447112784987248,
+            "yaw_rate_mean": -0.008475015386752674,
+            "yaw_rate_std": 0.033540173581682445,
+            "height_mean": 0.3115110291923668,
+            "height_std": 0.003711311565820589,
+            "roll_deg_mean": 1.5132081137889093,
+            "roll_deg_std": 0.5685981140885642,
+            "pitch_deg_mean": 0.3471001644912185,
+            "pitch_deg_std": 1.032600288750811,
+            "joint_speed_rms_mean": 1.4238036362098274,
+            "joint_speed_rms_std": 0.4432861347249375,
+            "FL": {
+              "contact_fraction": 0.5533333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.05647445995514715,
+              "peak_clearance_m": 0.058764153363059034,
+              "loaded_foot_speed_mean_m_s": 0.021472809061976617
+            },
+            "FR": {
+              "contact_fraction": 0.6533333333333333,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.053579080201875094,
+              "peak_clearance_m": 0.05559072212127591,
+              "loaded_foot_speed_mean_m_s": 0.06783495148257775
+            },
+            "RL": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03913436595678883,
+              "peak_clearance_m": 0.04143130489875579,
+              "loaded_foot_speed_mean_m_s": 0.020994073236332976
+            },
+            "RR": {
+              "contact_fraction": 0.6133333333333333,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05914699832759051,
+              "peak_clearance_m": 0.06223844719960788,
+              "loaded_foot_speed_mean_m_s": 0.08685251257675261
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.653615756571021,
+            "velocity_rmse": 0.038532345751305375,
+            "yaw_rmse": 0.0345943511240648,
+            "stride_median_m": 0.2426318236735675
+          },
+          "right": {
+            "samples": 250,
+            "seconds": 5.0,
+            "vx_mean": 0.22378032525703956,
+            "vx_std": 0.017182902524105176,
+            "yaw_rate_mean": -0.5117565583567124,
+            "yaw_rate_std": 0.02907177258079737,
+            "height_mean": 0.3042173034275164,
+            "height_std": 0.006656874370830154,
+            "roll_deg_mean": -0.31427257460762303,
+            "roll_deg_std": 0.5480335207750786,
+            "pitch_deg_mean": 1.669074706496231,
+            "pitch_deg_std": 0.7677540799585741,
+            "joint_speed_rms_mean": 1.1549758692633572,
+            "joint_speed_rms_std": 0.39596937207608146,
+            "FL": {
+              "contact_fraction": 0.632,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.03469373338489326,
+              "peak_clearance_m": 0.03657451588795257,
+              "loaded_foot_speed_mean_m_s": 0.023521627635418974
+            },
+            "FR": {
+              "contact_fraction": 0.596,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03992767063263878,
+              "peak_clearance_m": 0.04142599719136172,
+              "loaded_foot_speed_mean_m_s": 0.030817315889809353
+            },
+            "RL": {
+              "contact_fraction": 0.568,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.032778742003360714,
+              "peak_clearance_m": 0.03386872855815703,
+              "loaded_foot_speed_mean_m_s": 0.05019991989643746
+            },
+            "RR": {
+              "contact_fraction": 0.648,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.059871211287834604,
+              "peak_clearance_m": 0.06285087271720374,
+              "loaded_foot_speed_mean_m_s": 0.054977210282422695
+            },
+            "command": [
+              0.2,
+              0.0,
+              -0.5
+            ],
+            "peak_tilt": 3.716977619237906,
+            "velocity_rmse": 0.03635179829563957,
+            "yaw_rmse": 0.03135896403557341,
+            "stride_median_m": 0.12830879458017513,
+            "angle_deg": -172.56605156762902
+          },
+          "reverse left": {
+            "samples": 251,
+            "seconds": 5.0200000000000005,
+            "vx_mean": 0.1902738655059592,
+            "vx_std": 0.01237365304290544,
+            "yaw_rate_mean": 0.5495201175797533,
+            "yaw_rate_std": 0.05519284005867696,
+            "height_mean": 0.31036392163673365,
+            "height_std": 0.0027524722870262046,
+            "roll_deg_mean": 1.799576627719709,
+            "roll_deg_std": 0.8198994928628139,
+            "pitch_deg_mean": 0.7927302162527117,
+            "pitch_deg_std": 0.5727289466158829,
+            "joint_speed_rms_mean": 1.1985677660413496,
+            "joint_speed_rms_std": 0.3954576410851969,
+            "FL": {
+              "contact_fraction": 0.5697211155378487,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.03834620369895545,
+              "peak_clearance_m": 0.040457839354638585,
+              "loaded_foot_speed_mean_m_s": 0.02306406001630282
+            },
+            "FR": {
+              "contact_fraction": 0.6693227091633466,
+              "longest_unloaded_seconds": 0.2,
+              "clearance_p95_m": 0.049045384745123995,
+              "peak_clearance_m": 0.051143855845474796,
+              "loaded_foot_speed_mean_m_s": 0.044310598955216066
+            },
+            "RL": {
+              "contact_fraction": 0.6414342629482072,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.02917234793393541,
+              "peak_clearance_m": 0.031430348261634954,
+              "loaded_foot_speed_mean_m_s": 0.028894222554918907
+            },
+            "RR": {
+              "contact_fraction": 0.6175298804780877,
+              "longest_unloaded_seconds": 0.22,
+              "clearance_p95_m": 0.050387016130537955,
+              "peak_clearance_m": 0.05284554593629758,
+              "loaded_foot_speed_mean_m_s": 0.06049229250815648
+            },
+            "command": [
+              0.2,
+              0.0,
+              0.5
+            ],
+            "peak_tilt": 3.0528006140992345,
+            "velocity_rmse": 0.028059855369271396,
+            "yaw_rmse": 0.07415181480486692,
+            "stride_median_m": 0.13789866617757046,
+            "angle_deg": 171.2744896930162
+          },
+          "exit trot": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": 0.3748853198307021,
+            "vx_std": 0.02172423845387531,
+            "yaw_rate_mean": -0.0069542174178428605,
+            "yaw_rate_std": 0.03233543098609645,
+            "height_mean": 0.3115037446661405,
+            "height_std": 0.003538826184181523,
+            "roll_deg_mean": 1.4675325849022463,
+            "roll_deg_std": 0.6135525156899349,
+            "pitch_deg_mean": 0.34915688909384635,
+            "pitch_deg_std": 0.962059845800326,
+            "joint_speed_rms_mean": 1.4021031395389696,
+            "joint_speed_rms_std": 0.45105865531430145,
+            "FL": {
+              "contact_fraction": 0.58,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.054523520607296386,
+              "peak_clearance_m": 0.05887182689386456,
+              "loaded_foot_speed_mean_m_s": 0.025877446693524115
+            },
+            "FR": {
+              "contact_fraction": 0.6066666666666667,
+              "longest_unloaded_seconds": 0.26,
+              "clearance_p95_m": 0.05384450649026351,
+              "peak_clearance_m": 0.05632341930774023,
+              "loaded_foot_speed_mean_m_s": 0.06367657063015279
+            },
+            "RL": {
+              "contact_fraction": 0.5866666666666667,
+              "longest_unloaded_seconds": 0.28,
+              "clearance_p95_m": 0.03890006487320374,
+              "peak_clearance_m": 0.04134465981514344,
+              "loaded_foot_speed_mean_m_s": 0.021985383416239648
+            },
+            "RR": {
+              "contact_fraction": 0.62,
+              "longest_unloaded_seconds": 0.24,
+              "clearance_p95_m": 0.05925187969625982,
+              "peak_clearance_m": 0.06272121727793198,
+              "loaded_foot_speed_mean_m_s": 0.07404298759434626
+            },
+            "command": [
+              0.4,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 3.229363851499233,
+            "velocity_rmse": 0.04081816640411239,
+            "yaw_rmse": 0.03307478249287871,
+            "stride_median_m": 0.24141428845107327
+          },
+          "final stand": {
+            "samples": 150,
+            "seconds": 3.0,
+            "vx_mean": -2.994818566038497e-05,
+            "vx_std": 0.0013068829889105844,
+            "yaw_rate_mean": -0.004752607924758836,
+            "yaw_rate_std": 0.0004012571012906085,
+            "height_mean": 0.3077140617849379,
+            "height_std": 0.0001552458376918237,
+            "roll_deg_mean": -0.4118791056751933,
+            "roll_deg_std": 0.07961571957797396,
+            "pitch_deg_mean": 1.2526807877731385,
+            "pitch_deg_std": 0.0964838924317777,
+            "joint_speed_rms_mean": 0.00947734502946711,
+            "joint_speed_rms_std": 0.007489348209685038,
+            "FL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.013130251748813764,
+              "peak_clearance_m": -0.01309251597574921,
+              "loaded_foot_speed_mean_m_s": 0.0007878591157622671
+            },
+            "FR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012237614315091218,
+              "peak_clearance_m": -0.01223379139418388,
+              "loaded_foot_speed_mean_m_s": 0.0016878211672269395
+            },
+            "RL": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.013052383583673218,
+              "peak_clearance_m": -0.013016935206449538,
+              "loaded_foot_speed_mean_m_s": 0.0007683426419145297
+            },
+            "RR": {
+              "contact_fraction": 1.0,
+              "longest_unloaded_seconds": 0.0,
+              "clearance_p95_m": -0.012205375918982634,
+              "peak_clearance_m": -0.012204479039953427,
+              "loaded_foot_speed_mean_m_s": 0.002228804682877984
+            },
+            "command": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "peak_tilt": 2.6819564344445386,
+            "velocity_rmse": 0.005796443835298678,
+            "yaw_rmse": 0.004769516678639108,
+            "stride_median_m": null
+          }
+        },
+        "turn_angles": [
+          -172.56605156762902,
+          171.2744896930162
+        ],
+        "checks": [
+          {
+            "segment": "initial stand",
+            "metric": "peak_tilt",
+            "value": 1.452993364617529,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "velocity_rmse",
+            "value": 0.014513878454414996,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "yaw_rmse",
+            "value": 0.0066826972494763255,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.02364034826967578,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "roll_deg_std",
+            "value": 0.02997496785022209,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "initial stand",
+            "metric": "pitch_deg_std",
+            "value": 0.09143669647678751,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "peak_tilt",
+            "value": 3.6477681277600156,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "velocity_rmse",
+            "value": 0.04057570390376182,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "yaw_rmse",
+            "value": 0.026602743561467537,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FL_clearance",
+            "value": 0.03926965582224586,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "FR_clearance",
+            "value": 0.04141144992402407,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RL_clearance",
+            "value": 0.026257731870855238,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "walk",
+            "metric": "RR_clearance",
+            "value": 0.061110203153054966,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "peak_tilt",
+            "value": 2.653615756571021,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "velocity_rmse",
+            "value": 0.038532345751305375,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "yaw_rmse",
+            "value": 0.0345943511240648,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FL_clearance",
+            "value": 0.05647445995514715,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "FR_clearance",
+            "value": 0.053579080201875094,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RL_clearance",
+            "value": 0.03913436595678883,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "trot",
+            "metric": "RR_clearance",
+            "value": 0.05914699832759051,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "peak_tilt",
+            "value": 3.716977619237906,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "velocity_rmse",
+            "value": 0.03635179829563957,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "yaw_rmse",
+            "value": 0.03135896403557341,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "FL_clearance",
+            "value": 0.03469373338489326,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "FR_clearance",
+            "value": 0.03992767063263878,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "RL_clearance",
+            "value": 0.032778742003360714,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "RR_clearance",
+            "value": 0.059871211287834604,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "right",
+            "metric": "angle_error_deg",
+            "value": 0.6787130283820488,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "peak_tilt",
+            "value": 3.0528006140992345,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "velocity_rmse",
+            "value": 0.028059855369271396,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "yaw_rmse",
+            "value": 0.07415181480486692,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "FL_clearance",
+            "value": 0.03834620369895545,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "FR_clearance",
+            "value": 0.049045384745123995,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "RL_clearance",
+            "value": 0.02917234793393541,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "RR_clearance",
+            "value": 0.050387016130537955,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "reverse left",
+            "metric": "angle_error_deg",
+            "value": 0.6128488462307757,
+            "limit": 3.0,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "peak_tilt",
+            "value": 3.229363851499233,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "velocity_rmse",
+            "value": 0.04081816640411239,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "yaw_rmse",
+            "value": 0.03307478249287871,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FL_clearance",
+            "value": 0.054523520607296386,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "FR_clearance",
+            "value": 0.05384450649026351,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RL_clearance",
+            "value": 0.03890006487320374,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "exit trot",
+            "metric": "RR_clearance",
+            "value": 0.05925187969625982,
+            "limit": 0.02,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "peak_tilt",
+            "value": 2.6819564344445386,
+            "limit": 8,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "velocity_rmse",
+            "value": 0.005796443835298678,
+            "limit": 0.1,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "yaw_rmse",
+            "value": 0.004769516678639108,
+            "limit": 0.15,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "joint_speed_rms_mean",
+            "value": 0.00947734502946711,
+            "limit": 0.3,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "roll_deg_std",
+            "value": 0.07961571957797396,
+            "limit": 0.5,
+            "passed": true
+          },
+          {
+            "segment": "final stand",
+            "metric": "pitch_deg_std",
+            "value": 0.0964838924317777,
+            "limit": 0.5,
+            "passed": true
+          }
+        ],
+        "quality_pass": true,
+        "variant": "pressure",
+        "case": "task",
+        "seed": 505101,
+        "folder": "artifacts/runs/20261106-turn-exit-trot/left-pressure/simulation/pressure-task-seed-505101",
+        "heading_feedback_frames": 250,
+        "controller": 197
+      },
+      "metrics": {
+        "max_target_step": 0.6098413318395615,
+        "p95_target_step": 0.14081390693783755,
+        "max_50Hz_torque_fraction": 0.5511262585983394,
+        "force_error": 0.0,
+        "yaw_rmse": 0.10257067921389484
+      },
+      "exit": {
+        "stable_s": 0.88,
+        "complete": true,
+        "heading_change_deg": 4.801178465228047,
+        "passed": true
+      },
+      "passed": true
+    }
+  ],
+  "mechanism": {
+    "gain": 0.4,
+    "limit": 0.06
+  },
+  "exit_gate": {
+    "max_seconds": 2,
+    "planar_error_m_s": 0.08,
+    "yaw_error_rad_s": 0.15,
+    "consecutive": 25
+  },
+  "min_worst_push_gain_deg": 0.5,
+  "max_physical": 4,
+  "training": 0,
+  "fits": 0
+}

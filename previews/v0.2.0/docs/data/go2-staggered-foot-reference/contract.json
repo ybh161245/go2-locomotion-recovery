@@ -1,0 +1,43 @@
+{
+  "experiment": 255,
+  "inputs": {
+    "scripts/check_go2_staggered_foot_reference.py": "08bd2f2cdee6a7dfed1f0308ec368bdd544e3363fd796ed12c25fabab1a7e2df",
+    "docs/experiments/2026-11-11-staggered-foot-reference.md": "c8ea7f2d41a6d3c3c5c946aa61df967beca3ae00625d40335dd50ce0891f0b3a",
+    "artifacts/runs/20261108-dual-heading-handoff/mixed/states.npz": "62dae52fae6a88655bfef5636c459785d899954e1e6470fdd78b39b32cbd0ef5",
+    "third_party/unitree_go2/SOURCE.json": "6c50f7d9520345a2e4656fffcecf145fc4d0fb660e66e863bf2b9b9a16aea352",
+    "scripts/go2_model.py": "f54e3af07ab69288f4b6a82b035f2de7160254a4ddd058331c22ee95d9823028",
+    "scripts/go2_env.py": "fff4f62c1a756017ee25709af0c01e1463e5a95a8e12f93b327f5ec48de3d1d1"
+  },
+  "speed_m_s": 0.8,
+  "frequency_hz": 1.75,
+  "stance_fraction": 0.6,
+  "lift_m": 0.065,
+  "phase_offsets": {
+    "synchronized": [
+      0.0,
+      0.5,
+      0.5,
+      0.0
+    ],
+    "staggered": [
+      0.0,
+      0.5,
+      0.6,
+      0.1
+    ]
+  },
+  "samples_per_plan": 200,
+  "dt_s": 0.02,
+  "base_height_source_steps": [
+    400,
+    600
+  ],
+  "max_error_m": 0.002,
+  "jump_ratio_limit": 1.1,
+  "max_ik_iterations": 50,
+  "damping": 1e-06,
+  "iteration_limit_rad": 0.1,
+  "new_physical": 0,
+  "new_training": 0,
+  "new_model_fits": 0
+}

@@ -1,0 +1,14 @@
+{
+  "initial_policy_adam_equal": true,
+  "training_interactions": 65536,
+  "training_terminations": 2,
+  "requests": {
+    "0.4": 13942,
+    "0.8": 13200,
+    "1.0": 12218,
+    "0.0": 7500,
+    "1.2": 18676
+  },
+  "actual_native_targets_exact": true,
+  "new_physical": 0
+}

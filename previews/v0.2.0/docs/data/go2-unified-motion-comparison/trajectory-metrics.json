@@ -1,0 +1,1110 @@
+{
+  "artifacts/runs/20261106-fast-turn-push/left-zero/zero-task-seed-491101": {
+    "turn_errors_deg": {
+      "left": 0.7801558639148993
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-fast-turn-push/left-pressure/pressure-task-seed-491101": {
+    "turn_errors_deg": {
+      "left": 2.0048319828695185
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-retention/left-zero193/zero-task-seed-491101": {
+    "turn_errors_deg": {
+      "left": 1.2588630278808637
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-retention/left-pressure193/pressure-task-seed-491101": {
+    "turn_errors_deg": {
+      "left": 0.8784686904816965
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-fast-turn-push/right-zero/zero-task-seed-491102": {
+    "turn_errors_deg": {
+      "right": 0.3219159193042458
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-fast-turn-push/right-pressure/pressure-task-seed-491102": {
+    "turn_errors_deg": {
+      "right": 3.6585568071416787
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [
+      {
+        "segment": "right",
+        "metric": "angle_error_deg",
+        "value": 3.6585568071416787,
+        "limit": 3.0,
+        "passed": false
+      }
+    ],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-retention/right-zero193/zero-task-seed-491102": {
+    "turn_errors_deg": {
+      "right": 0.6809781894972673
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-retention/right-pressure193/pressure-task-seed-491102": {
+    "turn_errors_deg": {
+      "right": 0.1322206933716643
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/left-frozen157-zero/zero-task-seed-499101": {
+    "turn_errors_deg": {
+      "left": 0.5485013718613629
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/left-frozen157-pressure/pressure-task-seed-499101": {
+    "turn_errors_deg": {
+      "left": 3.922743453730277
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [
+      {
+        "segment": "left",
+        "metric": "angle_error_deg",
+        "value": 3.922743453730277,
+        "limit": 3.0,
+        "passed": false
+      }
+    ],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/left-fullheading197-zero/zero-task-seed-499101": {
+    "turn_errors_deg": {
+      "left": 0.9400367424436809
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/left-fullheading197-pressure/pressure-task-seed-499101": {
+    "turn_errors_deg": {
+      "left": 0.46539282174029495
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/right-frozen157-zero/zero-task-seed-499102": {
+    "turn_errors_deg": {
+      "right": 1.3278166326693395
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/right-frozen157-pressure/pressure-task-seed-499102": {
+    "turn_errors_deg": {
+      "right": 3.3349708133233946
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [
+      {
+        "segment": "right",
+        "metric": "angle_error_deg",
+        "value": 3.3349708133233946,
+        "limit": 3.0,
+        "passed": false
+      }
+    ],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/right-fullheading197-zero/zero-task-seed-499102": {
+    "turn_errors_deg": {
+      "right": 0.49321694917199466
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-full-heading-new-conditions/right-fullheading197-pressure/pressure-task-seed-499102": {
+    "turn_errors_deg": {
+      "right": 0.16705788252949105
+    },
+    "segments": {
+      "passed": true
+    },
+    "signed_last_exit_deg": null,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/209-right-157-zero/simulation/zero-task-seed-509101": {
+    "turn_errors_deg": {
+      "left": 0.4763380024960213,
+      "reverse right": 1.7740648082069583
+    },
+    "segments": {
+      "first_second_deg": -4.605679990779837,
+      "end_deg": -5.652320695186119,
+      "stable_s": 0.22,
+      "passed": true
+    },
+    "signed_last_exit_deg": -5.652320695186119,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/209-right-157-pressure/simulation/pressure-task-seed-509101": {
+    "turn_errors_deg": {
+      "left": 0.4763380024960213,
+      "reverse right": 1.9348632525646678
+    },
+    "segments": {
+      "first_second_deg": -2.5110115327794467,
+      "end_deg": -3.2442324741410804,
+      "stable_s": 0.48,
+      "passed": true
+    },
+    "signed_last_exit_deg": -3.2442324741410804,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/right-197-zero/simulation/zero-task-seed-509101": {
+    "turn_errors_deg": {
+      "left": 1.1603892342085658,
+      "reverse right": 1.7724704546116072
+    },
+    "segments": {
+      "first_second_deg": -4.605675533152683,
+      "end_deg": -5.652317686922823,
+      "stable_s": 0.22,
+      "passed": true
+    },
+    "signed_last_exit_deg": -5.652317686922823,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/right-197-pressure/simulation/pressure-task-seed-509101": {
+    "turn_errors_deg": {
+      "left": 1.1603892342085658,
+      "reverse right": 1.9332765414915798
+    },
+    "segments": {
+      "first_second_deg": -2.511004851769181,
+      "end_deg": -3.244211932694059,
+      "stable_s": 0.48,
+      "passed": true
+    },
+    "signed_last_exit_deg": -3.244211932694059,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/right-208-zero/zero-task-seed-509101": {
+    "turn_errors_deg": {
+      "left": 1.1603892342085658,
+      "reverse right": 1.7724704546116072
+    },
+    "segments": {
+      "first_second_deg": -3.3864221542303303,
+      "end_deg": -1.7333203160835164,
+      "stable_s": 0.22,
+      "passed": true
+    },
+    "signed_last_exit_deg": -1.7333203160835164,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/right-208-pressure/pressure-task-seed-509101": {
+    "turn_errors_deg": {
+      "left": 1.1603892342085658,
+      "reverse right": 1.9332765414915798
+    },
+    "segments": {
+      "first_second_deg": -1.8706627553825332,
+      "end_deg": -1.1286792642516266,
+      "stable_s": 0.48,
+      "passed": true
+    },
+    "signed_last_exit_deg": -1.1286792642516266,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/209-left-157-zero/simulation/zero-task-seed-509102": {
+    "turn_errors_deg": {
+      "right": 1.3126925072280073,
+      "reverse left": 0.8051485659264586
+    },
+    "segments": {
+      "first_second_deg": 3.85860128122414,
+      "end_deg": 2.5967493402460566,
+      "stable_s": 0.54,
+      "passed": true
+    },
+    "signed_last_exit_deg": 2.5967493402460566,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/209-left-157-pressure/simulation/pressure-task-seed-509102": {
+    "turn_errors_deg": {
+      "right": 1.3126925072280073,
+      "reverse left": 0.8051485659264586
+    },
+    "segments": {
+      "first_second_deg": 4.98934294353586,
+      "end_deg": 3.9004097540629776,
+      "stable_s": 0.46,
+      "passed": true
+    },
+    "signed_last_exit_deg": 3.9004097540629776,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/left-197-zero/simulation/zero-task-seed-509102": {
+    "turn_errors_deg": {
+      "right": 0.49585795454828485,
+      "reverse left": 0.8048809706959901
+    },
+    "segments": {
+      "first_second_deg": 3.85860101814456,
+      "end_deg": 2.5967489151500387,
+      "stable_s": 0.54,
+      "passed": true
+    },
+    "signed_last_exit_deg": 2.5967489151500387,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/left-197-pressure/simulation/pressure-task-seed-509102": {
+    "turn_errors_deg": {
+      "right": 0.49585795454828485,
+      "reverse left": 0.8048809706959901
+    },
+    "segments": {
+      "first_second_deg": 4.9893509237057945,
+      "end_deg": 3.90041640445557,
+      "stable_s": 0.46,
+      "passed": true
+    },
+    "signed_last_exit_deg": 3.90041640445557,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/left-208-zero/zero-task-seed-509102": {
+    "turn_errors_deg": {
+      "right": 0.49585795454828485,
+      "reverse left": 0.8048809706959901
+    },
+    "segments": {
+      "first_second_deg": 2.7362961128546983,
+      "end_deg": 0.14680762633318473,
+      "stable_s": 0.36,
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.14680762633318473,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-exit-hold-new-conditions/left-208-pressure/pressure-task-seed-509102": {
+    "turn_errors_deg": {
+      "right": 0.49585795454828485,
+      "reverse left": 0.8048809706959901
+    },
+    "segments": {
+      "first_second_deg": 3.7100842915423384,
+      "end_deg": 0.5757926588810277,
+      "stable_s": 0.46,
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.5757926588810277,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/211-double-exit-157-zero/simulation/zero-task-seed-511101": {
+    "turn_errors_deg": {
+      "right": 1.2912484745091888,
+      "left": 0.09815059880364174
+    },
+    "segments": {
+      "exits": [
+        {
+          "name": "first exit",
+          "start_step": 500,
+          "end_step": 700,
+          "stable_s": 0.4,
+          "first_second_end_angles_deg": [
+            -4.091777785975445,
+            -5.346199853262143
+          ],
+          "passed": true
+        },
+        {
+          "name": "second exit",
+          "start_step": 1300,
+          "end_step": 1500,
+          "stable_s": 0.28,
+          "first_second_end_angles_deg": [
+            3.7995226233216823,
+            2.4637110996299256
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "signed_last_exit_deg": 2.4637110996299256,
+    "failed_checks": [],
+    "restart_pass": true
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/211-double-exit-157-pressure/simulation/pressure-task-seed-511101": {
+    "turn_errors_deg": {
+      "right": 1.2912484745091888,
+      "left": 0.09815059880364174
+    },
+    "segments": {
+      "exits": [
+        {
+          "name": "first exit",
+          "start_step": 500,
+          "end_step": 700,
+          "stable_s": 0.4,
+          "first_second_end_angles_deg": [
+            -4.091777785975445,
+            -5.346199853262143
+          ],
+          "passed": true
+        },
+        {
+          "name": "second exit",
+          "start_step": 1300,
+          "end_step": 1500,
+          "stable_s": 0.88,
+          "first_second_end_angles_deg": [
+            5.700015730027968,
+            4.7387197335935465
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "signed_last_exit_deg": 4.7387197335935465,
+    "failed_checks": [],
+    "restart_pass": true
+  },
+  "artifacts/runs/20261106-two-exit-mission/197-zero/simulation/zero-task-seed-511101": {
+    "turn_errors_deg": {
+      "right": 0.6040440918908416,
+      "left": 1.2329432898026482
+    },
+    "segments": {
+      "exits": [
+        {
+          "name": "first exit",
+          "start_step": 500,
+          "end_step": 700,
+          "stable_s": 0.4,
+          "first_second_end_angles_deg": [
+            -4.092914457244297,
+            -5.347787059983277
+          ],
+          "passed": true
+        },
+        {
+          "name": "second exit",
+          "start_step": 1300,
+          "end_step": 1500,
+          "stable_s": 0.28,
+          "first_second_end_angles_deg": [
+            3.812570202703672,
+            2.477582489259897
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "signed_last_exit_deg": 2.477582489259897,
+    "failed_checks": [],
+    "restart_pass": true
+  },
+  "artifacts/runs/20261106-two-exit-mission/197-pressure/simulation/pressure-task-seed-511101": {
+    "turn_errors_deg": {
+      "right": 0.6040440918908416,
+      "left": 1.2329432898026482
+    },
+    "segments": {
+      "exits": [
+        {
+          "name": "first exit",
+          "start_step": 500,
+          "end_step": 700,
+          "stable_s": 0.4,
+          "first_second_end_angles_deg": [
+            -4.092914457244297,
+            -5.347787059983277
+          ],
+          "passed": true
+        },
+        {
+          "name": "second exit",
+          "start_step": 1300,
+          "end_step": 1500,
+          "stable_s": 0.88,
+          "first_second_end_angles_deg": [
+            5.668375612330555,
+            4.7070454340116035
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "signed_last_exit_deg": 4.7070454340116035,
+    "failed_checks": [],
+    "restart_pass": true
+  },
+  "artifacts/runs/20261106-two-exit-mission/208-zero/simulation/zero-task-seed-511101": {
+    "turn_errors_deg": {
+      "right": 0.6040440918908416,
+      "left": 1.2329421167760017
+    },
+    "segments": {
+      "exits": [
+        {
+          "name": "first exit",
+          "start_step": 500,
+          "end_step": 700,
+          "stable_s": 0.4,
+          "first_second_end_angles_deg": [
+            -2.9870125162255854,
+            -1.714337061926132
+          ],
+          "passed": true
+        },
+        {
+          "name": "second exit",
+          "start_step": 1300,
+          "end_step": 1500,
+          "stable_s": 0.28,
+          "first_second_end_angles_deg": [
+            2.783361862254951,
+            0.07448172783088584
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.07448172783088584,
+    "failed_checks": [],
+    "restart_pass": true
+  },
+  "artifacts/runs/20261106-two-exit-mission/208-pressure/simulation/pressure-task-seed-511101": {
+    "turn_errors_deg": {
+      "right": 0.6040440918908416,
+      "left": 1.2329421167760017
+    },
+    "segments": {
+      "exits": [
+        {
+          "name": "first exit",
+          "start_step": 500,
+          "end_step": 700,
+          "stable_s": 0.4,
+          "first_second_end_angles_deg": [
+            -2.9870125162255854,
+            -1.714337061926132
+          ],
+          "passed": true
+        },
+        {
+          "name": "second exit",
+          "start_step": 1300,
+          "end_step": 1500,
+          "stable_s": 0.86,
+          "first_second_end_angles_deg": [
+            4.46912054156486,
+            0.7857324533271262
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.7857324533271262,
+    "failed_checks": [],
+    "restart_pass": true
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/212-right-157-zero/simulation/zero-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 1.2912577257621365
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -4.424079000625858,
+        -6.726998933473208,
+        -8.275806238273544
+      ],
+      "heading_end_deg": -8.275806238273544,
+      "passed": true
+    },
+    "signed_last_exit_deg": -8.275806238273544,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/212-right-157-pressure/simulation/pressure-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 1.2912577257621365
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 1.04,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -4.424079000625858,
+        -6.726998933473208,
+        -3.5176708238118626
+      ],
+      "heading_end_deg": -3.5176708238118626,
+      "passed": true
+    },
+    "signed_last_exit_deg": -3.5176708238118626,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/212-right-197-zero/simulation/zero-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 0.6040435775199455
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -4.425650265177123,
+        -6.728547291279339,
+        -8.277354845550375
+      ],
+      "heading_end_deg": -8.277354845550375,
+      "passed": true
+    },
+    "signed_last_exit_deg": -8.277354845550375,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/212-right-197-pressure/simulation/pressure-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 0.6040435775199455
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 1.04,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -4.425650265177123,
+        -6.728547291279339,
+        -3.5192181077770868
+      ],
+      "heading_end_deg": -3.5192181077770868,
+      "passed": true
+    },
+    "signed_last_exit_deg": -3.5192181077770868,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-heading-hold/208-zero/simulation/zero-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 0.6040435775199455
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -2.309152392237163,
+        -4.5661296579783,
+        -6.114725981393232
+      ],
+      "heading_end_deg": -6.114725981393232,
+      "passed": true
+    },
+    "signed_last_exit_deg": -6.114725981393232,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-heading-hold/208-pressure/simulation/pressure-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 0.6040435775199455
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 1.04,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -2.309152392237163,
+        -4.5661296579783,
+        -1.3565833876690492
+      ],
+      "heading_end_deg": -1.3565833876690492,
+      "passed": true
+    },
+    "signed_last_exit_deg": -1.3565833876690492,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-heading-hold/212-zero/zero-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 0.6040435775199455
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -2.309152392237163,
+        -2.191820037733044,
+        -1.4635168432243013
+      ],
+      "heading_end_deg": -1.4635168432243013,
+      "passed": true
+    },
+    "signed_last_exit_deg": -1.4635168432243013,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-heading-hold-completion/212-pressure/pressure-task-seed-512101": {
+    "turn_errors_deg": {
+      "right": 0.6040435775199455
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.4,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.32,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 1.04,
+          "passed": true
+        }
+      ],
+      "heading_at_10_12_15_18_s_deg": [
+        0.0,
+        -2.309152392237163,
+        -2.191820037733044,
+        0.469525471702697
+      ],
+      "heading_end_deg": 0.469525471702697,
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.469525471702697,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/213-left-157-zero/simulation/zero-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.36744762072422077
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.24,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": 0.5519488024704944,
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.5519488024704944,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/213-left-157-pressure/simulation/pressure-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.36744762072422077
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.24,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.44,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": 0.20892392839605234,
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.20892392839605234,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/213-left-197-zero/simulation/zero-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.9520766471297861
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.38,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": 0.5425481792832272,
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.5425481792832272,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261107-unified-motion-comparison/213-left-197-pressure/simulation/pressure-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.9520766471297861
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.38,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.44,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": 0.199522590684072,
+      "passed": true
+    },
+    "signed_last_exit_deg": 0.199522590684072,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-new-conditions/208-zero/simulation/zero-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.9520766471297861
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.24,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": -1.5476368479396145,
+      "passed": true
+    },
+    "signed_last_exit_deg": -1.5476368479396145,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-new-conditions/208-pressure/simulation/pressure-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.9520766471297861
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.24,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.44,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": -1.8906655044310037,
+      "passed": true
+    },
+    "signed_last_exit_deg": -1.8906655044310037,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-new-conditions/212-zero/zero-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.9520766471297861
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.24,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.4,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": -0.8263790692416748,
+      "passed": true
+    },
+    "signed_last_exit_deg": -0.8263790692416748,
+    "failed_checks": [],
+    "restart_pass": null
+  },
+  "artifacts/runs/20261106-variable-speed-new-conditions/212-pressure/pressure-task-seed-513101": {
+    "turn_errors_deg": {
+      "left": 0.9520766471297861
+    },
+    "segments": {
+      "speed_transitions": [
+        {
+          "name": "exit fast",
+          "seconds": 0.24,
+          "passed": true
+        },
+        {
+          "name": "slow straight",
+          "seconds": 0.22,
+          "passed": true
+        },
+        {
+          "name": "accelerate again",
+          "seconds": 0.44,
+          "passed": true
+        }
+      ],
+      "heading_end_deg": -0.9293089382863833,
+      "passed": true
+    },
+    "signed_last_exit_deg": -0.9293089382863833,
+    "failed_checks": [],
+    "restart_pass": null
+  }
+}

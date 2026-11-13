@@ -1,0 +1,945 @@
+{
+  "experiment": "GO2-261106-200",
+  "base": "configs/go2-frozen157-exit-matrix.json",
+  "baseline": "docs/data/go2-frozen157-exit-matrix/summary.json",
+  "baseline_sha256": "db629d54243982dba694ee3f4b9fe12d81cd81ac4c44b286e608bd84296230cd",
+  "frozen": "docs/data/go2-full-heading-new-conditions/new-scope-candidate-freeze.json",
+  "frozen_sha256": "97e4d3095384ba1b15fd7296cb86f6be61556835adbffc94860a3a21273cd0c7",
+  "runner_sha256": "158fd1e98fd60defa24a13c07c03beca3e3f8f6cec27166f5c5c7db5374caf37",
+  "seeds": [
+    94001,
+    94002,
+    94003
+  ],
+  "definitions": [
+    {
+      "id": "case-000",
+      "phase": "straight",
+      "force": 0,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-001",
+      "phase": "turn",
+      "force": 0,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-002",
+      "phase": "brake",
+      "force": 0,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-003",
+      "phase": "stand",
+      "force": 0,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-004",
+      "phase": "straight",
+      "force": 20,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-005",
+      "phase": "straight",
+      "force": 20,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-006",
+      "phase": "straight",
+      "force": 20,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-007",
+      "phase": "straight",
+      "force": 20,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-008",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-009",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-010",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-011",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-012",
+      "phase": "straight",
+      "force": 60,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-013",
+      "phase": "straight",
+      "force": 60,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-014",
+      "phase": "straight",
+      "force": 60,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-015",
+      "phase": "straight",
+      "force": 60,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-016",
+      "phase": "straight",
+      "force": 80,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-017",
+      "phase": "straight",
+      "force": 80,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-018",
+      "phase": "straight",
+      "force": 80,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-019",
+      "phase": "straight",
+      "force": 80,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-020",
+      "phase": "turn",
+      "force": 20,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-021",
+      "phase": "turn",
+      "force": 20,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-022",
+      "phase": "turn",
+      "force": 20,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-023",
+      "phase": "turn",
+      "force": 20,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-024",
+      "phase": "turn",
+      "force": 40,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-025",
+      "phase": "turn",
+      "force": 40,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-026",
+      "phase": "turn",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-027",
+      "phase": "turn",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-028",
+      "phase": "turn",
+      "force": 60,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-029",
+      "phase": "turn",
+      "force": 60,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-030",
+      "phase": "turn",
+      "force": 60,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-031",
+      "phase": "turn",
+      "force": 60,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-032",
+      "phase": "turn",
+      "force": 80,
+      "direction": [
+        1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-033",
+      "phase": "turn",
+      "force": 80,
+      "direction": [
+        -1,
+        0
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-034",
+      "phase": "turn",
+      "force": 80,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-035",
+      "phase": "turn",
+      "force": 80,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-036",
+      "phase": "brake",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-037",
+      "phase": "brake",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-038",
+      "phase": "brake",
+      "force": 80,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-039",
+      "phase": "brake",
+      "force": 80,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-040",
+      "phase": "stand",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-041",
+      "phase": "stand",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-042",
+      "phase": "stand",
+      "force": 80,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-043",
+      "phase": "stand",
+      "force": 80,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-044",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.6,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-045",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.6,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-046",
+      "phase": "straight",
+      "force": 80,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.6,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-047",
+      "phase": "straight",
+      "force": 80,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.6,
+      "pulses": [
+        6.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-048",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0,
+        7.0,
+        8.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-049",
+      "phase": "straight",
+      "force": 60,
+      "direction": [
+        0.7071067812,
+        0.7071067812
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 3.0,
+      "friction": null
+    },
+    {
+      "id": "case-050",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 0,
+      "friction": 0.4
+    },
+    {
+      "id": "case-051",
+      "phase": "straight",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 0,
+      "friction": 0.2
+    },
+    {
+      "id": "case-052",
+      "phase": "turn",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0,
+        7.0,
+        8.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-053",
+      "phase": "turn",
+      "force": 60,
+      "direction": [
+        0.7071067812,
+        0.7071067812
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 3.0,
+      "friction": null
+    },
+    {
+      "id": "case-054",
+      "phase": "turn",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 0,
+      "friction": 0.4
+    },
+    {
+      "id": "case-055",
+      "phase": "turn",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 0,
+      "friction": 0.2
+    },
+    {
+      "id": "case-056",
+      "phase": "brake",
+      "force": 40,
+      "direction": [
+        0,
+        1
+      ],
+      "duration": 0.2,
+      "pulses": [
+        6.0,
+        7.0,
+        8.0
+      ],
+      "torque": 0,
+      "friction": null
+    },
+    {
+      "id": "case-057",
+      "phase": "brake",
+      "force": 60,
+      "direction": [
+        0.7071067812,
+        0.7071067812
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 3.0,
+      "friction": null
+    },
+    {
+      "id": "case-058",
+      "phase": "brake",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 0,
+      "friction": 0.4
+    },
+    {
+      "id": "case-059",
+      "phase": "brake",
+      "force": 40,
+      "direction": [
+        0,
+        -1
+      ],
+      "duration": 0.3,
+      "pulses": [
+        6.0,
+        7.5
+      ],
+      "torque": 0,
+      "friction": 0.2
+    }
+  ],
+  "max_new_physical": 63,
+  "candidate_nonturn_reuse": 117,
+  "baseline_reuse": 180,
+  "new_training": 0,
+  "new_fits": 0,
+  "new_normal46": 0,
+  "acceptance": "Retention:no historical pass lost or added termination across original180. Whole8deg/full600steps/no termination/withdrawal2s/planar.08/yaw.15/25consecutive/originalinfo;also retain oldpost6 score.",
+  "known_boundaries": [
+    "174baseline33failures",
+    "198normalfirstturnerror1.205deg",
+    "newrecoveryvisualpending"
+  ],
+  "reuse": "117nonturn only if all original rows and selector logs requested yaw0/formal_weight0 and frozen control induction proves new guard never permitted. 198three actual normal protocols/324 passed checks referenced;0newnormal.",
+  "stop": "Complete63once,no rule/model/threshold/material/reset tuning. Reuse proof failure stops before new physics. Qualification failure blocks promotion. No automatic formal selection or publication."
+}

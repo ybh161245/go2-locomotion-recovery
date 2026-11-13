@@ -1,0 +1,98 @@
+{
+  "experiment": 197,
+  "definitions": [
+    {
+      "side": "left",
+      "task": {
+        "sequence": {
+          "seed": 496101,
+          "segments": [
+            {
+              "name": "stand",
+              "motion": "stand",
+              "seconds": 2
+            },
+            {
+              "name": "walk",
+              "motion": "walk",
+              "seconds": 2
+            },
+            {
+              "name": "fast straight",
+              "motion": "trot",
+              "seconds": 5.6
+            },
+            {
+              "name": "left",
+              "motion": "left",
+              "seconds": 6
+            },
+            {
+              "name": "final stop",
+              "motion": "stand",
+              "seconds": 4
+            }
+          ]
+        },
+        "push": {
+          "start_s": 9.5,
+          "duration_s": 0.2,
+          "body_y_n": -30
+        }
+      }
+    },
+    {
+      "side": "right",
+      "task": {
+        "sequence": {
+          "seed": 496102,
+          "segments": [
+            {
+              "name": "stand",
+              "motion": "stand",
+              "seconds": 2
+            },
+            {
+              "name": "walk",
+              "motion": "walk",
+              "seconds": 2
+            },
+            {
+              "name": "fast straight",
+              "motion": "trot",
+              "seconds": 6.4
+            },
+            {
+              "name": "right",
+              "motion": "right",
+              "seconds": 6
+            },
+            {
+              "name": "final stop",
+              "motion": "stand",
+              "seconds": 4
+            }
+          ]
+        },
+        "push": {
+          "start_s": 10.46,
+          "duration_s": 0.2,
+          "body_y_n": 30
+        }
+      }
+    }
+  ],
+  "budget": 4,
+  "training": 0,
+  "inputs": {
+    "scripts/run_go2_full_heading_feedback.py": "9498afb120d4ef57d166e7e44f9e0a338692af112fb32c108cd817270136864b",
+    "scripts/go2_task.py": "5c401fef7e8a2f3421f44fdc680899df9e6b91f87cdff0d9cc854e7beabd60b4",
+    "scripts/run_go2_catchup_new_conditions.py": "3e2ed856f545b3f0cb23495aea3d18ef4df19f99d713316e785ed6a82814655a",
+    "configs/go2-catchup-new-conditions.json": "cb2f248068e2c74f9bdab79e498017402a2d6f10f2ce4b01a0135e7ec8374da4",
+    "docs/data/go2-catchup-new-conditions/summary.json": "81e71cdb847c022168bb4ef1de96541bbda8f2ff03e2cce1045f84d12ca8b4e7",
+    "docs/data/go2-current/selection.json": "83ce800210f3dabb6ee0eef1c39ba37f8975d6d7cba20d19087dfa2f03551be6"
+  },
+  "mechanism": "Full signed heading_error feedback:extra=ramp*clip(.4*error,+-.06);retain194scope/nonreversal/ramp. Zero heading target,including overshoot correction.",
+  "gate": "All4complete/no termination/whole8deg/recovery2s/25steps/34qualitychecks/6sturnerror3deg;repair196right pressure and retain3oldpasses.",
+  "stop": "4candidate runs once,4exact196candidate references reused.No tuning if failure."
+}

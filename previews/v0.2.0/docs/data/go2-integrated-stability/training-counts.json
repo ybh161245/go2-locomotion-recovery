@@ -1,0 +1,8 @@
+{
+  "training_steps": 65536,
+  "warmup_steps": 66300,
+  "episodes": 221,
+  "physical_falls": 5,
+  "elapsed_s": 396.04478600000004,
+  "optimizer_updates": 3910
+}

@@ -1,0 +1,91 @@
+{
+  "experiment": 255,
+  "records": {
+    "synchronized": {
+      "min_planned_support": 2,
+      "four_planned_support_frames": 40,
+      "max_error_mm": 46.82964328724283,
+      "p95_error_mm": 41.76775126667182,
+      "jump_max_rad": 0.3918888608499141,
+      "jump_p95_rad": 0.3867183100376153,
+      "within_original_joint_range": true,
+      "geometry_passed": false,
+      "legs": {
+        "FL": {
+          "max_error_mm": 46.82964328724283,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.461593206839815
+        },
+        "FR": {
+          "max_error_mm": 46.82964328724278,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.461593206839844
+        },
+        "RL": {
+          "max_error_mm": 46.82964328724278,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.46159320684057
+        },
+        "RR": {
+          "max_error_mm": 46.829643287242796,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.461593206840426
+        }
+      }
+    },
+    "staggered": {
+      "min_planned_support": 2,
+      "four_planned_support_frames": 0,
+      "max_error_mm": 46.82964328724285,
+      "p95_error_mm": 41.767751266671816,
+      "jump_max_rad": 0.3613009781993298,
+      "jump_p95_rad": 0.3544138120216036,
+      "within_original_joint_range": true,
+      "geometry_passed": false,
+      "legs": {
+        "FL": {
+          "max_error_mm": 46.82964328724278,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.46159320683833
+        },
+        "FR": {
+          "max_error_mm": 46.829643287242725,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.4615932068419
+        },
+        "RL": {
+          "max_error_mm": 46.829643287242774,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.46159320683912
+        },
+        "RR": {
+          "max_error_mm": 46.82964328724285,
+          "frames_over_2mm": 106,
+          "frames_at_joint_boundary": 110,
+          "maximum_reconstructed_clearance_mm": 51.461593206838735
+        }
+      }
+    }
+  },
+  "base_height_m": 0.2967555980911606,
+  "stride_m": 0.4571428571428572,
+  "support_target_travel_m": 0.2742857142857143,
+  "rear_phase_lead_s": 0.05714285714285715,
+  "jump_limits_rad": [
+    1.0087646140112163,
+    0.5620401708931477
+  ],
+  "overlap_reduced": true,
+  "preflight_passed": false,
+  "input_hashes_unchanged": true,
+  "new_physics": 0,
+  "training_steps": 0,
+  "model_fits": 0
+}

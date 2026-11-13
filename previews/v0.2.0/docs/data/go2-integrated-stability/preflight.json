@@ -1,0 +1,6 @@
+{
+  "warmup_exact_steps": 300,
+  "first_actual_input_exact": true,
+  "new_optimizer_updates": 0,
+  "warmup_physical_steps": 300
+}

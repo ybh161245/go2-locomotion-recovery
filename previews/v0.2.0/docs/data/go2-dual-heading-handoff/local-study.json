@@ -1,0 +1,15 @@
+{
+  "experiment": 249,
+  "local_progress": true,
+  "full_qualification": false,
+  "G3_physical_used": 4,
+  "G3_budget": 12,
+  "training": 0,
+  "sha256": {
+    "scripts/go2_dual_heading_handoff.py": "fba7a9b67bb1aafa0d7373516e7280f6d2df5574bc5066bfd49bd7c5fa187697",
+    "scripts/run_go2_dual_heading_handoff.py": "ba6738c8f7e1d00840ff5be05f6758986ef624aa0325d051566ad5c8ef1331dd",
+    "configs/go2-dual-heading-handoff.json": "fed1aa1ce070e495d1032390cccf67a53533c79a8ca5dbbcd49ef72e4300ec2d",
+    "docs/data/go2-dual-heading-handoff/summary.json": "c8db19294ea5c6bab554fbdd06060f043090b471d98bf2971da83b1b6e5b1e13",
+    "docs/data/go2-dual-heading-handoff/targeted-check.json": "86a55ce873d523abe0179338eb558903eba0d1c442220737413ec86e8bb77821"
+  }
+}
